@@ -1,0 +1,1228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital\n"
+"POT-Creation-Date: 2014-09-14 17:29+0530\n"
+"PO-Revision-Date: 2014-09-14 17:30+0530\n"
+"Last-Translator: Insertcart <admin@insertcart.com>\n"
+"Language-Team: Insertcart <admin@insertcart.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7 archive.php:29 image.php:99 index.php:13 page.php:28
+#: search.php:16 single.php:30
+msgid "404 Error&#58; Not Found"
+msgstr ""
+
+#: 404.php:10
+msgid ""
+"Sorry, but the page you are trying to reach is unavailable or does not exist."
+msgstr ""
+
+#: 404.php:11
+msgid "You may interested with this"
+msgstr ""
+
+#: archive.php:13
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:22
+msgid "Blog Archives"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:196 functions.php:293
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:197 functions.php:294
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:198 functions.php:295
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:200 functions.php:297
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:201 functions.php:298
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:202 functions.php:299
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:203 functions.php:300
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:204 functions.php:301
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:205 functions.php:302
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:206 functions.php:303
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:207 functions.php:304
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:208 functions.php:305
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:209 functions.php:306
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:210 functions.php:307
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:212 class-tgm-plugin-activation.php:1951
+#: functions.php:308
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:213 class-tgm-plugin-activation.php:1638
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:544 class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1290 class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1312 class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2065 class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2065 class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:31 comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:32 comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:77
+#, php-format
+msgid "%2$s  %4$s"
+msgstr ""
+
+#: functions.php:87
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:119
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:120
+msgid "Navigation"
+msgstr ""
+
+#: functions.php:167
+msgid "Header Widget"
+msgstr ""
+
+#: functions.php:174
+msgid "Sidebar Right"
+msgstr ""
+
+#: functions.php:181
+msgid "Bottom Menu 1"
+msgstr ""
+
+#: functions.php:189
+msgid "Bottom Menu 2"
+msgstr ""
+
+#: functions.php:197
+msgid "Bottom Menu 4"
+msgstr ""
+
+#: functions.php:255
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:296
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:309
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: image.php:13
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: image.php:24
+msgid "Edit"
+msgstr ""
+
+#: image.php:72 page.php:15 single.php:18
+msgid "Pages:"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:90
+#: inc/includes/class-options-framework-admin.php:91 includes/installs.php:18
+msgid "Theme Options"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:185
+msgid "Save Options"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:186
+msgid "Restore Defaults"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:186
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:217
+msgid "Default options restored."
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:271
+msgid "Options saved."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:66
+#: inc/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:68
+#: inc/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:253
+msgid "No Repeat"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:254
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:255
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:256
+msgid "Repeat All"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:269
+msgid "Top Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:270
+msgid "Top Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:271
+msgid "Top Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:272
+msgid "Middle Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:273
+msgid "Middle Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:274
+msgid "Middle Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:275
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:276
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:277
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:290
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:291
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:365
+msgid "Normal"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:366
+msgid "Italic"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:367
+msgid "Bold"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:368
+msgid "Bold Italic"
+msgstr ""
+
+#: includes/adfun.php:20
+msgid "Copyright &#169; | "
+msgstr ""
+
+#: includes/adfun.php:20
+msgid "http://www.insertcart.com/product/digital-wp-theme//"
+msgstr ""
+
+#: includes/adfun.php:20
+msgid "Digital"
+msgstr ""
+
+#: includes/adfun.php:20
+#, php-format
+msgid "Digital Theme %s"
+msgstr ""
+
+#: includes/author.php:2
+msgid "About"
+msgstr ""
+
+#: includes/core/core.php:47
+msgid "You Should Try Our Other Themes Also"
+msgstr ""
+
+#: includes/installs.php:12
+#, php-format
+msgid "Settings saved and %s activated successfully."
+msgstr ""
+
+#: includes/installs.php:14
+#, php-format
+msgid "%s activated successfully."
+msgstr ""
+
+#: includes/installs.php:16
+msgid "Visit site"
+msgstr ""
+
+#: includes/installs.php:19
+msgid "Help Forum"
+msgstr ""
+
+#: includes/list.php:11 includes/list.php:19
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: includes/popular.php:1
+msgid "Popular post"
+msgstr ""
+
+#: includes/postmeta.php:3
+msgid "No Comment"
+msgstr ""
+
+#: includes/postmeta.php:3
+msgid "1 Comment"
+msgstr ""
+
+#: includes/postmeta.php:3
+msgid "% Comments"
+msgstr ""
+
+#: options.php:32
+msgid "3"
+msgstr ""
+
+#: options.php:33
+msgid "5"
+msgstr ""
+
+#: options.php:34
+msgid "6"
+msgstr ""
+
+#: options.php:35
+msgid "8"
+msgstr ""
+
+#: options.php:36
+msgid "10"
+msgstr ""
+
+#: options.php:41
+msgid "French Toast"
+msgstr ""
+
+#: options.php:42
+msgid "Pancake"
+msgstr ""
+
+#: options.php:43
+msgid "Omelette"
+msgstr ""
+
+#: options.php:44
+msgid "Crepe"
+msgstr ""
+
+#: options.php:45
+msgid "Waffle"
+msgstr ""
+
+#: options.php:109
+msgid "Upgrade to Premium Theme & Enable Full Features!"
+msgstr ""
+
+#: options.php:110
+msgid "SEO Optimized WordPress Theme."
+msgstr ""
+
+#: options.php:111
+msgid "More Slides for your slider."
+msgstr ""
+
+#: options.php:112
+msgid "Theme Customization help & Support Forum."
+msgstr ""
+
+#: options.php:113
+msgid "Page Speed Optimize for better result."
+msgstr ""
+
+#: options.php:114
+msgid "Color Customize of theme."
+msgstr ""
+
+#: options.php:115
+msgid "Custom Widgets and Functions."
+msgstr ""
+
+#: options.php:116
+msgid "Social Media Integration."
+msgstr ""
+
+#: options.php:117
+msgid "Responsive Website Design."
+msgstr ""
+
+#: options.php:118
+msgid "Different Website Layout to Select."
+msgstr ""
+
+#: options.php:119
+msgid "Many of Other customize feature for your blog or website."
+msgstr ""
+
+#: options.php:120
+msgid "http://www.insertcart.com/product/digital-wp-theme/"
+msgstr ""
+
+#: options.php:120
+msgid "Upgrade Now"
+msgstr ""
+
+#: options.php:120
+msgid "http://forum.insertcart.com/"
+msgstr ""
+
+#: options.php:120
+msgid "Support Forum !"
+msgstr ""
+
+#: options.php:124
+msgid "Basic Settings"
+msgstr ""
+
+#: options.php:128
+msgid "Custom Favicon URL"
+msgstr ""
+
+#: options.php:129
+msgid "Upload Favicon Image in .ico format ."
+msgstr ""
+
+#: options.php:134
+msgid "Upload Site Logo"
+msgstr ""
+
+#: options.php:135
+msgid ""
+"Upload Website Logo that fit here. Note you can upload any size it will "
+"automatic resize ."
+msgstr ""
+
+#: options.php:139
+msgid "Customize Theme Background"
+msgstr ""
+
+#: options.php:140
+msgid "Header Background color."
+msgstr ""
+
+#: options.php:145
+msgid "Show Author Profile"
+msgstr ""
+
+#: options.php:146
+msgid "Check the box to show Author Profile Below the Post and Pages."
+msgstr ""
+
+#: options.php:152
+msgid "Show Posts from particular categories in Home Page 1"
+msgstr ""
+
+#: options.php:153
+msgid "Enable/Disable"
+msgstr ""
+
+#: options.php:165 options.php:198
+msgid "Select a Category"
+msgstr ""
+
+#: options.php:171 options.php:204
+msgid "Numbers of Posts to Show"
+msgstr ""
+
+#: options.php:178
+msgid "Change Strip line background Color change"
+msgstr ""
+
+#: options.php:185
+msgid "Show Posts from particular categories in Home Page 2"
+msgstr ""
+
+#: options.php:186
+msgid "Enable/disable"
+msgstr ""
+
+#: options.php:211
+msgid "Categories and Breadcrumb Strip line background Color change"
+msgstr ""
+
+#: options.php:217
+msgid "Change Default Thumb Image"
+msgstr ""
+
+#: options.php:218
+msgid "Change default thumb Image in Website."
+msgstr ""
+
+#: options.php:223
+msgid "Social Profile"
+msgstr ""
+
+#: options.php:226
+msgid "Show Profiles Links for Top Navigation"
+msgstr ""
+
+#: options.php:227
+msgid "Check or uncheck Box to show and hide share buttons"
+msgstr ""
+
+#: options.php:232
+msgid "Facebook Link"
+msgstr ""
+
+#: options.php:233
+msgid "Enter your Facebook URL if you have one."
+msgstr ""
+
+#: options.php:238
+msgid "Twitter Follow Link"
+msgstr ""
+
+#: options.php:239
+msgid "Enter your Twitter URL if you have one."
+msgstr ""
+
+#: options.php:244
+msgid "YouTube Channel Link"
+msgstr ""
+
+#: options.php:245
+msgid "Enter your YouTube URL if you have one."
+msgstr ""
+
+#: options.php:250
+msgid "Google+ URL"
+msgstr ""
+
+#: options.php:251
+msgid "Enter your Google+ Link if you have one."
+msgstr ""
+
+#: options.php:256
+msgid "RSS Feed URL"
+msgstr ""
+
+#: options.php:257
+msgid "Enter your RSS Feed URL if you have one"
+msgstr ""
+
+#: options.php:262
+msgid "Linked In URL"
+msgstr ""
+
+#: options.php:263
+msgid "Enter your Linkedin URL if you have one."
+msgstr ""
+
+#: options.php:268
+msgid "Pinterest In URL"
+msgstr ""
+
+#: options.php:269
+msgid "Enter your Pinterest URL if you have one."
+msgstr ""
+
+#: options.php:274
+msgid "Skype In URL"
+msgstr ""
+
+#: options.php:275
+msgid "Enter your skype URL if you have one"
+msgstr ""
+
+#: options.php:280
+msgid "Vimeo In URL"
+msgstr ""
+
+#: options.php:281
+msgid "Enter your vimeo URL if you have one"
+msgstr ""
+
+#: options.php:286
+msgid "Flickr In URL"
+msgstr ""
+
+#: options.php:287
+msgid "Enter your flickr URL if you have one"
+msgstr ""
+
+#: options.php:293
+msgid "Dribbble In URL"
+msgstr ""
+
+#: options.php:294
+msgid "Enter your dribbble URL if you have one"
+msgstr ""
+
+#: options.php:300
+msgid "Slider Settings"
+msgstr ""
+
+#: options.php:304
+msgid "Enable Slider"
+msgstr ""
+
+#: options.php:305
+msgid "Check this to Enable Slider."
+msgstr ""
+
+#: options.php:311
+msgid "Slider Image 1"
+msgstr ""
+
+#: options.php:312
+msgid "First Slide"
+msgstr ""
+
+#: options.php:318 options.php:336 options.php:355 options.php:373
+msgid "Title"
+msgstr ""
+
+#: options.php:324 options.php:342 options.php:361 options.php:379
+msgid "Url"
+msgstr ""
+
+#: options.php:330
+msgid "Slider Image 2"
+msgstr ""
+
+#: options.php:331
+msgid "Second Slide"
+msgstr ""
+
+#: options.php:348
+msgid "Slider Image 3"
+msgstr ""
+
+#: options.php:349
+msgid "Third Slide"
+msgstr ""
+
+#: options.php:366
+msgid "Slider Image 4"
+msgstr ""
+
+#: options.php:367
+msgid "Slide 4"
+msgstr ""
+
+#: options.php:385
+#, php-format
+msgid ""
+"<b>Only Premium User Have More slider </b>  <a href=\"%1$s\" target=\"_blank"
+"\">Buy Premium version</a>"
+msgstr ""
+
+#: options.php:390
+msgid "Custom Styling"
+msgstr ""
+
+#: options.php:393
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:394
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: options.php:402
+msgid "Advance (Pro Only)"
+msgstr ""
+
+#: options.php:410
+msgid "Social Share Buttons with count"
+msgstr ""
+
+#: options.php:411
+msgid "Display social share buttons with count below post title."
+msgstr ""
+
+#: options.php:416
+msgid "Show Popular Posts in Sidebar"
+msgstr ""
+
+#: options.php:417
+msgid "Check the box to Show Popular Posts with Thumbnail in Sidebar."
+msgstr ""
+
+#: options.php:422
+msgid "Numbers of Popular posts to display"
+msgstr ""
+
+#: options.php:428
+msgid "Responsive Website Design"
+msgstr ""
+
+#: options.php:429
+msgid ""
+"Enable Responsive Design for you website to increase experience on Mobile "
+"Devices"
+msgstr ""
+
+#: options.php:434
+msgid "Excerpt Length (Number of words display in post description)"
+msgstr ""
+
+#: options.php:435
+msgid "Number of words display in every post description Default is 45."
+msgstr ""
+
+#: options.php:442
+msgid "Home Icon from Top and Main Navigation"
+msgstr ""
+
+#: options.php:443
+msgid "Show or Hide Home Icon."
+msgstr ""
+
+#: options.php:453
+msgid "Footer Widget Area Settings"
+msgstr ""
+
+#: options.php:454
+msgid "Show or Hide Footer Widget Area."
+msgstr ""
+
+#: options.php:464
+msgid "Post Hover Effect"
+msgstr ""
+
+#: options.php:465
+msgid "Show or Hide post hover effect on every post ."
+msgstr ""
+
+#: options.php:481
+msgid "Top Menu Color Customize"
+msgstr ""
+
+#: options.php:482
+msgid "Top menu background."
+msgstr ""
+
+#: options.php:488
+msgid "Top Menu Hover color."
+msgstr ""
+
+#: options.php:493
+msgid "Top Menu Text Color."
+msgstr ""
+
+#: options.php:499
+msgid "Main Navigation Color Customize"
+msgstr ""
+
+#: options.php:500
+msgid "Main Navigation Background."
+msgstr ""
+
+#: options.php:506
+msgid "Main Navigation hover Color."
+msgstr ""
+
+#: options.php:512
+msgid "Main Navigation Text Color"
+msgstr ""
+
+#: options.php:517
+msgid "Change Link Color"
+msgstr ""
+
+#: options.php:518
+msgid "Select Links Color."
+msgstr ""
+
+#: options.php:523
+msgid "Change Link Hover Color."
+msgstr ""
+
+#: options.php:528
+msgid "Other customize color & design"
+msgstr ""
+
+#: options.php:529
+msgid "Sidebar Widget heading background Color change"
+msgstr ""
+
+#: options.php:534
+msgid "Next and Previous Post link Background color"
+msgstr ""
+
+#: options.php:539
+msgid "Page Number Navigation Color Change "
+msgstr ""
+
+#: options.php:540
+msgid "Change Current Page Background."
+msgstr ""
+
+#: options.php:545
+msgid "Change background color of other pages."
+msgstr ""
+
+#: options.php:550
+msgid "Numbers text Color Change."
+msgstr ""
+
+#: options.php:555
+msgid "Footer Area Color Customize"
+msgstr ""
+
+#: options.php:556
+msgid "Footer Widget background color."
+msgstr ""
+
+#: options.php:562
+msgid "Text Color."
+msgstr ""
+
+#: options.php:568
+msgid "Edit Categories & date/author stamp from thumbnail"
+msgstr ""
+
+#: options.php:569
+msgid ""
+"Show or Hide Date & Author Stamp from Thumbnail in index and other archive "
+"pages ."
+msgstr ""
+
+#: options.php:579
+msgid ""
+"Show or hide Categories Button from Thumbnail in index and other archive "
+"pages ."
+msgstr ""
+
+#: options.php:588
+msgid "Categories Background Color Change."
+msgstr ""
+
+#: options.php:596
+msgid "Customize Theme Fonts"
+msgstr ""
+
+#: options.php:597
+msgid "Change <b>Body (Theme) Font</b> color and Size."
+msgstr ""
+
+#: options.php:602
+msgid "Change <b>H1 Posts and Pages Title </b>Font color or Size."
+msgstr ""
+
+#: options.php:629
+msgid "Breadcrumbs Options"
+msgstr ""
+
+#: options.php:630
+msgid "Check Box to Enable or Disable Breadcrumbs."
+msgstr ""
+
+#: options.php:635
+msgid "Enable Post Meta Info."
+msgstr ""
+
+#: options.php:636
+msgid "Check Box to Show or Hide Tags "
+msgstr ""
+
+#: options.php:641
+msgid "Check Box to Show or Hide Comments "
+msgstr ""
+
+#: options.php:646
+msgid "Check Box to Show or Hide Categories "
+msgstr ""
+
+#: options.php:651
+msgid "Check Box to Show or Hide Author and date "
+msgstr ""
+
+#: options.php:657
+msgid "Next and Previous Post Link"
+msgstr ""
+
+#: options.php:658
+msgid "Show or Hide Next and Previous Post Link below every post."
+msgstr ""
+
+#: options.php:667
+msgid "Show or Hide Copy Right Text"
+msgstr ""
+
+#: options.php:668
+msgid "Show or hide Copyright Text and Link."
+msgstr ""
+
+#: options.php:684
+msgid "Theme Support"
+msgstr ""
+
+#: options.php:689
+msgid "Need support about theme go to Support forum"
+msgstr ""
+
+#: options.php:691
+msgid ""
+"If you have any problem in using options then please read theme "
+"documentation first "
+msgstr ""
+
+#: options.php:691
+msgid ""
+"http://www.wrock.org/documentation-install-wordpress-premium-theme-without-"
+"data-loss/"
+msgstr ""
+
+#: options.php:691
+msgid "Theme Documentation"
+msgstr ""
+
+#: options.php:691
+msgid ""
+"Before you contact us via directly please use support forum also We "
+"recommend you to use some WordPress plugin like \"Regenerate Thumbnails\" "
+"WordPress SEO and W3tc to optimize and get great website experience."
+msgstr ""
+
+#: options.php:692
+msgid "http://forum.insertcart.com"
+msgstr ""
+
+#: options.php:692
+msgid "Support Forum"
+msgstr ""

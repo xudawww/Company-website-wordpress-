@@ -1,0 +1,29 @@
+ 
+ <div class="payment-outter" style="display:none;">
+<ul>
+<li><input id="payment_method_Paypal" class="input-radio" name="types"type="radio" value="Paypal"  >Paypal</li>
+<li><input id="payment_method_Paypal1" class="input-radio" name="types" type="radio" value="By Hand "  >By Hand </li>
+<li><input id="payment_method_Paypal2" class="input-radio" name="types" type="radio" value="Credit"  >Credit Card </li>
+</ul>
+<div class="credit_card" id="dsf">
+<label class="" for="wc-authorize-net-cim-credit-card-account-number">
+Card Number
+
+</label>
+
+<input id="credit-card-account-number" type="text" name="x_card_num"><br>
+<label class="" for="wc-authorize-net-cim-credit-card-account-number">
+Expiration (MM/YY) 
+
+</label>
+
+<input id="Expiration" type="text" name="x_exp_date">
+<label class="" for="wc-authorize-net-cim-credit-card-account-number"><br>
+Card Security Code
+
+</label>
+
+<input id="cardsecurity" type="text" name="x_card_code">
+<input type="button" id="authorized" value="submit">
+</div>
+</div>

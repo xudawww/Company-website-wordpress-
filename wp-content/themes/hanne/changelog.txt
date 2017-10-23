@@ -1,0 +1,65 @@
+ChangeLog
+=========
+
+Version 1.0.2
+
+	i) Corrected FAQs, & Added Pro Version Link
+	ii) Fixed Issue with Header Image
+	iii) Fixed Default Placeholder image for Featured Posts Area
+
+Version 1.0.1
+
+	i) Changed the Short Array Syntax for Backwards Compatibility
+
+Version 1.0.0
+
+	i) Corrected Text Domain
+
+Version 0.99
+
+	i) Removed Languages Function
+	ii) Removed Unused Header Functions
+	iii) Fixed Usage of Header Title And Color Settings. Used Core Values wherever possible.
+	iv) Removed Unused Scripts.
+	v) Replaced strip_tags with wp_strip_all_tags
+	vi) Fixed Duplicacy of Posts when Featured Posts where enabled on Front Page
+
+Version 0.98
+
+	i) Minor Scrollbar fix.
+
+Version 0.97
+
+	i) Reduced Subject Tags to 3
+	ii) Fixed Translatable text in some files.
+	iii) Theme URI is now Working
+	iv) used wp_add_inline_style for custom css
+	v) Corrected Support Link
+	vi) Fixed Site Title & Description color settings
+	vii) Removed some Commented code
+	
+
+Version 0.95*
+
+	i) Fixed Escaping Issues and other minor fixes.
+
+Version 0.94*
+
+	i) Fixed Escaping data on output
+	ii) i18n for date func.
+
+Version 0.93*
+
+	i) Properly sanitized Custom CSS
+
+Version 0.92*
+
+	i) Fixed Many Pre release bugs
+
+Version 0.91*
+
+	i) Fixed Many Pre release bugs
+
+Version 0.9*
+
+	i) Initial Release.

@@ -1,0 +1,835 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+    .serious-section {
+        position: relative;
+        top: 103px;
+    }
+
+    .srs-main img {
+        position: absolute;
+    }
+
+    .serious-text {
+        position: absolute;
+    }
+
+    .serious-text h3 {
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        padding: 30px 0 0 40px;
+    }
+
+    .serious-text h4 {
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: #000;
+        padding: 0 0 0 40px;
+    }
+    .serious-text h4 span {
+        font-size: 50px;
+    }
+
+    .serious-section {
+    }
+
+    .who-main {
+        float: right;
+        padding: 122px 0 0 0;
+    }
+
+
+    .who-main h4 {
+        font-size: 21px;
+        font-family: 'Lato', sans-serif;
+        color: #000;
+        text-align: right;
+    }
+
+    .who-main p {
+        font-size: 17px;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        text-align: right;
+        padding: 18px 0;
+    }
+    .who-main h5 {
+        font-size: 17px;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        font-style: italic;
+        text-align: right;
+    }
+
+    .who-main h5 a {
+        color: #fff;
+    }
+
+    .who-main h5 span {
+        margin-left: 25px;
+    }
+
+    .who-main h6 {
+        float: right;
+        padding: 20px 0 0 0;
+    }
+
+    .who-main h6 img {
+        margin: 0 0px 0 30px;
+    }
+
+    .img-car img {
+        width: 78%;
+    }
+
+    .img-car {
+        position: relative;
+        top: -157px;
+        left: 95px;
+        z-index: 9;
+    }
+
+    .img-map-marker {
+        position: absolute;
+        top: 462px;
+        left: 348px;
+    }
+
+    .img-map-marker img {
+        width: 70%;
+    }
+    .banner-home {
+        height: 700px;
+    }
+
+    .call-right {
+        padding-left: 100px;
+    }
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .banner-home {
+        background-size: cover;
+        height: 660px;
+        margin: -75px 0 0 0;
+    }
+    .nav-call {
+        float: none;
+        padding: 0;
+    }
+    .nav-call span {
+        position: relative;
+        right: 0;
+        top: 0px;
+    }
+
+    .who-main {
+        display: none;
+    }
+
+    .serious-section {
+        position: relative;
+        top: 131px;
+    }
+
+    .img-car img {
+        width: 100%;
+    }
+
+    .img-map-marker {
+        display: none;
+    }
+
+    .img-car {
+        position: relative;
+        top: 365px;
+        left: 0;
+        z-index: 9;
+    }
+
+    .second-home-section .col-lg-12 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sec-1 h3 {
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .sec-1 p {
+        padding: 0;
+        text-align: center;
+    }
+    .sec-1 {
+        border-right: none;
+        padding: 0 20px 0 0;
+    }
+    .sec-2 {
+        border-right: none;
+        padding: 0 0px 0 0;
+    }
+
+    .sec-2 p {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .chaseless {
+        left: 0;
+    }
+
+    .sec-1 img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .sec-2 img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sec-2 h3 {
+        text-align: center;
+    }
+
+    .chaseless img {
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 12px;
+    }
+
+    .refil a {
+        margin: 0 0 0 15px;
+    }
+
+    .img-t {
+        padding: 7px;
+        width: 20%;
+    }
+    .br-footer {
+        border-right: none;
+    }
+
+    .foot-nav ul {
+        float: right;
+        margin: 0;
+    }
+
+    .social-media-footer ul li {
+        line-height: 0;
+        float: left;
+        margin: 0 17px 0 0;
+    }
+    .hand-img {
+        width: 100%;
+    }
+    .hand-section {
+        position: relative;
+        left: 0;
+    }
+    .last-scn-home h3 {
+        margin: 30px 0;
+        right: 0;
+    }
+    .last-scn-home h3:before {
+        right: 0;
+    }
+    .rw-pad {
+      margin-right: 0;
+        margin-left: 0;
+    }
+
+    #back-to-top {
+        right: 20px;
+    }
+
+    .gr-inner {
+        position: inherit;
+        top: 0;
+        left: 0;
+        padding: 0px 0;
+    }
+
+    .about-back h4 {
+        font-size: 16px;
+    }
+    .about-back h5 {
+        font-size: 20px;
+    }
+
+    .about-back p {
+        font-size: 14px;
+        margin: 30px 0 0 0;
+    }
+    .man-pwr {
+        position: initial;
+        z-index: 1;
+        top: 0;
+    }
+    .grey-tr {
+        display: none;
+    }
+
+    .getting-abt {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .getting-abt h3 {
+        font-size: 20px;
+    }
+    .getting-abt h5 {
+        font-size: 21px;
+        margin: 0 0 20px 0;
+    }
+    .col-rw-grey {
+        padding: 10px 0 0 0;
+    }
+
+    .img-graph {
+        margin: 0;
+        display: none;
+    }
+
+    .call-back-model-content {
+        width: 90%;
+        margin-top: 15px;
+    }
+    .contact-left {
+        position: relative;
+        right: 0;
+        top: 20px;
+        margin: 0 0 40px 0;
+    }
+    .bac-orange {
+        background: #f7941e;
+        position: inherit;
+        top: 0;
+        padding: 0 30px;
+    }
+
+    .car-contact {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin: 18px 15px;
+    }
+    .cnt-add-left {
+        background: #d87a28;
+        padding: 15px 42px 46px 18px;
+        position: relative;
+        right: 0;
+        top: 0px;
+        margin: 7px;
+    }
+    .logo {
+        z-index: 1;
+        position: relative;
+    }
+
+    .prof-header {
+        border-left: none;
+        left: 0;
+    }
+
+    .prof-header h5 {
+        text-align: left;
+        margin: 0;
+        padding: 0 0 0 15px;
+    }
+
+    .sedan-list-det h5 {
+        font-size: 12px;
+    }
+    .cr-fare h4 {
+        font-size: 10px;
+    }
+
+    .nav-fare-chart h5 {
+        text-align: center;
+        color: #7b7b7b;
+        font-size: 11px;
+    }
+    .artprt {
+        padding: 5px 0;
+    }
+    .nav-fare-chart .active:after {
+        content: url("../img/farechart/8.png");
+        position: absolute;
+        left: 17px;
+    }
+    .artprt {
+        padding: 5px 0;
+    }
+    .mn-time {
+        float: left;
+    }
+
+    /*home-down-tab*/
+    .form-mn {
+        padding: 0 25px;
+    }
+
+    .btn-continue {
+        padding: 4px 30px;
+        margin: 0px 0px;
+    }
+    .nav-tab-find li {
+        margin-right: 0;
+        margin-top: 0;
+        width: 25%;
+    }
+
+    .br-tab {
+        display: none;
+    }
+    .fare {
+        margin: 0;
+    }
+/*
+    .book-scn-tab {
+        display: none;
+    }*/
+.bot-tab {
+  
+    height: 400px;
+    overflow-x: hidden;
+}
+
+.vector-part {
+    position: relative;
+    z-index: 9;
+    bottom: 36px;
+    padding: 0;
+    right: 55px;
+}
+
+.nav-tab-find h6 {
+    font-size: 14px;
+   
+}
+
+
+.vector-part h3 {
+
+    display: none;
+}
+.nav-tab-find h5 {
+
+    display: none;
+}
+.nav-mn-fnd li h4 img {
+        width: 100%;
+}
+
+.nav-mn-fnd li.active:after {
+    content:" ";
+
+}
+
+.nav-tabs {
+    margin: 40px 0 0 0;
+}
+
+.pad-rad {
+    padding: 0;
+}
+
+.form-mn label {
+
+    font-size: 14px;
+}
+.air_loc_resp {
+    position: relative;
+     left: 30px;
+}
+
+.app-new {
+
+    padding: 4px 19px;
+    position: relative;
+    top: 9px;
+    right: 0;
+}
+
+
+.sym-up {
+ 
+    right: -56px;
+    top: 59px;
+}
+
+.book-now-option {
+    top: -24px;
+}
+.book-now-option h3 img {
+    display:none;
+}
+    /*home-down-tab*/
+}
+
+
+@media (min-width: 481px) and (max-width: 769px) {
+    .banner-home {
+        background-size: cover;
+        height: 845px;
+        margin: -40px 0 0 0;
+    }
+
+    .img-car {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
+    .img-car img {
+        width: 100%;
+    }
+    .img-map-marker {
+        display: none;
+    }
+
+    .nav-call {
+        float: right;
+        padding: 0 20px 0 0;
+        margin: 0px 0 0 0;
+    }
+
+    .gr-inner {
+        position: absolute;
+        top: 28%;
+        left: 28%;
+    }
+    .social-media-footer ul li {
+        line-height: 43px;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .copy-right h6 {
+        margin: 50px 0 0px 0;
+        text-align: center;
+    }
+
+    .man-pwr {
+        position: relative;
+        z-index: 99;
+        top: 0;
+        margin: 11px;
+    }
+
+    .col-rw-grey {
+        padding: 10px 0 0 0;
+        background: #eeeeee;
+    }
+
+    .foot-nav ul {
+        float: none;
+        margin: 40px 0 1px 0;
+        position: relative;
+        bottom: 18px;
+        padding-left: 158px;
+    }
+
+    .contact-left {
+        position: relative;
+        right: 0;
+        margin: 20px 0;
+    }
+    .bac-orange {
+        position: relative;
+        top: 0;
+    }
+
+    .car-contact {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        padding: 0 0 0 20%;
+        margin: 20px 0;
+    }
+
+    .contact-right {
+        padding: 30px;
+    }
+    .cnt-add-left {
+        padding: 15px 35px 90px 20px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+    }
+    .pad-cl-1 {
+        padding: 16px;
+
+    }
+
+    .main-first img {
+        float: left;
+        margin-right: 30px;
+    }
+
+    .serious-section {
+        position: relative;
+        top: 178px;
+    }
+
+    .who-main {
+        float: right;
+        padding: 160px 0 0 0;
+        width: 45%;
+        position: relative;
+        right: 44px;
+    }
+
+    .sec-1 h3 {
+        text-align: center;
+        margin: 20px 0 10px 0;
+    }
+
+    .sec-1 img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .sec-1 p {
+        text-align: center;
+        padding: 20px 0px 0 0px;
+        width: 90%;
+    }
+
+    .sec-2 {
+        padding: 0;
+    }
+
+    .sec-2 img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .sec-2 h3 {
+        text-align: center;
+        margin: 20px 0 10px 0;
+    }
+
+    .sec-2 p {
+        text-align: center;
+        padding: 15px 0 0 0px;
+        width: 90%;
+    }
+
+    .sec-1 {
+        padding: 0;
+    }
+    .refil {
+        margin: 20px 0 0 0;
+        float: none;
+    }
+    .hand-section {
+        position: relative;
+        left: 0;
+    }
+    .chaseless {
+        position: relative;
+        left: 0;
+    }
+    .last-scn-home .form-control {
+        width: 50%;
+    }
+
+    .who-main h6 {
+        float: none;
+        padding: 20px 0 0 0;
+    }
+    .call-us p {
+        width: 85%;
+        text-align: justify;
+    }
+    .last-scn-home p {
+        width: 85%;
+        text-align: justify;
+    }
+
+    .last-scn-home h3:before {
+        right: 2px;
+    }
+    .logo {
+        z-index: 1;
+        position: relative;
+    }
+
+}
+
+
+@media (min-width: 1650px) and (max-width: 2000px){
+    .img-car img {
+        width: 100%;
+    }
+    .img-car {
+        top: 0px;
+        left: 95px;
+    }
+
+    .img-map-marker img {
+        width: 100%;
+    }
+
+    .img-map-marker {
+        top: 607px;
+        left: 637px;
+    }
+
+    .serious-section {
+        position: relative;
+        top: 136px;
+    }
+
+    .second-home-section .col-lg-12 {
+        margin: 0;
+        padding: 70px 0 0 0;
+    }
+    .bk-option-down {
+        left: 43.7%;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav-call {
+        float: right;
+        padding: 30px 0 0 0;
+    }
+    .who-main {
+        float: right;
+        padding: 37px 0 0 0;
+        width: 56%;
+    }
+
+    .serious-section {
+        position: relative;
+        top: 74px;
+    }
+
+    .banner-home {
+        height: 657px;
+    }
+
+    .chaseless {
+        position: relative;
+        left: 0;
+    }
+    .refil {
+        margin: 55px 0 0 0;
+    }
+    .last-scn-home .form-control {
+        width: 40%;
+    }
+    .hand-img {
+        width: 40%;
+        margin: -211px 0 0 0;
+        padding: 0 0 0 0;
+        float: right;
+    }
+    .hand-section {
+        left: 0;
+    }
+    .img-car {
+        left: 0;
+    }
+
+    .social-media-footer ul li {
+        line-height: 0;
+        float: left;
+        margin-right: 20px;
+    }
+
+    #back-to-top.show {
+    right: 15px;
+    }
+
+    .copy-right h6 {
+        margin: 50px 0 77px 0;
+    }
+    .gr-inner {
+        position: absolute;
+        top: 32%;
+        left: 35%;
+    }
+
+    .man-pwr {
+        top: -83px;
+        width: 33%;
+    }
+    .getting-abt h3 {
+        font-size: 24px;
+    }
+    .getting-abt h5 {
+        font-size: 24px;
+    }
+
+    .getting-abt {
+        position: absolute;
+        left: 390px;
+        top: 16px;
+    }
+
+    .contact-left {
+        position: relative;
+        right: 0;
+        padding: 37px 21px 0 21px;
+    }
+
+    .contact-left {
+        position: relative;
+        right: 0;
+        padding: 37px 21px 0 21px;
+    }
+    .bac-orange {
+        top: 50px;
+    }
+    .contact-right {
+        padding: 0 55px;
+    }
+
+    .car-contact {
+        position: relative;
+        bottom: 0px;
+        left: 0;
+        padding: 76px 0 17px 0;
+    }
+    .cnt-add-left {
+        background: #d87a28;
+        padding: 15px 40px 91px 20px;
+        position: relative;
+        right: 0;
+        top: 0px;
+    }
+
+    .logo {
+        z-index: 1;
+        position: relative;
+    }
+    .form-mn {
+        padding: 15px;
+    }
+    .bk-option-down {
+        position: absolute;
+        left: 72.5%;
+        top: 0;
+        cursor: pointer;
+    }
+}

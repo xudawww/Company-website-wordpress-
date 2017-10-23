@@ -1,0 +1,4 @@
+[07-Aug-2017 05:00:50 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/sheridancollege/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[23-Sep-2017 01:39:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/sheridancollege/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[29-Sep-2017 01:51:39 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/sheridancollege/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Oct-2017 09:23:22 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/sheridancollege/public_html/wp-content/themes/twentyseventeen/footer.php on line 22

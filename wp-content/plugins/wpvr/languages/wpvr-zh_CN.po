@@ -1,0 +1,4190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Video Robot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-02 12:38+0000\n"
+"PO-Revision-Date: 2017-01-02 12:38+0000\n"
+"Last-Translator: root <pressaholic@gmail.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh-CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: zh_CN\n"
+"X-Poedit-SearchPath-0: ."
+
+#: ../wpvr.cron.php:44
+msgid ""
+"WPVR CRON could not work properly, since the plugin folder is not writable."
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:40 ../includes/wpvr.bulk.videos.php:41
+msgid "Publish videos"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:43 ../includes/wpvr.bulk.videos.php:44
+msgid "Update Thumbnails"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:46 ../includes/wpvr.bulk.videos.php:47 ..
+#: hooks/wpvr.hooks.assets.php:27 ../functions/wpvr.functions.utils.php:3309
+msgid "Add to Unwanted"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:49 ../includes/wpvr.bulk.videos.php:50 ..
+#: hooks/wpvr.hooks.assets.php:28 ../functions/wpvr.functions.utils.php:3304
+msgid "Remove from Unwanted"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:52 ../includes/wpvr.bulk.videos.php:53
+msgid "Enable AutoEmbed"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:55 ../includes/wpvr.bulk.videos.php:56
+msgid "Disable AutoEmbed"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:58 ../includes/wpvr.bulk.videos.php:59
+msgid "Export videos"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:186
+msgid "videos deleted successfully."
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:194
+msgid "videos added to unwanted."
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:226
+msgid "videos thumbnails redownloaded."
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:234 ../ajax/wpvr.ajax.misc.php:633
+msgid "videos removed from unwanted."
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:249
+msgid "videos published."
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:263
+msgid "videos processed."
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:38 ../includes/wpvr.bulk.sources.php:39
+msgid "Toggle sources ON"
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:41 ../includes/wpvr.bulk.sources.php:42
+msgid "Toggle sources OFF"
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:45 ../includes/wpvr.bulk.sources.php:46
+msgid "Duplicate sources"
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:48 ../includes/wpvr.bulk.sources.php:49
+msgid "Export sources"
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:51 ../includes/wpvr.bulk.sources.php:52
+msgid "Test sources"
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:54 ../includes/wpvr.bulk.sources.php:55
+msgid "Run sources"
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:181
+msgid "sources toggled ON successfully."
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:183
+msgid "sources toggled OFF successfully."
+msgstr ""
+
+#: ../includes/wpvr.bulk.sources.php:196
+msgid "sources deleted successfully."
+msgstr ""
+
+#: ../includes/wpvr.sources.php:83
+msgctxt "Taxonomy General Name"
+msgid "Source Folders"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:84
+msgctxt "Taxonomy Singular Name"
+msgid "Source Folder"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:85
+msgid "Source Folders"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:86
+msgid "All Folders"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:87
+msgid "Parent Folder"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:88
+msgid "Parent Folder:"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:89
+msgid "New Folder Name"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:90
+msgid "Add New Folder"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:91
+msgid "Edit Folder"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:92
+msgid "Update Folder"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:93
+msgid "View Folder"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:94
+msgid "Separate folders with commas"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:95
+msgid "Add or remove folders"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:96
+msgid "Choose from the most used"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:97
+msgid "Popular folders"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:98
+msgid "Search folders"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:99
+msgid "Not Found"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:100
+msgid "No folders"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:101
+msgid "Folders list"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:102
+msgid "Folders list navigation"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:155
+msgid "Sources Actions"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:299
+msgid "Define how many videos you want to fetch and import at once."
+msgstr ""
+
+#: ../includes/wpvr.sources.php:300
+msgid "You can use the global setting or define one for this source only."
+msgstr ""
+
+#: ../includes/wpvr.sources.php:395
+msgid "Available tags to use"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:398
+msgid "Available Tags"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:521
+msgid "Video Text Content"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:522
+msgid "Choose whether to import the video text content or not."
+msgstr ""
+
+#: ../includes/wpvr.sources.php:527
+msgid "Post the video text content"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:528
+msgid "Skip the video text content"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:553 ../includes/wpvr.sources.php:580
+msgid "Custom"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:661 ../includes/wpvr.videos.php:187 ..
+#: includes/wpvr.videos.php:286
+msgid "Loading ..."
+msgstr ""
+
+#: ../includes/wpvr.sources.php:824
+msgid "Source Stats"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:857 ../includes/wpvr.videos.php:908
+msgid "More filters"
+msgstr ""
+
+#: ../includes/wpvr.sources.php:861 ../includes/wpvr.videos.php:912
+msgid "Less filters"
+msgstr ""
+
+#: ../includes/wpvr.licences.php:28
+msgid "Manage Licenses"
+msgstr ""
+
+#: ../includes/wpvr.licences.php:38
+msgid "WP VIDEO ROBOT LICENSE"
+msgstr ""
+
+#: ../includes/wpvr.licences.php:129
+msgid "Cancel Activation"
+msgstr ""
+
+#: ../includes/wpvr.licences.php:152
+msgid "ADDONS LICENSES"
+msgstr ""
+
+#: ../includes/wpvr.unwanted.php:45
+msgid "unwanted video(s) being skipped."
+msgstr ""
+
+#: ../includes/wpvr.unwanted.php:57 ../hooks/wpvr.hooks.menus.php:80 ..
+#: hooks/wpvr.hooks.menus.php:253 ../hooks/wpvr.hooks.menus.php:447 ..
+#: functions/wpvr.functions.globals.php:108
+msgid "Unwanted Videos"
+msgstr ""
+
+#: ../includes/wpvr.unwanted.php:64 ../includes/wpvr.unwanted.php:71 ..
+#: includes/wpvr.unwanted.php:119 ../includes/wpvr.unwanted.php:153
+msgid "There is no unwanted video."
+msgstr ""
+
+#: ../includes/wpvr.unwanted.php:96
+msgid "Search ..."
+msgstr ""
+
+#: ../includes/wpvr.unwanted.php:103
+msgid "All services"
+msgstr ""
+
+#: ../includes/wpvr.unwanted.php:126 ../includes/wpvr.unwanted.php:231 ..
+#: includes/wpvr.deferred.php:87 ../includes/wpvr.deferred.php:183 ..
+#: functions/wpvr.functions.sources.php:1483
+#: ../functions/wpvr.functions.sources. php:1964
+msgid "CHECK ALL VIDEOS"
+msgstr ""
+
+#: ../includes/wpvr.unwanted.php:216 ../includes/wpvr.videos.php:1103
+msgid "UNWANTED"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:14
+msgid ""
+"The dashboard shows everything you need to know in a fancy way with "
+"beautiful graphics."
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:16
+msgid "Open Dashboard"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:24
+msgid "Plugin Options"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:25
+msgid ""
+"Customize every facet and step of the plugin. There is a setting for almost "
+"everything !"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:35
+msgid "Plugin Addons"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:36
+msgid ""
+"Enhance the plugin functionalities with several addons, or add other video "
+"services."
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:49
+msgid "Support Forums"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:50
+msgid ""
+"Our Support Team is here to help and assist you until you get satisfied with "
+"WP Video Robot."
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:61
+msgid ""
+"A clear and concise documentation written up to help you use WP Video Robot."
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:63
+msgid "Read Documentation"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:71
+msgid "Tutorials"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:72
+msgid ""
+"A fully fledged and regularly added tutorials to help you get the most of WP "
+"Video Robot."
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:74
+msgid "Read Tutorials"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:88
+msgid "Welcome to WP Video Robot"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:112
+msgid "Check out what's new on this version"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:126
+msgid "Version Changelog"
+msgstr ""
+
+#: ../includes/wpvr.welcome.php:132
+msgid "Import Sample Sources"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:116
+msgid "WPVR - Embed this video"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:122
+msgid "Embed Video"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:162
+msgid "Preview Video"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:178
+msgid "Update video"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:200 ../includes/wpvr.videos.php:1165
+msgid "Imported as"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:225 ../includes/wpvr.videos.php:297
+msgid "Video Wizard"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:229 ../includes/wpvr.videos.php:301
+msgid "Hide advanced mode"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:230 ../includes/wpvr.videos.php:302
+msgid "Show advanced mode"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:346
+msgid "Re-Import Video"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:348
+msgid "Import Video"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:468
+msgid "WP Video Robot - Advanced "
+msgstr ""
+
+#: ../includes/wpvr.videos.php:490
+msgid "AutoEmbed Player"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:496
+msgid "Don't embed the plugin player"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:497
+msgid "Embed the plugin player"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:500
+msgid "Choose don't embed if you want to use your theme video player."
+msgstr ""
+
+#: ../includes/wpvr.videos.php:512
+msgid ""
+"Define the given number of seconds from the start of the video, when the "
+"player begin playing."
+msgstr ""
+
+#: ../includes/wpvr.videos.php:513 ../includes/wpvr.videos.php:524
+msgid "Works only with Youtube."
+msgstr ""
+
+#: ../includes/wpvr.videos.php:523
+msgid ""
+"Define the time, measured in seconds from the end of the video, when the "
+"player should stop playing."
+msgstr ""
+
+#: ../includes/wpvr.videos.php:534
+msgid "WP Video Robot - Video Options "
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1064
+msgid "Video Info"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1114
+msgid "EDIT"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1125
+msgid "PREVIEW"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1133
+msgid "VIEW"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1152
+msgid "Service disabled"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1182
+msgid "Comments"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1210
+msgid "Post ID :"
+msgstr ""
+
+#: ../includes/wpvr.videos.php:1249
+msgid "Autoembedding Disabled."
+msgstr ""
+
+#: ../includes/wpvr.actions.php:507 ../includes/wpvr.actions.php:594 ..
+#: includes/wpvr.actions.php:637
+msgid "Could not find any source with the given IDs."
+msgstr ""
+
+#: ../includes/wpvr.actions.php:514 ../includes/wpvr.actions.php:600 ..
+#: includes/wpvr.actions.php:643
+msgid "Could not find any source with the given folder."
+msgstr ""
+
+#: ../includes/wpvr.dashboard.php:744
+msgid "CONFIGURE AUTOMATION"
+msgstr ""
+
+#: ../includes/wpvr.dashboard.php:754
+msgid "MANUALLY TRIGGER CRON"
+msgstr ""
+
+#: ../includes/wpvr.dashboard.php:790
+msgid "AUTOPILOT"
+msgstr ""
+
+#: ../includes/wpvr.manage.php:115
+msgid "Merge all duplicates"
+msgstr ""
+
+#: ../includes/wpvr.manage.php:158
+msgid "Selected Items"
+msgstr ""
+
+#. Description of the plugin
+msgid "This will create metaboxes with custom fields that will blow your mind."
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:33
+msgid "Import the video title and use it as the post title."
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:38
+msgid "Import the video description and use it as the post content."
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:43
+msgid "Download the video thumbnail and use it as a featured image."
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:48
+msgid "Import the video tags and use them as the post tags."
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:53
+msgid "Use the original video publishing date as the post publishing date."
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:134 ../definitions/wpvr.globals.php:136
+msgid "Update All Thumbnails"
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:135
+msgid ""
+"Update all existing videos thumbnails, by re-downloading and re-generating "
+"them."
+msgstr ""
+
+#: ../definitions/wpvr.globals.php:147 ../definitions/wpvr.globals.php:149
+msgid "Clear Unwanted"
+msgstr ""
+
+#: ../definitions/wpvr.set.before.php:153
+#, php-format
+msgid "Using the %s post type"
+msgstr ""
+
+#: ../options/wpvr.options.general.php:18
+msgid "Pick your timezone"
+msgstr ""
+
+#: ../options/wpvr.options.general.php:38
+msgid "Defer Adding Buffer"
+msgstr ""
+
+#: ../options/wpvr.options.general.php:77
+msgid "Auto unwant when trashed"
+msgstr ""
+
+#: ../options/wpvr.options.general.php:78
+msgid ""
+"Choose whether to automatically add videos to unwanted when you trash them."
+msgstr ""
+
+#: ../options/wpvr.options.general.php:85
+msgid "Auto unwant when deleted"
+msgstr ""
+
+#: ../options/wpvr.options.general.php:86
+msgid ""
+"Choose whether to automatically add videos to unwanted when you delete them "
+"permanently."
+msgstr ""
+
+#: ../options/wpvr.options.general.php:95
+msgid "Logs per page"
+msgstr ""
+
+#: ../options/wpvr.options.general.php:104
+msgid "Videos per page"
+msgstr ""
+
+#: ../options/wpvr.options.general.php:105
+msgid "Number of videos to display per page."
+msgstr ""
+
+#: ../options/wpvr.options.general.php:106
+msgid ""
+"Works on Manage Videos, Duplicates, Deferred Videos, Unwanted Videos screens."
+msgstr ""
+
+#: ../options/wpvr.options.automation.php:15
+msgid "Automation Working Hours"
+msgstr ""
+
+#: ../options/wpvr.options.automation.php:16
+msgid "Define the time range when the plugin should work."
+msgstr ""
+
+#: ../options/wpvr.options.automation.php:17
+msgid "Turn this off if you want the plugin to work all the time."
+msgstr ""
+
+#: ../options/wpvr.options.php:22
+msgid "Fetching"
+msgstr ""
+
+#: ../options/wpvr.options.fetching.php:42
+msgid "title"
+msgstr ""
+
+#: ../options/wpvr.options.fetching.php:50
+msgid "Default Published After Date"
+msgstr ""
+
+#: ../options/wpvr.options.fetching.php:62
+msgid "Default Published Before Date"
+msgstr ""
+
+#: ../options/wpvr.options.fetching.php:133
+#: ../functions/wpvr.functions.sources. php:1430
+msgid "Asynchronous Execution"
+msgstr ""
+
+#: ../options/wpvr.options.fetching.php:134
+msgid ""
+"Once enabled, this feature allows WPVR to execute several sources at once."
+msgstr ""
+
+#: ../options/wpvr.options.fetching.php:135
+msgid ""
+"Unfortunately, it does not work on all server configurations. Turn it off if "
+"you have any troubles while executing sources."
+msgstr ""
+
+#: ../options/wpvr.options.api.php:8
+msgid ""
+"All API accesses granted manually through the API wizard, are revoked within "
+"24 up to 48 hours by video services APIs."
+msgstr ""
+
+#: ../options/wpvr.options.api.php:66 ../options/wpvr.options.api.php:121 ..
+#: options/wpvr.options.api.php:172
+msgid "SET FROM DEFAULT"
+msgstr ""
+
+#: ../options/wpvr.options.api.php:244
+msgid "Grant Access"
+msgstr ""
+
+#: ../options/wpvr.options.integration.php:17
+msgid "Imported Videos Post Type"
+msgstr ""
+
+#: ../options/wpvr.options.integration.php:18
+msgid "Pick one post type"
+msgstr ""
+
+#: ../options/wpvr.options.integration.php:20
+msgid "Select the post type you want to use to create your imported videos."
+msgstr ""
+
+#: ../options/wpvr.options.integration.php:133
+msgid ""
+"Turn this on to disable rendering the video text content below the video "
+"player."
+msgstr ""
+
+#: ../options/wpvr.options.integration.php:148
+msgid "Override videos admin columns"
+msgstr ""
+
+#: ../options/wpvr.options.integration.php:149
+msgid ""
+"Choose whether to use the WPVR or WordPress admin columns for WPVR imported "
+"videos."
+msgstr ""
+
+#: ../options/wpvr.options.posting.php:5
+msgid "Auto Publish"
+msgstr ""
+
+#: ../options/wpvr.options.posting.php:14
+msgid "The default date to use when publishing improted videos."
+msgstr ""
+
+#: ../options/wpvr.options.posting.php:26
+msgid "Default Post Content"
+msgstr ""
+
+#: ../options/wpvr.options.posting.php:27
+msgid "Default post video text content for imported videos."
+msgstr ""
+
+#: ../options/wpvr.options.posting.php:29
+msgid "Import & Post Video Text Content"
+msgstr ""
+
+#: ../options/wpvr.options.posting.php:30
+msgid "Skip Video Text Content"
+msgstr ""
+
+#: ../options/wpvr.options.posting.php:71
+msgid "Define the default author to assign imported videos to."
+msgstr ""
+
+#: ../services/vimeo/basics.php:33 ../services/dailymotion/basics.php:34 ..
+#: services/youtube/basics.php:32
+msgid "Video ID or URL"
+msgstr ""
+
+#: ../services/youtube/functions.php:986
+msgid "Youtube API is not authorized."
+msgstr ""
+
+#: ../services/youtube/functions.php:1014
+msgid "Youtube API is not reachable."
+msgstr ""
+
+#: ../services/youtube/functions.php:1023
+msgid "Could not find any channel corresponding to the given username."
+msgstr ""
+
+#: ../services/youtube/functions.php:1039
+msgid "channel"
+msgstr ""
+
+#: ../services/youtube/types.php:11
+msgid "Limit the search results to the videos posted on this channel"
+msgstr ""
+
+#: ../services/youtube/types.php:21
+msgid "Learn more about search terms"
+msgstr ""
+
+#: ../services/youtube/types.php:53
+msgid "Search Context"
+msgstr ""
+
+#: ../services/youtube/types.php:55
+msgid "Choose whether to filter the search results or not"
+msgstr ""
+
+#: ../services/youtube/types.php:57
+msgid "Search Everywhere"
+msgstr ""
+
+#: ../services/youtube/types.php:58
+msgid "Search in a Channel"
+msgstr ""
+
+#: ../services/youtube/types.php:143
+msgid "List of comma-separated playlist IDs."
+msgstr ""
+
+#: ../services/youtube/helpers.php:56
+msgid "Toggle Helper"
+msgstr ""
+
+#: ../services/youtube/helpers.php:61
+msgid "Example"
+msgstr ""
+
+#: ../services/youtube/helpers.php:64
+msgid "List of comma-separated channel IDs"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.notices.php:13
+#, php-format
+msgid "WP Video Robot needs version %s at least to work properly."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.shortcodes.php:40
+msgid "Total videos"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.shortcodes.php:44
+msgid "No video"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.shortcodes.php:46
+msgid "One video"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.custom.php:421
+msgid "New Theme Metaboxes detected and added."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.custom.php:422
+msgid "You can now handle your imported videos as any regular Wordpress post."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.custom.php:423 ../hooks/wpvr.hooks.assets.php:68
+msgid "Close"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.custom.php:465
+msgid "WP Video Robot is working properly."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.custom.php:468
+msgid ""
+"Enable CRON Debug Mode to have more details about the automation process."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:7 ../hooks/wpvr.hooks.menus.php:35
+#: ../hooks/wpvr. hooks.menus.php:209
+msgid "Welcome"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:10
+msgid "Licenses"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:34 ../hooks/wpvr.hooks.menus.php:208
+msgid "WELCOME | WP video Robot"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:79 ../hooks/wpvr.hooks.menus.php:252
+msgid "UNWANTED VIDEOS | WP Video Robot"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:315
+msgid "WPVR DASHBOARD"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:327
+msgid "Automation Dashboard"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:339
+msgid "DataFillers"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:353
+msgid "WPVR OPTIONS"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:359
+msgid "General Options"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:365
+msgid "Fetching Options"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:371
+msgid "Posting Options"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:377
+msgid "Integration Options"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:383
+msgid "Automation Options"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:417
+msgid "WPVR Videos"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:429
+msgid "New Video"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:456
+msgid "WPVR Addons"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:482
+msgid "WPVR Licenses"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.menus.php:490
+msgid "WPVR Activity Logs"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:21
+msgid "Existing videos have been updated."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:22
+msgid "Close this wizard"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:23
+msgid "Do you really want to import demo sources ?"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:24
+msgid "Your source has changed. Please save it before testing it."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:26
+msgid "Grouped Testing Info"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:29
+msgid ""
+"Activation cancelled. You can now use your purchase code on your new domain."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:30
+msgid "License reset."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:31
+msgid "Do you really want to cancel your activation ?"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:32
+msgid "Do you really want to reset this addon license ?"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:41
+msgid ""
+"Do you really want to merge all the duplicates ? This make take some time."
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:52
+msgid "videos added to unwanted successfuly"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:90
+msgid "Show Details"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:91
+msgid "Details"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:97
+msgid "duplicates removed in"
+msgstr ""
+
+#: ../hooks/wpvr.hooks.assets.php:99
+msgid "Error"
+msgstr ""
+
+#: ../ajax/wpvr.ajax.misc.php:452
+msgid "sample sources added"
+msgstr ""
+
+#: ../ajax/wpvr.ajax.misc.php:600
+msgid "videos removed from deferred."
+msgstr ""
+
+#: ../ajax/wpvr.ajax.misc.php:649
+msgid "All addons licenses have been reset."
+msgstr ""
+
+#: ../ajax/wpvr.ajax.setters.php:118
+#, php-format
+msgid "%s videos found."
+msgstr ""
+
+#: ../ajax/wpvr.ajax.setters.php:119
+msgid ""
+"Updating all those thumbnails might take some time. Do you want to continue?"
+msgstr ""
+
+#: ../functions/wpvr.functions.addons.php:213
+msgid "There is no addon to show."
+msgstr ""
+
+#: ../functions/wpvr.functions.addons.php:298
+msgid "Learn More"
+msgstr ""
+
+#: ../functions/wpvr.functions.addons.php:360
+msgid "There is no addon installed/activated."
+msgstr ""
+
+#: ../functions/wpvr.functions.addons.php:447
+msgid "Register Addon Licenses"
+msgstr ""
+
+#: ../functions/wpvr.functions.addons.php:459
+msgid "Reset All Addons Licenses"
+msgstr ""
+
+#: ../functions/wpvr.functions.videos.php:971
+msgid "There are no duplicates."
+msgstr ""
+
+#: ../functions/wpvr.functions.videos.php:1334
+msgid "Pick a video service"
+msgstr ""
+
+#: ../functions/wpvr.functions.videos.php:1353
+msgid "Enter your video URL or video ID"
+msgstr ""
+
+#: ../functions/wpvr.functions.videos.php:1359
+msgid "Video URL or ID ..."
+msgstr ""
+
+#: ../functions/wpvr.functions.videos.php:1366
+msgid "Select the video data you want to import"
+msgstr ""
+
+#: ../functions/wpvr.functions.api.php:408
+msgid "View this new version details"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:210
+msgid "Server Software"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:247
+msgid "Curl Status"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:253
+msgid "Curl Version"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:269
+msgid "Plugin Folder"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:279
+msgid "WordPress MultiSite"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:280
+msgid "Enabled"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:290
+msgid "Website URL"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:296
+msgid "WPVR Version"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:302
+msgid "WPVR Activation Status"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:308
+msgid "WPVR Activation Code"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:314
+msgid "WPVR Activation Date"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:320
+msgid "WPVR Activation ID"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:1183
+msgid "Clone Source"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:1190
+msgid "Trash Source"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:1352
+msgid "Stress Forecast"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:2281
+#: ../functions/wpvr.functions.utils. php:2284
+msgid "Pick an author"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3370
+msgid "COPY"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3371
+msgid "COPIED !"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3383
+msgid "Could not fine the service sample file."
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3402
+msgid "Sample sources imported successfully."
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3428
+msgid "- All types"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3448
+#: ../functions/wpvr.functions.utils. php:3542
+msgid "- All services"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3471
+#: ../functions/wpvr.functions.utils. php:3581
+msgid "- All folders"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3493
+#: ../functions/wpvr.functions.utils. php:3603
+msgid "- All categories"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3514
+#: ../functions/wpvr.functions.utils. php:3624
+msgid "- All authors"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3568
+msgid "- All videos"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3569
+msgid "WPVR Videos Only"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3570
+msgid "Non WPVR Videos Only"
+msgstr ""
+
+#: ../functions/wpvr.functions.utils.php:3927
+msgid "Discover AutoPilot"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:67
+msgid "Folders"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:196
+msgid "Clone"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1121
+msgid "AUTO ASYNC RUNNING SOURCES"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1121
+msgid "MANUALLY ASYNC RUNNING SOURCES"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1432
+msgid "Regular Execution"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1439
+msgid "Grouping Mode"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1444
+msgid "executed in"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1449
+msgid "Total Parsed "
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1454
+msgid "Skipped Duplicates"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1459
+msgid "Skipped Unwanted"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1464 ../functions/wpvr.functions.
+#: sources.php:2543
+msgid "Total Found"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1479
+msgid "Info"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1492
+msgid "Collapse All"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1508 ../functions/wpvr.functions.
+#: sources.php:1985
+msgid "TO UNWANTED"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1548
+msgid "Asynchron Testing of a Source"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1550
+msgid "Regular Testing of a Source"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1625
+msgid "Collapse"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1634
+msgid "Show Authors"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1638
+msgid "Hide Authors"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1645
+msgid "Check All Section"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1691
+msgid "Posting as Draft"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1691
+msgid "Autopublishing"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1746
+msgid "parsed"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1753
+msgid "duplicates"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1758
+msgid "Unwanted count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1760
+msgid "unwanted"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1767
+msgid "found"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1779
+msgid "Recalls"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:1810
+msgid "No Item"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2508 ../functions/wpvr.functions.
+#: sources.php:2522
+msgid "Absolute Count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2515
+msgid "Results Count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2518
+msgid "Returned"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2525
+msgid "Parsed"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2529
+msgid "Duplicate Count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2536
+msgid "Unwanted Count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2539
+msgid "Unwanted"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2546
+msgid "Found"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2561
+msgid "Added Count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2564
+msgid "Added videos"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2568
+msgid "Deferred Count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2571
+msgid "Deferred videos"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2576
+msgid "Errors Count"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2579
+msgid "Errors"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2608
+msgid "Fecthing Insights"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2613
+msgid "Adding Insights"
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2661
+msgid "The async execution could not work properly."
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2662
+msgid "You site seems to be protected by some HTTP Authentication."
+msgstr ""
+
+#: ../functions/wpvr.functions.sources.php:2663
+msgid "Turn off the HTTP authentication in order to use async execution."
+msgstr ""
+
+#: ../functions/wpvr.functions.globals.php:209
+msgid "You are using"
+msgstr ""
+
+#: ../functions/wpvr.functions.core.php:352
+msgid "Please enter a valid email and your Purchase Code."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.wpvideorobot.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Ultimate Wordpress Automated Video Importer"
+msgstr ""
+
+#. Author of the plugin
+msgid "pressaholic"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.pressaholic.com"
+msgstr ""
+
+#: ../includes/wpvr.bulk.videos.php:61 ../includes/wpvr.bulk.videos.php:62
+msgid "Delete permanently"
+msgstr "永久删除"
+
+#: ../includes/wpvr.log.php:107 ../hooks/wpvr.hooks.menus.php:62 ../hooks/wpvr.
+#: hooks.menus.php:235
+msgid "Activity Logs"
+msgstr "活动日志"
+
+#: ../includes/wpvr.log.php:116
+msgid "Total Deferred"
+msgstr "推迟总数"
+
+#: ../includes/wpvr.log.php:118
+msgid "Server Time"
+msgstr "服务器时间"
+
+#: ../includes/wpvr.log.php:119
+msgid "Server TimeZone"
+msgstr "服务器时区"
+
+#: ../includes/wpvr.log.php:121 ../hooks/wpvr.hooks.assets.php:92
+msgid "Showing"
+msgstr "显示"
+
+#: ../includes/wpvr.log.php:122 ../hooks/wpvr.hooks.assets.php:93
+msgid "on"
+msgstr "开启"
+
+#: ../includes/wpvr.log.php:134
+msgid "Today"
+msgstr "今天"
+
+#: ../includes/wpvr.log.php:137
+msgid "Yesterday"
+msgstr "昨天"
+
+#: ../includes/wpvr.log.php:140
+msgid "Last Week"
+msgstr "上个星期"
+
+#: ../includes/wpvr.log.php:143
+msgid "Last Month"
+msgstr "上个月"
+
+#: ../includes/wpvr.log.php:146 ../includes/wpvr.log.php:157 ../includes/wpvr.
+#: manage.php:218
+msgid "Show All"
+msgstr "全部显示"
+
+#: ../includes/wpvr.log.php:164 ../includes/wpvr.log.php:252
+msgid "Clear Log"
+msgstr "清除日志"
+
+#: ../includes/wpvr.log.php:168 ../includes/wpvr.log.php:256
+msgid "Refresh Log"
+msgstr "更新日志"
+
+#: ../includes/wpvr.log.php:180
+msgid "Nothing happened during the selected period."
+msgstr "在所选时间段内没有发生任何事情"
+
+#: ../includes/wpvr.log.php:260 ../includes/wpvr.unwanted.php:239 ..
+#: includes/wpvr.deferred.php:191 ../functions/wpvr.functions.sources.php:1972
+msgid "To Top"
+msgstr "至页首"
+
+#: ../includes/wpvr.sources.php:40
+msgctxt "Post Type General Name"
+msgid "Sources"
+msgstr "来源"
+
+#: ../includes/wpvr.sources.php:41
+msgctxt "Post Type Singular Name"
+msgid "Source"
+msgstr "来源"
+
+#: ../includes/wpvr.sources.php:42 ../functions/wpvr.functions.sources.php:1443
+#: .. functions/wpvr.functions.sources.php:2511
+msgid "Sources"
+msgstr "来源"
+
+#: ../includes/wpvr.sources.php:43
+msgid "Parent Source:"
+msgstr "本源："
+
+#: ../includes/wpvr.sources.php:44 ../hooks/wpvr.hooks.menus.php:403
+msgid "All Sources"
+msgstr "全部来源"
+
+#: ../includes/wpvr.sources.php:45
+msgid "View Source"
+msgstr "查看来源"
+
+#: ../includes/wpvr.sources.php:46 ../functions/wpvr.functions.globals.php:171
+msgid "Add New Source"
+msgstr "加入新来源"
+
+#: ../includes/wpvr.sources.php:47 ../hooks/wpvr.hooks.menus.php:409
+msgid "New Source"
+msgstr "新来源"
+
+#: ../includes/wpvr.sources.php:48
+msgid "Edit Source"
+msgstr "编辑来源"
+
+#: ../includes/wpvr.sources.php:49
+msgid "Update Source"
+msgstr "更新来源"
+
+#: ../includes/wpvr.sources.php:50
+msgid "Search sources"
+msgstr "寻找来源"
+
+#: ../includes/wpvr.sources.php:51
+msgid "No sources found"
+msgstr "没有找到来源"
+
+#: ../includes/wpvr.sources.php:52
+msgid "No sources found in Trash"
+msgstr "没有在垃圾桶里找到来源"
+
+#: ../includes/wpvr.sources.php:55
+msgid "source"
+msgstr "来源"
+
+#: ../includes/wpvr.sources.php:56 ../hooks/wpvr.hooks.menus.php:397
+msgid "WPVR Sources"
+msgstr "WPVR 来源"
+
+#: ../includes/wpvr.sources.php:124 ../includes/wpvr.sources.php:243
+msgid "Name"
+msgstr "名字"
+
+#: ../includes/wpvr.sources.php:125 ../includes/wpvr.sources.php:344
+msgid "Statistics"
+msgstr "统计"
+
+#: ../includes/wpvr.sources.php:126
+msgid "Informations"
+msgstr "信息"
+
+#: ../includes/wpvr.sources.php:127
+msgid "Settings"
+msgstr "设置"
+
+#: ../includes/wpvr.sources.php:128
+msgid "Status"
+msgstr "状态"
+
+#: ../includes/wpvr.sources.php:176 ../functions/wpvr.functions.sources.php:200
+msgid "Test"
+msgstr "测试"
+
+#: ../includes/wpvr.sources.php:182 ../functions/wpvr.functions.sources.php:204
+msgid "Run"
+msgstr "运行"
+
+#: ../includes/wpvr.sources.php:189 ../includes/wpvr.manage.php:167
+#: ../hooks/wpvr. hooks.assets.php:66
+#: ../functions/wpvr.functions.sources.php:208
+msgid "Export"
+msgstr "输出"
+
+#: ../includes/wpvr.sources.php:249 ../includes/wpvr.datafillers.php:72 ..
+#: includes/wpvr.videos.php:336 ../includes/wpvr.manage.php:227 ..
+#: definitions/wpvr.globals.php:1346
+msgid "Video Service"
+msgstr "视频服务"
+
+#: ../includes/wpvr.sources.php:259
+msgid "Source Type"
+msgstr "来源类别"
+
+#: ../includes/wpvr.sources.php:274
+msgid "Source Information"
+msgstr "来源信息"
+
+#: ../includes/wpvr.sources.php:284
+msgid "Source Fetching Options"
+msgstr "获得来源选项"
+
+#: ../includes/wpvr.sources.php:291
+msgid "Wanted Videos"
+msgstr "想要视频"
+
+#: ../includes/wpvr.sources.php:295 ../includes/wpvr.sources.php:322 ..
+#: includes/wpvr.sources.php:337 ../includes/wpvr.sources.php:349 ..
+#: includes/wpvr.sources.php:361 ../includes/wpvr.sources.php:416 ..
+#: includes/wpvr.sources.php:459 ../includes/wpvr.sources.php:526 ..
+#: includes/wpvr.sources.php:552 ../includes/wpvr.sources.php:579 ..
+#: includes/wpvr.sources.php:604 ../includes/wpvr.sources.php:620 ..
+#: includes/wpvr.videos.php:495
+msgid "- Default -"
+msgstr "默认值"
+
+#: ../includes/wpvr.sources.php:296
+msgid "Custom number"
+msgstr "自定义数目"
+
+#: ../includes/wpvr.sources.php:303
+msgid "Number of videos"
+msgstr "视频数量"
+
+#: ../includes/wpvr.sources.php:304
+msgid "How many videos to get at a time?"
+msgstr "同时取得多少视频？"
+
+#: ../includes/wpvr.sources.php:305
+msgid "Max"
+msgstr "最大"
+
+#: ../includes/wpvr.sources.php:305 ../options/wpvr.options.fetching.php:6
+msgid "Unlimited"
+msgstr "无限"
+
+#: ../includes/wpvr.sources.php:317
+msgid "Order by"
+msgstr "订购由"
+
+#: ../includes/wpvr.sources.php:323 ../options/wpvr.options.fetching.php:39
+msgid "Relevance"
+msgstr "关联"
+
+#: ../includes/wpvr.sources.php:324 ../includes/wpvr.manage.php:355 ..
+#: options/wpvr.options.fetching.php:40
+msgid "Date"
+msgstr "日期"
+
+#: ../includes/wpvr.sources.php:325 ../includes/wpvr.videos.php:1177 ..
+#: options/wpvr.options.fetching.php:41
+msgid "Views"
+msgstr "浏览率"
+
+#: ../includes/wpvr.sources.php:326 ../includes/wpvr.videos.php:384 ..
+#: includes/wpvr.videos.php:1063 ../includes/wpvr.manage.php:356 ..
+#: definitions/wpvr.globals.php:32
+msgid "Title"
+msgstr "题目"
+
+#: ../includes/wpvr.sources.php:327
+msgid "Rating"
+msgstr "评级"
+
+#: ../includes/wpvr.sources.php:332 ../includes/wpvr.manage.php:359 ..
+#: functions/wpvr.functions.sources.php:2532
+msgid "Duplicates"
+msgstr "重复"
+
+#: ../includes/wpvr.sources.php:338
+msgid "Skip duplicates"
+msgstr "跳过重复"
+
+#: ../includes/wpvr.sources.php:339
+msgid "Do not skip duplicates"
+msgstr "不跳过重复"
+
+#: ../includes/wpvr.sources.php:350
+msgid "Get Video Statistics"
+msgstr "取得视频统计"
+
+#: ../includes/wpvr.sources.php:351
+msgid "Do not get Video Statistics"
+msgstr "不取得视频统计"
+
+#: ../includes/wpvr.sources.php:356 ../includes/wpvr.videos.php:426 ..
+#: definitions/wpvr.globals.php:47
+msgid "Tags"
+msgstr "标签"
+
+#: ../includes/wpvr.sources.php:362 ../options/wpvr.options.fetching.php:117
+msgid "Get Video Tags"
+msgstr "获得视频标签"
+
+#: ../includes/wpvr.sources.php:363
+msgid "Do not get Video Tags"
+msgstr "不取得视频标签"
+
+#: ../includes/wpvr.sources.php:372
+msgid "Choose one or more categories"
+msgstr "选择一个或更多分类"
+
+#: ../includes/wpvr.sources.php:383
+msgid "Enter one or more tags"
+msgstr "输入一个或更多标签"
+
+#: ../includes/wpvr.sources.php:404
+msgid "Source Posting Options"
+msgstr "分类张贴选项"
+
+#: ../includes/wpvr.sources.php:411 ../includes/wpvr.sources.php:417
+msgid "AutoPublish"
+msgstr "自动发布"
+
+#: ../includes/wpvr.sources.php:418
+msgid "Post as draft"
+msgstr "以草稿张贴"
+
+#: ../includes/wpvr.sources.php:423 ../includes/wpvr.sources.php:431
+msgid "Post to"
+msgstr "张贴至"
+
+#: ../includes/wpvr.sources.php:433
+msgid "Edit or Add the Categories"
+msgstr "编辑或加入分类"
+
+#: ../includes/wpvr.sources.php:444
+msgid "Post Author"
+msgstr "张贴作者"
+
+#: ../includes/wpvr.sources.php:445
+msgid "Choose the author of the autoposting"
+msgstr "选择自动张贴作者"
+
+#: ../includes/wpvr.sources.php:454 ../includes/wpvr.videos.php:440 ..
+#: definitions/wpvr.globals.php:52
+msgid "Post Date"
+msgstr "张贴日期"
+
+#: ../includes/wpvr.sources.php:455
+msgid "Choose the date of the autoposting"
+msgstr "选择自动张贴日期"
+
+#: ../includes/wpvr.sources.php:460
+#: ../functions/wpvr.functions.sources.php:1699
+msgid "Original Date"
+msgstr "原本日期"
+
+#: ../includes/wpvr.sources.php:461
+#: ../functions/wpvr.functions.sources.php:1699
+msgid "Updated Date"
+msgstr "更新日期"
+
+#: ../includes/wpvr.sources.php:467
+msgid "Post Title Affix"
+msgstr "张贴标题词缀"
+
+#: ../includes/wpvr.sources.php:468
+msgid ""
+"Choose to add the name of the source or a custom text before or after the "
+"video title."
+msgstr "选择一个来源名字或自定义文本添加于视频标题之前或之后。"
+
+#: ../includes/wpvr.sources.php:472 ../includes/wpvr.sources.php:500 ..
+#: functions/wpvr.functions.utils.php:280
+msgid "Disabled"
+msgstr "禁用"
+
+#: ../includes/wpvr.sources.php:473
+msgid "Add source name before the video title"
+msgstr "加入来源名字于视频标题之前"
+
+#: ../includes/wpvr.sources.php:474
+msgid "Add source name after the video title"
+msgstr "加入来源名字于视频标题之后"
+
+#: ../includes/wpvr.sources.php:475
+msgid "Add custom text before the video title"
+msgstr "加入自定义文本于视频标题之前"
+
+#: ../includes/wpvr.sources.php:476
+msgid "Add custom text after the video title"
+msgstr "加入自定义文本于视频标题之后"
+
+#: ../includes/wpvr.sources.php:481
+msgid "Custom Text Affix"
+msgstr "自定义文本词缀"
+
+#: ../includes/wpvr.sources.php:482
+msgid "Choose a custom text to add before or after the video title."
+msgstr "选择一个自定义文本添加于视频标题之前或之后。"
+
+#: ../includes/wpvr.sources.php:495 ../includes/wpvr.sources.php:507
+msgid "Post Tags"
+msgstr "张贴标签"
+
+#: ../includes/wpvr.sources.php:496
+msgid ""
+"Choose whether to auto apply tags to the imported videos of this source."
+msgstr "选择是否自动应用标签于这来源所导入的视频。"
+
+#: ../includes/wpvr.sources.php:501
+msgid "Default Tags"
+msgstr "默认标签。"
+
+#: ../includes/wpvr.sources.php:502
+msgid "Custom Tags"
+msgstr "自定义标签。"
+
+#: ../includes/wpvr.sources.php:510
+msgid "Enter your custom tags."
+msgstr "输入您的自定义标签。"
+
+#: ../includes/wpvr.sources.php:538
+msgid "Source Filtering Options"
+msgstr "过滤来源选项"
+
+#: ../includes/wpvr.sources.php:545 ../includes/wpvr.sources.php:558
+msgid "Published After"
+msgstr "之后发布"
+
+#: ../includes/wpvr.sources.php:548 ../options/wpvr.options.fetching.php:51
+msgid "Import only videos published after this date."
+msgstr "仅导入此日期之后发布的视频。"
+
+#: ../includes/wpvr.sources.php:549 ../includes/wpvr.sources.php:574 ..
+#: options/wpvr.options.fetching.php:52 ../options/wpvr.options.fetching.php:64
+msgid "Leave empty to ignore this criterion."
+msgstr "留空以忽略此标准。"
+
+#: ../includes/wpvr.sources.php:550 ../includes/wpvr.sources.php:575 ..
+#: includes/wpvr.sources.php:600 ../options/wpvr.options.fetching.php:53 ..
+#: options/wpvr.options.fetching.php:65
+msgid "Supported only by Youtube and Dailymotion."
+msgstr "只有由YouTube和DailyMotion支持 。"
+
+#: ../includes/wpvr.sources.php:571 ../includes/wpvr.sources.php:586
+msgid "Published Before"
+msgstr "之前发布"
+
+#: ../includes/wpvr.sources.php:573 ../options/wpvr.options.fetching.php:63
+msgid "Import only videos published before this date."
+msgstr "仅导入此日期之前发布的视频。"
+
+#: ../includes/wpvr.sources.php:598
+msgid "Duration"
+msgstr "视频长短"
+
+#: ../includes/wpvr.sources.php:599
+msgid ""
+"Filter fetched videos by duration. Note it works only for Search sources."
+msgstr "通过长度筛选视频。注意它仅适用于搜索来源。"
+
+#: ../includes/wpvr.sources.php:605 ../includes/wpvr.sources.php:621 ..
+#: includes/wpvr.videos.php:46 ../options/wpvr.options.fetching.php:77 ..
+#: options/wpvr.options.fetching.php:90 ../hooks/wpvr.hooks.menus.php:423
+msgid "All Videos"
+msgstr "全部视频"
+
+#: ../includes/wpvr.sources.php:606 ../options/wpvr.options.fetching.php:91
+msgid "Videos less than 4min."
+msgstr "少于 4 分钟的视频"
+
+#: ../includes/wpvr.sources.php:607 ../options/wpvr.options.fetching.php:92
+msgid "Videos between 4min. and 20min."
+msgstr "4 分钟至 20 分钟的视频"
+
+#: ../includes/wpvr.sources.php:608 ../options/wpvr.options.fetching.php:93
+msgid "Videos longer than 20min."
+msgstr "长过 20 分钟的视频"
+
+#: ../includes/wpvr.sources.php:614
+msgid "Video Quality"
+msgstr "视频品质"
+
+#: ../includes/wpvr.sources.php:615
+msgid "Filter fetched videos by quality and definition."
+msgstr "过滤器获取视频的质量和清晰度。"
+
+#: ../includes/wpvr.sources.php:616
+msgid "Supported only by Youtube, Vimeo and Dailymotion."
+msgstr "只有由YouTube ， Vimeo和DailyMotion支持 。"
+
+#: ../includes/wpvr.sources.php:622 ../options/wpvr.options.fetching.php:78
+msgid "Only High Definition Videos"
+msgstr "只选高清视频"
+
+#: ../includes/wpvr.sources.php:623 ../options/wpvr.options.fetching.php:79
+msgid "Only Standard Definitions Videos"
+msgstr "只选标准视频"
+
+#: ../includes/wpvr.sources.php:650
+msgid "Source Actions"
+msgstr "来源操作"
+
+#: ../includes/wpvr.sources.php:719 ../includes/wpvr.videos.php:130
+msgid "Plugin Version"
+msgstr "插件版本"
+
+#: ../includes/wpvr.sources.php:729
+msgid "Source Schedule"
+msgstr "来源日程"
+
+#: ../includes/wpvr.sources.php:736
+msgid "Source is active"
+msgstr "来源激活"
+
+#: ../includes/wpvr.sources.php:741 ../includes/wpvr.videos.php:374 ..
+#: includes/wpvr.videos.php:389 ../includes/wpvr.videos.php:403
+#: ../includes/wpvr. videos.php:417 ../includes/wpvr.videos.php:431
+#: ../includes/wpvr.videos.php:445
+msgid "YES"
+msgstr "是"
+
+#: ../includes/wpvr.sources.php:742 ../includes/wpvr.videos.php:375 ..
+#: includes/wpvr.videos.php:390 ../includes/wpvr.videos.php:404
+#: ../includes/wpvr. videos.php:418 ../includes/wpvr.videos.php:432
+#: ../includes/wpvr.videos.php:446
+msgid "NO"
+msgstr "否"
+
+#: ../includes/wpvr.sources.php:747
+msgid "Scheduled Cron Job"
+msgstr "Cron 程没定"
+
+#: ../includes/wpvr.sources.php:752
+msgid "Run Hourly"
+msgstr "每小时运行"
+
+#: ../includes/wpvr.sources.php:753
+msgid "Run Daily"
+msgstr "每日运行"
+
+#: ../includes/wpvr.sources.php:754
+msgid "Run Weekly"
+msgstr "每周运行"
+
+#: ../includes/wpvr.sources.php:755
+msgid "Run Once"
+msgstr "运行一次"
+
+#: ../includes/wpvr.sources.php:760
+msgid "Choose a date"
+msgstr "选择日期"
+
+#: ../includes/wpvr.sources.php:767
+msgid "Choose a day"
+msgstr "选择天"
+
+#: ../includes/wpvr.sources.php:775
+msgid "Choose a time"
+msgstr "选择时间"
+
+#: ../includes/wpvr.sources.php:791 ../functions/wpvr.functions.sources.php:16
+msgid "channels"
+msgstr "频道"
+
+#: ../includes/wpvr.sources.php:796 ../functions/wpvr.functions.sources.php:20
+msgid "playlists"
+msgstr "播放列表"
+
+#: ../includes/wpvr.sources.php:810 ../functions/wpvr.functions.sources.php:33
+msgid "Wanted videos"
+msgstr "想要视频"
+
+#: ../includes/wpvr.sources.php:811 ../functions/wpvr.functions.sources.php:34
+msgid "Imported videos"
+msgstr "已输入视频"
+
+#: ../includes/wpvr.sources.php:813 ../functions/wpvr.functions.sources.php:36
+msgid "TESTED"
+msgstr "测试了"
+
+#: ../includes/wpvr.sources.php:813 ../includes/wpvr.sources.php:814 ..
+#: includes/wpvr.dashboard.php:733 ../functions/wpvr.functions.sources.php:36
+#: .. functions/wpvr.functions.sources.php:37
+msgid "times"
+msgstr "时间"
+
+#: ../includes/wpvr.sources.php:814 ../functions/wpvr.functions.sources.php:37
+msgid "RUN"
+msgstr "运行"
+
+#: ../includes/wpvr.sources.php:817 ../includes/wpvr.sources.php:820 ..
+#: functions/wpvr.functions.utils.php:1161
+msgid "Start by saving your source"
+msgstr "从保存来源开始"
+
+#: ../includes/wpvr.sources.php:999 ../includes/wpvr.sources.php:1005 ..
+#: includes/wpvr.sources.php:1008 ../includes/wpvr.sources.php:1010 ..
+#: includes/wpvr.sources.php:1014
+#, php-format
+msgid ""
+"Source updated. <a class=\"add-new-h2 wpvr_notice_link\" target = \"_blank\" "
+"href=\"%s\"><i class=\"fa fa-eye\"></i>Test this source</a> <a class=\"add-"
+"new-h2 wpvr_notice_link\" target = \"_blank\" href=\"%s\"><i class=\"fa fa-"
+"bolt\"></i>Run this source</a>"
+msgstr ""
+"来源更新. <a class=\"add-new-h2 wpvr_notice_link\" target = \"_blank\" "
+"href=\"%s\"><i class=\"fa fa-eye\"></i>Test this source</a> <a class=\"add-"
+"new-h2 wpvr_notice_link\" target = \"_blank\" href=\"%s\"><i class=\"fa fa-"
+"bolt\"></i>Run this source</a>"
+
+#: ../includes/wpvr.sources.php:1000
+msgid "Custom field updated."
+msgstr "自定义字段更新。"
+
+#: ../includes/wpvr.sources.php:1001
+msgid "Custom field deleted."
+msgstr "自定义字段删除。"
+
+#: ../includes/wpvr.sources.php:1002
+msgid "Source updated."
+msgstr "来源更新。"
+
+#. translators: %s: date and time of the revision
+#: ../includes/wpvr.sources.php:1004
+#, php-format
+msgid "Source restored to revision from %s"
+msgstr "来源 %s 的恢复修订"
+
+#: ../includes/wpvr.sources.php:1007
+msgid "Source saved."
+msgstr "来源被保存。"
+
+#: ../includes/wpvr.licences.php:120 ../definitions/wpvr.globals.php:175 ..
+#: definitions/wpvr.globals.php:177
+msgid "Reset Activation"
+msgstr "重置激活"
+
+#: ../includes/wpvr.import.php:136 ../includes/wpvr.import.php:210 ..
+#: includes/wpvr.import.php:311 ../ajax/wpvr.ajax.manage.php:347
+msgid "There was an error uploading the file, please try again!"
+msgstr "上传文件有错误，请再试一次！"
+
+#: ../includes/wpvr.import.php:155 ../includes/wpvr.import.php:180 ..
+#: includes/wpvr.import.php:233 ../includes/wpvr.videos.php:317
+#: ../includes/wpvr. actions.php:103 ../includes/wpvr.actions.php:426
+#: ../includes/wpvr.actions.php: 474 ../includes/wpvr.actions.php:529
+#: ../includes/wpvr.actions.php:560 .. hooks/wpvr.hooks.menus.php:307
+#: ../hooks/wpvr.hooks.assets.php:46 ..
+#: functions/wpvr.functions.globals.php:209
+msgid "WP Video Robot"
+msgstr "WP 视频机械"
+
+#: ../includes/wpvr.import.php:155 ../includes/wpvr.import.php:180
+msgid "Importing Options"
+msgstr "输入选项"
+
+#: ../includes/wpvr.import.php:158 ../includes/wpvr.import.php:236 ..
+#: includes/wpvr.import.php:332
+msgid "The uploaded file is not valid !"
+msgstr "所上载文件无效！"
+
+#: ../includes/wpvr.import.php:159 ../includes/wpvr.import.php:189 ..
+#: includes/wpvr.import.php:237 ../includes/wpvr.import.php:273
+#: ../includes/wpvr. import.php:333 ../includes/wpvr.import.php:454
+#: ../includes/wpvr.actions.php: 115 ../includes/wpvr.actions.php:436
+#: ../includes/wpvr.actions.php:485 .. includes/wpvr.actions.php:571
+#: ../functions/wpvr.functions.sources.php:1382 ..
+#: functions/wpvr.functions.sources.php:2622
+msgid "Go Back"
+msgstr "退回"
+
+#: ../includes/wpvr.import.php:184
+msgid "Options were successfully imported !"
+msgstr "成功导入选项！"
+
+#: ../includes/wpvr.import.php:233 ../includes/wpvr.import.php:259
+msgid "Importing sources"
+msgstr "输入来源"
+
+#: ../includes/wpvr.import.php:264
+msgid "Sources were successfully imported !"
+msgstr "成功导入来源！"
+
+#: ../includes/wpvr.import.php:268
+msgid "source(s) found."
+msgstr "所寻获来源"
+
+#: ../includes/wpvr.import.php:269
+msgid "source(s) successfully imported."
+msgstr "成功导入来源。"
+
+#: ../includes/wpvr.import.php:329 ../includes/wpvr.import.php:435
+msgid "Importing videos ..."
+msgstr "正输入视频。。。"
+
+#: ../includes/wpvr.import.php:442
+msgid "Videos were successfully imported !"
+msgstr "成功导入视频！"
+
+#: ../includes/wpvr.import.php:447
+msgid "video(s) found."
+msgstr "所寻获视频。"
+
+#: ../includes/wpvr.import.php:448 ../functions/wpvr.functions.sources.php:1378
+msgid "video(s) successfully imported."
+msgstr "视频导入成功。"
+
+#: ../includes/wpvr.import.php:449
+msgid "duplicate video(s) skipped."
+msgstr "跳过重复的视频。"
+
+#: ../includes/wpvr.import.php:471 ../hooks/wpvr.hooks.menus.php:89
+#: ../hooks/wpvr. hooks.menus.php:262
+msgid "Import Panel"
+msgstr "输入面板"
+
+#: ../includes/wpvr.import.php:480
+msgid "IMPORT SOURCES"
+msgstr "输入来源"
+
+#: ../includes/wpvr.import.php:488 ../includes/wpvr.import.php:526 ..
+#: includes/wpvr.import.php:601
+msgid ""
+"Choose a JSON (.json) file to upload, then click Upload file and import."
+msgstr "选择一个 JSON (.json) 文件以上载，然后点击上载文件和导入。"
+
+#: ../includes/wpvr.import.php:491 ../includes/wpvr.import.php:529 ..
+#: includes/wpvr.import.php:604
+msgid "Choose a file from your computer: (Maximum size: 32 MB)"
+msgstr "从电脑选择文件: (最大容量：32MB)"
+
+#: ../includes/wpvr.import.php:496
+msgid "Toggle Off Imported sources :"
+msgstr "切换关闭输入来源:"
+
+#: ../includes/wpvr.import.php:498 ../includes/wpvr.import.php:558 ..
+#: includes/wpvr.import.php:564 ../hooks/wpvr.hooks.assets.php:58
+msgid "Yes"
+msgstr "是"
+
+#: ../includes/wpvr.import.php:499 ../includes/wpvr.import.php:559 ..
+#: includes/wpvr.import.php:565 ../hooks/wpvr.hooks.assets.php:59
+msgid "No"
+msgstr "否"
+
+#: ../includes/wpvr.import.php:505 ../includes/wpvr.import.php:573 ..
+#: includes/wpvr.import.php:611
+msgid "Upload the file and import"
+msgstr "上载文件和导入"
+
+#: ../includes/wpvr.import.php:518
+msgid "IMPORT VIDEOS"
+msgstr "上载视频"
+
+#: ../includes/wpvr.import.php:533
+msgid "Publish Action :"
+msgstr "发布操作："
+
+#: ../includes/wpvr.import.php:536
+msgid "Keep original publish date"
+msgstr "保存原有发布日期"
+
+#: ../includes/wpvr.import.php:539
+msgid "Publish Now"
+msgstr "现在发布"
+
+#: ../includes/wpvr.import.php:543
+msgid "Posting Author :"
+msgstr "张贴作者："
+
+#: ../includes/wpvr.import.php:556
+msgid "Reset Views :"
+msgstr "重置浏览率："
+
+#: ../includes/wpvr.import.php:562
+msgid "Skip Duplicates :"
+msgstr "跳过重复："
+
+#: ../includes/wpvr.import.php:594
+msgid "IMPORT OPTIONS"
+msgstr "输入选项"
+
+#: ../includes/wpvr.unwanted.php:130 ../includes/wpvr.unwanted.php:235 ..
+#: includes/wpvr.deferred.php:91 ../includes/wpvr.deferred.php:187 ..
+#: functions/wpvr.functions.globals.php:307
+msgid "REFRESH"
+msgstr "更新"
+
+#: ../includes/wpvr.unwanted.php:139 ../includes/wpvr.unwanted.php:249 ..
+#: includes/wpvr.deferred.php:106 ../includes/wpvr.deferred.php:205
+msgid "REMOVE SELECTED"
+msgstr "删除选定"
+
+#: ../includes/wpvr.welcome.php:13 ../hooks/wpvr.hooks.menus.php:118 ..
+#: hooks/wpvr.hooks.menus.php:290
+msgid "Plugin Dashboard"
+msgstr "插件仪表板"
+
+#: ../includes/wpvr.welcome.php:27 ../options/wpvr.options.php:58
+#: ../hooks/wpvr. hooks.menus.php:53 ../hooks/wpvr.hooks.menus.php:227
+#: ../functions/wpvr. functions.globals.php:196
+msgid "Manage Options"
+msgstr "选项管理"
+
+#: ../includes/wpvr.welcome.php:38 ../addons/wpvr.addons.php:61 ../addons/wpvr.
+#: addons.browse.php:140 ../hooks/wpvr.hooks.menus.php:141 ../hooks/wpvr.hooks.
+#: menus.php:462 ../functions/wpvr.functions.globals.php:203
+msgid "Browse Addons"
+msgstr "浏览插件"
+
+#: ../includes/wpvr.welcome.php:52 ../functions/wpvr.functions.utils.php:3929
+#: .. functions/wpvr.functions.globals.php:219
+#: ../functions/wpvr.functions.core.php: 616
+msgid "Get Support"
+msgstr "支援"
+
+#: ../includes/wpvr.welcome.php:60 ../functions/wpvr.functions.addons.php:291
+#: .. functions/wpvr.functions.core.php:613
+msgid "Documentation"
+msgstr "文件"
+
+#: ../includes/wpvr.datafillers.php:26
+msgid "Add from Presets"
+msgstr "从预设添加"
+
+#: ../includes/wpvr.datafillers.php:29
+msgid "DataFiller Preset"
+msgstr "数据填充预设"
+
+#: ../includes/wpvr.datafillers.php:31
+msgid "Choose a preset"
+msgstr "选择预设"
+
+#: ../includes/wpvr.datafillers.php:48
+msgid "ADD FILLERS FROM PRESET"
+msgstr "从预设加入添加"
+
+#: ../includes/wpvr.datafillers.php:60
+msgid "Add a new Filler"
+msgstr "加入新添加"
+
+#: ../includes/wpvr.datafillers.php:65
+msgid "Video Data to add"
+msgstr "视频数据加入"
+
+#: ../includes/wpvr.datafillers.php:67
+msgid "Choose a data"
+msgstr "选择数据"
+
+#: ../includes/wpvr.datafillers.php:69 ../includes/wpvr.videos.php:1168 ..
+#: definitions/wpvr.globals.php:1344
+msgid "Video ID"
+msgstr "视频ID"
+
+#: ../includes/wpvr.datafillers.php:76 ../definitions/wpvr.globals.php:1349
+msgid "Video Embed Code"
+msgstr "视频嵌入代码"
+
+#: ../includes/wpvr.datafillers.php:80 ../definitions/wpvr.globals.php:1347
+msgid "Video URL"
+msgstr "视频连接"
+
+#: ../includes/wpvr.datafillers.php:83 ../definitions/wpvr.globals.php:1348
+msgid "Video URL (https)"
+msgstr "视频连接（HTTPS）"
+
+#: ../includes/wpvr.datafillers.php:86 ../definitions/wpvr.globals.php:1351
+msgid "Video Duration"
+msgstr "视频长短"
+
+#: ../includes/wpvr.datafillers.php:89 ../definitions/wpvr.globals.php:1350
+msgid "Video Thumbnail"
+msgstr "视频缩略图"
+
+#: ../includes/wpvr.datafillers.php:92 ../definitions/wpvr.globals.php:1352
+msgid "Video Original Views"
+msgstr "视频原文浏览"
+
+#: ../includes/wpvr.datafillers.php:95 ../definitions/wpvr.globals.php:1345
+msgid "Dynamic Video Views"
+msgstr "动态视频浏览"
+
+#: ../includes/wpvr.datafillers.php:98
+msgid "Custom Data"
+msgstr "自定义数据"
+
+#: ../includes/wpvr.datafillers.php:106
+msgid "Custom String"
+msgstr "自定义字符串"
+
+#: ../includes/wpvr.datafillers.php:111
+msgid "Custom Field name to populate"
+msgstr "自定义字段名称来填充"
+
+#: ../includes/wpvr.datafillers.php:112
+msgid "Custom Field Name"
+msgstr "自定义字段名称"
+
+#: ../includes/wpvr.datafillers.php:122
+msgid "ADD SINGLE FILLER"
+msgstr "加入单添加"
+
+#: ../includes/wpvr.videos.php:42
+msgctxt "Post Type General Name"
+msgid "Videos"
+msgstr "视频"
+
+#: ../includes/wpvr.videos.php:43
+msgctxt "Post Type Singular Name"
+msgid "Video"
+msgstr "视频"
+
+#: ../includes/wpvr.videos.php:44
+msgid "Videos"
+msgstr "视频"
+
+#: ../includes/wpvr.videos.php:45
+msgid "Parent Item:"
+msgstr "主要项目："
+
+#: ../includes/wpvr.videos.php:47
+msgid "View Video"
+msgstr "查看视频"
+
+#: ../includes/wpvr.videos.php:48 ../functions/wpvr.functions.globals.php:90
+msgid "Add New Video"
+msgstr "加入新视频"
+
+#: ../includes/wpvr.videos.php:49
+msgid "Add New"
+msgstr "加入新"
+
+#: ../includes/wpvr.videos.php:50
+msgid "Edit Video"
+msgstr "编辑视频"
+
+#: ../includes/wpvr.videos.php:51
+msgid "Update Video"
+msgstr "更新视频"
+
+#: ../includes/wpvr.videos.php:52
+msgid "Search Video"
+msgstr "寻找视频"
+
+#: ../includes/wpvr.videos.php:53
+msgid "Not found"
+msgstr "找不到"
+
+#: ../includes/wpvr.videos.php:54
+msgid "Not found in Trash"
+msgstr "在垃圾桶里找不到"
+
+#: ../includes/wpvr.videos.php:57 ../includes/wpvr.videos.php:1160
+msgid "video"
+msgstr "视频"
+
+#: ../includes/wpvr.videos.php:58 ../options/wpvr.options.posting.php:46
+msgid "Video"
+msgstr "视频"
+
+#: ../includes/wpvr.videos.php:107
+msgid ""
+"Embed this video in any post or page, simply by including this shortcode."
+msgstr "只需通过包括本简码，嵌入视频中任何文章或网页。"
+
+#: ../includes/wpvr.videos.php:361
+msgid "Toggle All"
+msgstr "切换所有"
+
+#: ../includes/wpvr.videos.php:369
+msgid "Enable Grabbing"
+msgstr "启用强取功能"
+
+#: ../includes/wpvr.videos.php:378
+msgid "Enable this to get the video data"
+msgstr "启用此来获取视频数据"
+
+#: ../includes/wpvr.videos.php:393
+msgid "Grab the video Title"
+msgstr "取得视频标题"
+
+#: ../includes/wpvr.videos.php:398 ../includes/wpvr.videos.php:1062 ..
+#: definitions/wpvr.globals.php:42
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: ../includes/wpvr.videos.php:407
+msgid "Grab the video Thumbnail"
+msgstr "取得视频缩略图"
+
+#: ../includes/wpvr.videos.php:412 ../definitions/wpvr.globals.php:37
+msgid "Description"
+msgstr "描述"
+
+#: ../includes/wpvr.videos.php:421
+msgid "Grab the video Description"
+msgstr "取得视频描述"
+
+#: ../includes/wpvr.videos.php:435
+msgid "Grab the video tags"
+msgstr "取得视频标签"
+
+#: ../includes/wpvr.videos.php:449
+msgid "Grab the video original post date"
+msgstr "取得视频原帖日期"
+
+#: ../includes/wpvr.videos.php:507
+msgid "Start Time"
+msgstr "开始时间"
+
+#: ../includes/wpvr.videos.php:518
+msgid "End Time"
+msgstr "结束时间"
+
+#: ../includes/wpvr.videos.php:837 ../includes/wpvr.videos.php:860 ..
+#: includes/wpvr.videos.php:888 ../definitions/wpvr.globals.php:1336
+msgid "Invalid"
+msgstr "无效"
+
+#: ../includes/wpvr.videos.php:841
+#, php-format
+msgid "Invalid <span class=\"count\">(%s)</span>"
+msgid_plural "Invalid <span class=\"count\">(%s)</span>"
+msgstr[0] "无效的<span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: ../includes/wpvr.videos.php:958 ../hooks/wpvr.hooks.notices.php:137 ..
+#: hooks/wpvr.hooks.notices.php:211
+msgid "WP Video Robot WARNING"
+msgstr "WP 视频机械警告"
+
+#: ../includes/wpvr.videos.php:961
+msgid "Restriction mode is ON"
+msgstr "限制模式开启"
+
+#: ../includes/wpvr.videos.php:962
+msgid ""
+"You can view or edit your own sources and videos only unless you have Admin "
+"role."
+msgstr "只有管理员的角色可以查看或编辑自己的视频。"
+
+#: ../includes/wpvr.videos.php:1216
+msgid "Posted"
+msgstr "张贴"
+
+#: ../includes/wpvr.videos.php:1223
+msgid "Posted by"
+msgstr "由张贴"
+
+#: ../includes/wpvr.videos.php:1231
+msgid "Posted in"
+msgstr "张贴在"
+
+#: ../includes/wpvr.videos.php:1239
+msgid "Source :"
+msgstr "来源："
+
+#: ../includes/wpvr.deferred.php:31
+msgid "video(s) waiting to be added."
+msgstr "等待被加入视频"
+
+#: ../includes/wpvr.deferred.php:43 ../hooks/wpvr.hooks.menus.php:71 ..
+#: hooks/wpvr.hooks.menus.php:244 ../hooks/wpvr.hooks.menus.php:441 ..
+#: functions/wpvr.functions.globals.php:102
+msgid "Deferred Videos"
+msgstr "延期的视频"
+
+#: ../includes/wpvr.deferred.php:50 ../includes/wpvr.deferred.php:57 ..
+#: includes/wpvr.deferred.php:81
+msgid "There is no deferred video."
+msgstr "没有推迟视频"
+
+#: ../includes/wpvr.deferred.php:97 ../includes/wpvr.deferred.php:196 ..
+#: functions/wpvr.functions.sources.php:1501
+#: ../functions/wpvr.functions.sources. php:1978
+msgid "BATCH ADD SELECTED"
+msgstr "选择批量添加"
+
+#: ../includes/wpvr.deferred.php:114 ../includes/wpvr.deferred.php:213 ..
+#: functions/wpvr.functions.sources.php:1508
+#: ../functions/wpvr.functions.sources. php:1514
+#: ../functions/wpvr.functions.sources.php:1985 ../functions/wpvr.
+#: functions.sources.php:1991
+msgid "ADD"
+msgstr "添加"
+
+#: ../includes/wpvr.deferred.php:114 ../includes/wpvr.deferred.php:213 ..
+#: functions/wpvr.functions.sources.php:1514
+#: ../functions/wpvr.functions.sources. php:1991
+msgid "ITEMS"
+msgstr "项目"
+
+#: ../includes/wpvr.deferred.php:126
+msgid "There is no deferred videos."
+msgstr "没有推迟视频"
+
+#: ../includes/wpvr.actions.php:103
+msgid "Adapting Old Data"
+msgstr "调整旧数据"
+
+#: ../includes/wpvr.actions.php:109
+msgid "All your videos and sources have been successfully adapted !"
+msgstr "您的所有视频和来源已经成功调整！"
+
+#: ../includes/wpvr.actions.php:426
+msgid "ANTI DUPLICATES FILTER"
+msgstr "防重复过滤器"
+
+#: ../includes/wpvr.actions.php:432
+msgid "The anti duplicates filter is now ON."
+msgstr "防重复过滤器已经被启动。"
+
+#: ../includes/wpvr.actions.php:474
+msgid "Exporting Videos"
+msgstr "输出视频"
+
+#: ../includes/wpvr.actions.php:480
+msgid "Videos were successfully exported !"
+msgstr "视频成功被输出！"
+
+#: ../includes/wpvr.actions.php:483 ../includes/wpvr.actions.php:569
+msgid "Please wait, your download will shortly begin."
+msgstr "请稍等，您的下载将很快开始。"
+
+#: ../includes/wpvr.actions.php:529 ../includes/wpvr.actions.php:560
+msgid "Exporting sources"
+msgstr "输出来源"
+
+#: ../includes/wpvr.actions.php:566
+msgid "Sources were successfully exported !"
+msgstr "来源成功被输出！"
+
+#: ../includes/wpvr.actions.php:662
+msgid "Testing Sources"
+msgstr "测试来源"
+
+#: ../includes/wpvr.dashboard.php:12 ../addons/wpvr.addons.manage.php:51 ..
+#: hooks/wpvr.hooks.menus.php:8
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: ../includes/wpvr.dashboard.php:40 ../includes/wpvr.dashboard.php:43 ..
+#: hooks/wpvr.hooks.menus.php:321
+msgid "Sources & Videos"
+msgstr "来源和视频"
+
+#: ../includes/wpvr.dashboard.php:46 ../includes/wpvr.dashboard.php:49
+msgid "Automation Stats"
+msgstr "自动化统计"
+
+#: ../includes/wpvr.dashboard.php:53 ../includes/wpvr.dashboard.php:56 ..
+#: includes/wpvr.manage.php:78 ../hooks/wpvr.hooks.menus.php:333
+msgid "Track Duplicates"
+msgstr "追踪重复"
+
+#: ../includes/wpvr.dashboard.php:60 ../includes/wpvr.dashboard.php:63
+msgid "Data Fillers"
+msgstr "数据填充"
+
+#: ../includes/wpvr.dashboard.php:68 ../includes/wpvr.dashboard.php:71 ..
+#: hooks/wpvr.hooks.menus.php:345
+msgid "Admin Actions"
+msgstr "管理措施"
+
+#: ../includes/wpvr.dashboard.php:141
+#: ../functions/wpvr.functions.globals.php:36
+msgid "YOUR VIDEOS"
+msgstr "您的视频"
+
+#: ../includes/wpvr.dashboard.php:153 ../hooks/wpvr.hooks.shortcodes.php:48 ..
+#: functions/wpvr.functions.sources.php:1450
+#: ../functions/wpvr.functions.sources. php:1455
+#: ../functions/wpvr.functions.sources.php:1460 ../functions/wpvr.
+#: functions.sources.php:1465 ../functions/wpvr.functions.globals.php:51
+msgid "videos"
+msgstr "视频"
+
+#: ../includes/wpvr.dashboard.php:157
+#: ../functions/wpvr.functions.globals.php:54
+msgid "There is no video."
+msgstr "没有视频。"
+
+#: ../includes/wpvr.dashboard.php:163
+msgid "Import your first video."
+msgstr "输入您的第一支视频。"
+
+#: ../includes/wpvr.dashboard.php:210
+msgid "YOUR VIDEOS - By Service"
+msgstr "您的视频 - 根据服务"
+
+#: ../includes/wpvr.dashboard.php:254
+msgid "YOUR VIDEOS - By Category"
+msgstr "您的视频 - 根据类别"
+
+#: ../includes/wpvr.dashboard.php:299
+msgid "YOUR VIDEOS - By Author"
+msgstr "您的视频 - 根据作者"
+
+#: ../includes/wpvr.dashboard.php:348
+msgid "YOUR SOURCES"
+msgstr "您的来源"
+
+#: ../includes/wpvr.dashboard.php:358
+#: ../functions/wpvr.functions.globals.php:128
+msgid "sources"
+msgstr "来源"
+
+#: ../includes/wpvr.dashboard.php:362
+#: ../functions/wpvr.functions.globals.php:131
+msgid "There is no source."
+msgstr "没有来源。"
+
+#: ../includes/wpvr.dashboard.php:369
+msgid "Create your first source."
+msgstr "创建您的第一来源。"
+
+#: ../includes/wpvr.dashboard.php:428
+msgid "YOUR SOURCES - By Service"
+msgstr "您的来源 - 根据服务"
+
+#: ../includes/wpvr.dashboard.php:471
+msgid "YOUR SOURCES - By State"
+msgstr "您的来源 - 根据统计"
+
+#: ../includes/wpvr.dashboard.php:512
+msgid "YOUR SOURCES - By Status"
+msgstr "您的来源 - 根据状态"
+
+#: ../includes/wpvr.dashboard.php:552
+msgid "BOX TITLE"
+msgstr "框标题"
+
+#: ../includes/wpvr.dashboard.php:602 ../options/wpvr.options.api.php:7
+msgid "Important Notice"
+msgstr "重要告示"
+
+#: ../includes/wpvr.dashboard.php:631
+msgid "Automation Status"
+msgstr "自动化状态"
+
+#: ../includes/wpvr.dashboard.php:639
+msgid "ON"
+msgstr "开启"
+
+#: ../includes/wpvr.dashboard.php:641
+msgid "OFF"
+msgstr "关闭"
+
+#: ../includes/wpvr.dashboard.php:645
+msgid "All the time"
+msgstr "每时每刻"
+
+#: ../includes/wpvr.dashboard.php:650
+msgid "from"
+msgstr "从"
+
+#: ../includes/wpvr.dashboard.php:650
+msgid "to"
+msgstr "至"
+
+#: ../includes/wpvr.dashboard.php:653
+msgid "Real Cron Service"
+msgstr "真正 Cron 服务"
+
+#: ../includes/wpvr.dashboard.php:681
+msgid "CRON never worked!"
+msgstr "CRON 没有成功运作！"
+
+#: ../includes/wpvr.dashboard.php:683
+msgid "CRON is working!"
+msgstr "CRON 成功运作！"
+
+#: ../includes/wpvr.dashboard.php:685
+msgid "CRON has been stopped for"
+msgstr "CRON 已停止"
+
+#: ../includes/wpvr.dashboard.php:685
+msgid "seconds."
+msgstr "秒。"
+
+#: ../includes/wpvr.dashboard.php:694
+msgid "Cron status"
+msgstr "Cron 状态"
+
+#: ../includes/wpvr.dashboard.php:698
+msgid "AutoRun mode is"
+msgstr "自动运行模式"
+
+#: ../includes/wpvr.dashboard.php:701
+msgid "WP Video Robot is using"
+msgstr "WP 视频机械正在启用"
+
+#: ../includes/wpvr.dashboard.php:704
+msgid "WP Video Robot is working"
+msgstr "WP 视频机械正在运作"
+
+#: ../includes/wpvr.dashboard.php:708
+msgid "First Execution"
+msgstr "第一次执行"
+
+#: ../includes/wpvr.dashboard.php:714 ../includes/wpvr.dashboard.php:725
+msgid "Never"
+msgstr "从没"
+
+#: ../includes/wpvr.dashboard.php:720
+msgid "Last Execution"
+msgstr "最后执行"
+
+#: ../includes/wpvr.dashboard.php:731
+msgid "Cron executed"
+msgstr "Cron 已执行"
+
+#: ../includes/wpvr.manage.php:59 ../hooks/wpvr.hooks.menus.php:44
+#: ../hooks/wpvr. hooks.menus.php:160 ../hooks/wpvr.hooks.menus.php:218
+#: ../hooks/wpvr.hooks. menus.php:435
+#: ../functions/wpvr.functions.globals.php:190
+msgid "Manage Videos"
+msgstr "视频管理"
+
+#: ../includes/wpvr.manage.php:82
+msgid "Export All Videos"
+msgstr "输出所有视频"
+
+#: ../includes/wpvr.manage.php:92 ../hooks/wpvr.hooks.assets.php:45
+msgid "Import Videos"
+msgstr "输入视频"
+
+#: ../includes/wpvr.manage.php:99
+msgid "Search Videos"
+msgstr "寻找视频"
+
+#: ../includes/wpvr.manage.php:122
+msgid "CHECK/UNCHECK ALL"
+msgstr "点选/不点选全部"
+
+#: ../includes/wpvr.manage.php:156 ../ajax/wpvr.ajax.manage.php:198
+msgid "Merge"
+msgstr "合并"
+
+#: ../includes/wpvr.manage.php:164
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: ../includes/wpvr.manage.php:170
+msgid "Publish"
+msgstr "发布"
+
+#: ../includes/wpvr.manage.php:173
+msgid "UnPublish"
+msgstr "未发布"
+
+#: ../includes/wpvr.manage.php:176 ../definitions/wpvr.globals.php:1316
+msgid "Draft"
+msgstr "草稿"
+
+#: ../includes/wpvr.manage.php:179 ../definitions/wpvr.globals.php:1331 ..
+#: functions/wpvr.functions.sources.php:192
+msgid "Trash"
+msgstr "垃圾"
+
+#: ../includes/wpvr.manage.php:182
+msgid "Restore"
+msgstr "恢复"
+
+#: ../includes/wpvr.manage.php:185 ../functions/wpvr.functions.sources.php:178
+msgid "Delete"
+msgstr "删除"
+
+#: ../includes/wpvr.manage.php:190
+msgid "Apply to"
+msgstr "应用于"
+
+#: ../includes/wpvr.manage.php:192 ../hooks/wpvr.hooks.assets.php:86 ..
+#: functions/wpvr.functions.sources.php:1814
+msgid "items"
+msgstr "项目"
+
+#: ../includes/wpvr.manage.php:217
+msgid "Close All"
+msgstr "关闭全部"
+
+#: ../includes/wpvr.manage.php:227 ../includes/wpvr.manage.php:243 ..
+#: includes/wpvr.manage.php:262 ../includes/wpvr.manage.php:280
+#: ../includes/wpvr. manage.php:298
+msgid "Filter by"
+msgstr "筛选"
+
+#: ../includes/wpvr.manage.php:243
+msgid "Post Dates"
+msgstr "张贴日期"
+
+#: ../includes/wpvr.manage.php:262
+msgid "Authors"
+msgstr "作者"
+
+#: ../includes/wpvr.manage.php:280
+msgid "Categories"
+msgstr "类别"
+
+#: ../includes/wpvr.manage.php:298
+msgid "Video Status"
+msgstr "视频状态"
+
+#: ../includes/wpvr.manage.php:318
+msgid "Duplicates Toolbox"
+msgstr "重复工具箱"
+
+#: ../includes/wpvr.manage.php:330
+msgid "Find Duplicates"
+msgstr "寻找重复"
+
+#: ../includes/wpvr.manage.php:342
+msgid "Order Results"
+msgstr "订购结果"
+
+#: ../includes/wpvr.manage.php:352
+msgid "Order By"
+msgstr "订购由"
+
+#: ../includes/wpvr.manage.php:358
+msgid "Total Views"
+msgstr "总浏览率"
+
+#: ../includes/wpvr.manage.php:366
+msgid "Order"
+msgstr "订购"
+
+#: ../includes/wpvr.manage.php:369
+msgid "Ascendant"
+msgstr "升序"
+
+#: ../includes/wpvr.manage.php:370
+msgid "Descendant"
+msgstr "降序"
+
+#: ../includes/wpvr.manage.php:376
+msgid "Sort Results"
+msgstr "结果分类"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr "请再尝试"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr "去除嵌入"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr "没有发现 %s 嵌入结果。查看更多的信息在"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:253
+msgid "Add Row"
+msgstr "添加行"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:309 ..
+#: assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:741 ..
+#: assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:803
+msgid "Remove"
+msgstr "去除"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:636 ..
+#: assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:670
+msgid "No terms"
+msgstr "没有条件"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:709 ..
+#: assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:763
+msgid "Add or Upload File"
+msgstr "加入或上载文件"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:730 ..
+#: assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:795
+msgid "Remove Image"
+msgstr "去除图像"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:741 ..
+#: assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:803
+msgid "File:"
+msgstr "文件："
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:741 ..
+#: assets/metabox/helpers/wpvr_cmb_Meta_Box_types.php:803
+msgid "Download"
+msgstr "下载"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_field.php:485
+msgid "Add Group"
+msgstr "加入群组"
+
+#: ../assets/metabox/helpers/wpvr_cmb_Meta_Box_field.php:486
+msgid "Remove Group"
+msgstr "去除群组"
+
+#: ../assets/metabox/init.php:234
+msgid "Clear"
+msgstr "清除"
+
+#: ../assets/metabox/init.php:235
+msgid "Default"
+msgstr "默认设置"
+
+#: ../assets/metabox/init.php:236
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: ../assets/metabox/init.php:237
+msgid "Current Color"
+msgstr "现在颜色"
+
+#: ../assets/metabox/init.php:264
+msgid "Select / Deselect All"
+msgstr "选择/取消全部"
+
+#: ../assets/metabox/init.php:1154 ../addons/wpvr.addons.options.php:116 ..
+#: addons/wpvr.addons.options.php:158
+msgid "Save"
+msgstr "保存"
+
+#: ../definitions/wpvr.globals.php:128 ../definitions/wpvr.globals.php:130
+msgid "Reset Video Tables"
+msgstr "重新设置视频表"
+
+#: ../definitions/wpvr.globals.php:140 ../definitions/wpvr.globals.php:142
+msgid "Clear Deferred"
+msgstr "清楚延期"
+
+#: ../definitions/wpvr.globals.php:155 ../definitions/wpvr.globals.php:157
+msgid "Clear Errors"
+msgstr "清楚错误"
+
+#: ../definitions/wpvr.globals.php:161 ../definitions/wpvr.globals.php:163
+msgid "Show Errors"
+msgstr "显示错误"
+
+#: ../definitions/wpvr.globals.php:168 ../definitions/wpvr.globals.php:170
+msgid "Remove Temp Files"
+msgstr "去除暂存文件"
+
+#: ../definitions/wpvr.globals.php:182
+msgid "Renew CRON Security Token"
+msgstr "更新CRON安全令牌"
+
+#: ../definitions/wpvr.globals.php:184
+msgid "Reset Cron Token"
+msgstr "重置CRON令牌"
+
+#: ../definitions/wpvr.globals.php:189
+msgid "Reset CRON Data"
+msgstr "重置CRON数据"
+
+#: ../definitions/wpvr.globals.php:191
+msgid "Reset Cron Data"
+msgstr "重置CRON数据"
+
+#: ../definitions/wpvr.globals.php:196
+msgid "Reset WPVR Notices"
+msgstr "重置WPVR声明"
+
+#: ../definitions/wpvr.globals.php:198
+msgid "Reset Notices"
+msgstr "重置声明"
+
+#: ../definitions/wpvr.globals.php:203 ../definitions/wpvr.globals.php:205
+msgid "Reset APIs Tokens"
+msgstr "重置APOs令牌"
+
+#: ../definitions/wpvr.globals.php:528 ../definitions/wpvr.globals.php:540
+msgid "Monday"
+msgstr "星期一"
+
+#: ../definitions/wpvr.globals.php:529 ../definitions/wpvr.globals.php:541
+msgid "Tuesday"
+msgstr "星期二"
+
+#: ../definitions/wpvr.globals.php:530 ../definitions/wpvr.globals.php:542
+msgid "Wednesday"
+msgstr "星期三"
+
+#: ../definitions/wpvr.globals.php:531 ../definitions/wpvr.globals.php:543
+msgid "Thursday"
+msgstr "星期四"
+
+#: ../definitions/wpvr.globals.php:532 ../definitions/wpvr.globals.php:544
+msgid "Friday"
+msgstr "星期五"
+
+#: ../definitions/wpvr.globals.php:533 ../definitions/wpvr.globals.php:545
+msgid "Saturday"
+msgstr "星期六"
+
+#: ../definitions/wpvr.globals.php:534 ../definitions/wpvr.globals.php:535 ..
+#: definitions/wpvr.globals.php:546
+msgid "Sunday"
+msgstr "星期日"
+
+#: ../definitions/wpvr.globals.php:1321
+msgid "Published"
+msgstr "发表"
+
+#: ../definitions/wpvr.globals.php:1326
+msgid "Pending"
+msgstr "等待中"
+
+#: ../options/wpvr.options.general.php:5
+msgid "Default Time Zone"
+msgstr "默认值时区"
+
+#: ../options/wpvr.options.general.php:6
+msgid "Choose your default timezone."
+msgstr "选择您的默认值时区"
+
+#: ../options/wpvr.options.general.php:30
+msgid "Defer video adding"
+msgstr "推迟视频加入"
+
+#: ../options/wpvr.options.general.php:31
+msgid ""
+"Limit the the number of added videos at once. Enable this option to improve "
+"performances."
+msgstr "限制一次能加入视频数量。启用此选项以提高性能。"
+
+#: ../options/wpvr.options.general.php:60
+msgid "Enable manual video adding"
+msgstr "启用手动添加视频"
+
+#: ../options/wpvr.options.general.php:61
+msgid "Enable grabbing a single video by its id."
+msgstr "启用以ID 获取单一视频"
+
+#: ../options/wpvr.options.general.php:68
+msgid "Restrict videos to their authors"
+msgstr "限制视频至其作者"
+
+#: ../options/wpvr.options.general.php:69
+msgid ""
+"Restrict edition and listing of imported videos to admin and respective "
+"authors."
+msgstr "限制版和导入视频名单至管理和各自的作者。"
+
+#: ../options/wpvr.options.general.php:96
+msgid "Number of log lines to display per page."
+msgstr "每页显示的日志数行"
+
+#: ../options/wpvr.options.general.php:113
+msgid "User roles with enabled WPVR links"
+msgstr "启用 WPVR 链接的用户角色"
+
+#: ../options/wpvr.options.general.php:115
+msgid "Pick one or more user roles."
+msgstr "选择一个或以上的用户角色"
+
+#: ../options/wpvr.options.general.php:117
+msgid "Choose which user roles will have WPVR menu links enabled."
+msgstr "选择哪些用户角色将启用 WPVR 菜单链接。"
+
+#: ../options/wpvr.options.automation.php:5
+msgid "Enable AutoRun Mode"
+msgstr "启用自动运行模式"
+
+#: ../options/wpvr.options.automation.php:6
+msgid "Disable this option to stop the plugin from working in background."
+msgstr "禁用此选项以停止插件在背景工作。"
+
+#: ../options/wpvr.options.php:17
+msgid "General"
+msgstr "一般"
+
+#: ../options/wpvr.options.php:27
+msgid "Posting"
+msgstr "发贴"
+
+#: ../options/wpvr.options.php:32
+msgid "Integration"
+msgstr "综合"
+
+#: ../options/wpvr.options.php:37
+msgid "Automation"
+msgstr "自动化"
+
+#: ../options/wpvr.options.php:42 ../hooks/wpvr.hooks.menus.php:389
+msgid "API Access"
+msgstr "API 进接"
+
+#: ../options/wpvr.options.php:103
+msgid "Show System Infos"
+msgstr "显示系统信息"
+
+#: ../options/wpvr.options.php:107 ../options/wpvr.options.php:138
+msgid "Save options"
+msgstr "保存选项"
+
+#: ../options/wpvr.options.php:142
+msgid "Reset To Default options"
+msgstr "重置为默认选项"
+
+#: ../options/wpvr.options.php:146
+msgid "Export options"
+msgstr "输出选项"
+
+#: ../options/wpvr.options.fetching.php:9
+msgid "Limited to"
+msgstr "限制于"
+
+#: ../options/wpvr.options.fetching.php:22
+msgid "Default Wanted Videos"
+msgstr "默认想要视频"
+
+#: ../options/wpvr.options.fetching.php:23
+msgid "Number of videos to get by default per source."
+msgstr "默认情况下每个来源获得的视频数量。"
+
+#: ../options/wpvr.options.fetching.php:35
+msgid "Default Order criterion"
+msgstr "默认订购标准"
+
+#: ../options/wpvr.options.fetching.php:36
+msgid "Default criterion for ordering fetched videos."
+msgstr "默认订购所得视频标准"
+
+#: ../options/wpvr.options.fetching.php:74
+msgid "Default Video Quality"
+msgstr "默认视频质量"
+
+#: ../options/wpvr.options.fetching.php:75
+msgid "Choose what quality should sources filter by default."
+msgstr "选择什么样的质量应由来源在默认情况下过滤"
+
+#: ../options/wpvr.options.fetching.php:87
+msgid "Default Video Duration"
+msgstr "默认视频长短"
+
+#: ../options/wpvr.options.fetching.php:88
+msgid "Choose what duration should sources filter by default."
+msgstr "选择视频长短应由来源在默认情况下过滤"
+
+#: ../options/wpvr.options.fetching.php:101
+msgid "Skip Duplicates"
+msgstr "跳过重复"
+
+#: ../options/wpvr.options.fetching.php:102
+msgid ""
+"Enable this option to import only new videos. Duplicates will be skipped."
+msgstr "启用这个选项以只导入新视频。重复将被跳过。"
+
+#: ../options/wpvr.options.fetching.php:109
+msgid "Get Video Stats"
+msgstr "获取视频统计"
+
+#: ../options/wpvr.options.fetching.php:110
+msgid ""
+"Grab Youtube views, duration and likes. You can improve performances by "
+"setting this option to off."
+msgstr "获得 YouTube 浏览率，持续时间和喜好。您可以通过设置这个选项为关闭而提高性能。"
+
+#: ../options/wpvr.options.fetching.php:118
+msgid ""
+"Grab Official Youtube tags (meta keywords). You can improve performances by "
+"setting this option to off."
+msgstr "获得 YouTube 官方标签（meta关键字）。您可以通过设置这个选项为关闭而提高性能。"
+
+#: ../options/wpvr.options.fetching.php:125
+msgid "Get Video Full Desc."
+msgstr "获得视频完整说明"
+
+#: ../options/wpvr.options.fetching.php:126
+msgid ""
+"Grab the video full description ? You can improve performances by setting "
+"this option to off."
+msgstr "获得视频完整说明？您可以通过设置这个选项为关闭而提高性能。"
+
+#: ../options/wpvr.options.api.php:5
+msgid ""
+"You can choose whether to grant access to Video Services through the API "
+"Wizard,"
+msgstr "您可选择是否授予通过 API 向导进接视频服务，"
+
+#: ../options/wpvr.options.api.php:6
+msgid ""
+"or use the crendentials defined below to connect to Video Services APIs."
+msgstr "或使用以下所定义的凭据以连接至视频服务 API。"
+
+#: ../options/wpvr.options.api.php:18
+msgid "API Connection"
+msgstr "API 连接"
+
+#: ../options/wpvr.options.api.php:21
+msgid "Use API Advanced Credentials"
+msgstr "使用 API 高级凭据"
+
+#: ../options/wpvr.options.api.php:22
+msgid "Use API Wizard"
+msgstr "利用 API 向导"
+
+#: ../options/wpvr.options.api.php:47
+msgid "Youtube API Credentials"
+msgstr "Youtube API 凭据"
+
+#: ../options/wpvr.options.api.php:50
+msgid "Enter your Youtube API Key to make the plugin work."
+msgstr "输入您的 Youtube API 码以启用插件。"
+
+#: ../options/wpvr.options.api.php:56
+msgid "WHERE TO FIND MY YOUTUBE API KEY"
+msgstr "哪里可找到我的 Youtube API 码"
+
+#: ../options/wpvr.options.api.php:102
+msgid "Vimeo API Credentials"
+msgstr "Vimeo API 凭据"
+
+#: ../options/wpvr.options.api.php:105
+msgid "Enter your Vimeo Credentials to make the plugin work with Vimeo."
+msgstr "输入您的 Vimeo 凭据以启用 Vimeo 插件。"
+
+#: ../options/wpvr.options.api.php:110
+msgid "WHERE TO FIND MY VIMEO CREDENTIALS"
+msgstr "哪里找寻我的 Vimeo 凭据"
+
+#: ../options/wpvr.options.api.php:154
+msgid "DailyMotion API Credentials"
+msgstr "DailyMotion API 凭据"
+
+#: ../options/wpvr.options.api.php:157
+msgid ""
+"Enter your DailyMotion Credentials to make the plugin work with DailyMotion."
+msgstr "输入您的 DailyMotion 凭据以启用 DailyMotion 插件。"
+
+#: ../options/wpvr.options.api.php:162
+msgid "WHERE TO FIND MY DAILYMOTION CREDENTIALS"
+msgstr "哪里找寻我的 DailyMotion 凭据"
+
+#: ../options/wpvr.options.api.php:210
+#, php-format
+msgid "Grant Access to %s to use its official API."
+msgstr "授予 %s 使用官方 API 的权限。"
+
+#: ../options/wpvr.options.api.php:254
+msgid "Cancel This Access"
+msgstr "取消此进接"
+
+#: ../options/wpvr.options.integration.php:29
+msgid "Auto-include videos in your site queries"
+msgstr "自动包括视频于网站查询"
+
+#: ../options/wpvr.options.integration.php:30
+msgid ""
+"Enable this option to subjoin imported videos to all your existant wordpress "
+"queries without changing your theme files."
+msgstr "启用该选项以有线增补导入的视频到您所有现有 WordPress 的查询，而不改变您的主题文件。"
+
+#: ../options/wpvr.options.integration.php:37
+msgid "Enable Comments on Imported Videos"
+msgstr "启用输入视频评论"
+
+#: ../options/wpvr.options.integration.php:38
+msgid "Enable this option to add comments support to the imported videos."
+msgstr "启用该选项以添加注释支持导入的视频。"
+
+#: ../options/wpvr.options.integration.php:45
+msgid "Enable Player Controls on Imported Videos"
+msgstr "启用输入的视频的播放器控制"
+
+#: ../options/wpvr.options.integration.php:46
+msgid ""
+"Enable this option to show up or hide player controls on imported videos."
+msgstr "启用此选项可以显示或隐藏导入的视频播放器控件。"
+
+#: ../options/wpvr.options.integration.php:47
+msgid "Works only for Youtube videos."
+msgstr "只有 Youtube 视频可操作。"
+
+#: ../options/wpvr.options.integration.php:80
+msgid "No Permalink Base"
+msgstr "无 Permalink 基础"
+
+#: ../options/wpvr.options.integration.php:83
+msgid "Category Permalink Base"
+msgstr "Permalink 基础类别"
+
+#: ../options/wpvr.options.integration.php:86
+msgid "Custom Permalink Base"
+msgstr "自定义 Permalink 基础"
+
+#: ../options/wpvr.options.integration.php:107
+msgid "Enable Permalink Rewrite"
+msgstr "启用 Permalink 改写"
+
+#: ../options/wpvr.options.integration.php:108
+msgid "Enable this option to activate videos permalink rewrite."
+msgstr "启用此选项以启动视频 Permalink 改写。"
+
+#: ../options/wpvr.options.integration.php:109
+msgid ""
+"Turn off this option to handle permalinks from the WP Permalink Settings "
+"screen."
+msgstr "关闭此选项以从WP Permalink 设置屏幕处理 Permalink。"
+
+#: ../options/wpvr.options.integration.php:116
+msgid "Embed Video Instead of Image Thumbnail"
+msgstr "嵌入视频而不是图像缩略图"
+
+#: ../options/wpvr.options.integration.php:117
+msgid ""
+"Enable this option to replace in the loop the post thumbnails by embeded "
+"video players."
+msgstr "启用该选项可通过内嵌的视频播放器以更换在循环中的帖子缩略图。"
+
+#: ../options/wpvr.options.integration.php:124
+msgid "AutoEmbed Videos Player in Content"
+msgstr "在内容自动嵌入视频播放器"
+
+#: ../options/wpvr.options.integration.php:125
+msgid "Turn this off to embed the player manually so you can customize it."
+msgstr "关闭此功能让您以手动方式嵌入播放器，让您可以自定义。"
+
+#: ../options/wpvr.options.integration.php:132
+msgid "Remove Video Text Content"
+msgstr "删除视频文本内容"
+
+#: ../options/wpvr.options.integration.php:140
+msgid "AutoPlay Embedded Player in Content"
+msgstr "在内容自动播放内置播放器"
+
+#: ../options/wpvr.options.integration.php:141
+msgid "Automatically play videos on single view."
+msgstr "以单一视图自动播放视频。"
+
+#: ../options/wpvr.options.integration.php:157
+msgid "Private Custom Post Types"
+msgstr "私人自定义帖子类型"
+
+#: ../options/wpvr.options.integration.php:159
+msgid "Pick one or more custom post type."
+msgstr "选择一个或以上的自定义帖子类型。"
+
+#: ../options/wpvr.options.integration.php:162
+msgid ""
+"Choose which other custom post types the plugin should not conflict with."
+msgstr "选择哪些其他自定义帖子类型不会与插件起冲突。"
+
+#: ../options/wpvr.options.posting.php:6
+msgid ""
+"Automatically publish imported videos. If you sety this option to off, "
+"imported videos will get pending status until you review them."
+msgstr "自动发布所导入视频。如果您设置此选项为关闭，所导入视频将处于静待状态，直到被审查。"
+
+#: ../options/wpvr.options.posting.php:13
+msgid "Default Post Date"
+msgstr "默认帖子日期"
+
+#: ../options/wpvr.options.posting.php:16
+msgid "Use Original Post Date"
+msgstr "使用原来帖子日期"
+
+#: ../options/wpvr.options.posting.php:17
+msgid "Use Import Date "
+msgstr "使用输入日期"
+
+#: ../options/wpvr.options.posting.php:40
+msgid "Default Post Format"
+msgstr "帖子默认值格式"
+
+#: ../options/wpvr.options.posting.php:41
+msgid "Default post format to apply to all the imported videos."
+msgstr "默认适用于所有导入视频的帖子格式。"
+
+#: ../options/wpvr.options.posting.php:43
+msgid "Standard"
+msgstr "标准"
+
+#: ../options/wpvr.options.posting.php:44
+msgid "Aside"
+msgstr "旁白"
+
+#: ../options/wpvr.options.posting.php:45
+msgid "Image"
+msgstr "图像"
+
+#: ../options/wpvr.options.posting.php:47
+msgid "Audio"
+msgstr "音频"
+
+#: ../options/wpvr.options.posting.php:48
+msgid "Quote"
+msgstr "引用"
+
+#: ../options/wpvr.options.posting.php:49
+msgid "Link"
+msgstr "链接"
+
+#: ../options/wpvr.options.posting.php:50
+msgid "Gallery"
+msgstr "图库"
+
+#: ../options/wpvr.options.posting.php:59
+msgid "Default Post Tags"
+msgstr "默认帖子标签"
+
+#: ../options/wpvr.options.posting.php:60
+msgid "Tags to add automatically to imported videos."
+msgstr "自动为所导入的视频加入标签。"
+
+#: ../options/wpvr.options.posting.php:61
+msgid "Comma separated."
+msgstr "逗号分开。"
+
+#: ../options/wpvr.options.posting.php:70
+msgid "Default Posting Author"
+msgstr "默认发贴作者"
+
+#: ../options/wpvr.options.posting.php:82
+msgid "Start local views count with Video Service views count ?"
+msgstr "以视频服务的浏览率启动本地的浏览率？"
+
+#: ../options/wpvr.options.posting.php:83
+msgid ""
+"Enable this option to start your imported views count with the real video "
+"service views count."
+msgstr "启用该选项来启动您的视频浏览率与实际视频服务的浏览率。"
+
+#: ../options/wpvr.options.posting.php:84
+msgid "If you disable this option, the local views count will start at 0."
+msgstr "如果禁用此选项，本地浏览率会从0开始。"
+
+#: ../services/vimeo/basics.php:45 ../services/dailymotion/basics.php:47 ..
+#: services/youtube/basics.php:45
+#, php-format
+msgid "The API Access to %s is not granted."
+msgstr "API 进入%s 不被允许。"
+
+#: ../services/vimeo/basics.php:47 ../services/vimeo/basics.php:53 ..
+#: services/dailymotion/basics.php:49 ../services/dailymotion/basics.php:55 ..
+#: services/youtube/basics.php:47 ../services/youtube/basics.php:53
+msgid "Click here to grant access to this service."
+msgstr "点击这里以进接此服务。"
+
+#: ../services/vimeo/basics.php:51 ../services/dailymotion/basics.php:53 ..
+#: services/youtube/basics.php:51
+#, php-format
+msgid "The API Access to %s is no longer valid."
+msgstr "API 进入 %s 不再有效。"
+
+#: ../services/vimeo/basics.php:57 ../services/dailymotion/basics.php:59 ..
+#: services/youtube/basics.php:57
+#, php-format
+msgid "You have exceeded the quota for this %s credentials."
+msgstr "您已超过次%s凭证的配额。"
+
+#: ../services/vimeo/basics.php:58 ../services/dailymotion/basics.php:60 ..
+#: services/youtube/basics.php:58
+#, php-format
+msgid ""
+"You are probably using the default plugin %s credentials. You should create "
+"your own."
+msgstr "您可能正在使用默认插件%s的凭证。您应该创建自己的。"
+
+#: ../services/vimeo/basics.php:60 ../services/dailymotion/basics.php:62 ..
+#: services/youtube/basics.php:60
+msgid "Just follow this tutorial steps."
+msgstr "只要按照本教程的步骤。"
+
+#: ../services/vimeo/basics.php:63 ../services/dailymotion/basics.php:65
+#, php-format
+msgid "Make sure your %s API Client ID and Client Secret are correct."
+msgstr "确保您的 %s API  的客户 ID 和客户 秘密是正确的。"
+
+#: ../services/vimeo/basics.php:66 ../services/dailymotion/basics.php:68 ..
+#: services/youtube/basics.php:71
+#, php-format
+msgid "Oups! Something went wrong with the %s API. Try again later."
+msgstr "哦。%s API出了些问题。请稍后再试。"
+
+#: ../services/vimeo/basics.php:70 ../services/dailymotion/basics.php:72 ..
+#: services/youtube/basics.php:75
+#, php-format
+msgid "There is no %s video corresponding to the video ID you provided."
+msgstr "您提供的视频ID里没有%s视频。"
+
+#: ../services/vimeo/basics.php:74 ../services/dailymotion/basics.php:76
+msgid "Video found and data imported."
+msgstr "视频被找到以及数据被导入。"
+
+#: ../services/vimeo/types.php:23 ../services/dailymotion/types.php:23 ..
+#: services/youtube/types.php:43
+msgid "Search Terms"
+msgstr "搜索条款"
+
+#: ../services/vimeo/types.php:48
+msgid "Group Id"
+msgstr "群组Id"
+
+#: ../services/vimeo/types.php:75 ../services/dailymotion/types.php:100 ..
+#: services/youtube/types.php:71 ../services/youtube/types.php:199
+msgid "Channel Id"
+msgstr "频道Id"
+
+#: ../services/vimeo/types.php:100 ../services/youtube/types.php:159
+msgid "Username"
+msgstr "用户名"
+
+#: ../services/vimeo/types.php:125 ../services/dailymotion/types.php:125
+msgid "Video Id"
+msgstr "视频 ID"
+
+#: ../services/dailymotion/functions.php:147
+#: ../services/youtube/functions.php:372
+msgid "Trends Worldwide"
+msgstr "全球趋势"
+
+#: ../services/dailymotion/functions.php:150
+#: ../services/youtube/functions.php:375
+msgid "Trends in"
+msgstr "趋势"
+
+#: ../services/dailymotion/types.php:49 ../services/youtube/types.php:100
+msgid "Country"
+msgstr "国家"
+
+#: ../services/dailymotion/types.php:74 ../services/youtube/types.php:128
+msgid "Playlist Id"
+msgstr "播放列表Id"
+
+#: ../services/dailymotion/types.php:76 ../services/youtube/types.php:130
+msgid "Single Playlist ID"
+msgstr "单播放列表ID"
+
+#: ../services/dailymotion/types.php:102
+msgid "On Dailymotion, the channel Id is its owner username."
+msgstr "在Dailymotion,频道Id是用户名。"
+
+#: ../services/youtube/basics.php:64
+#, php-format
+msgid "This region is not supported by %s API."
+msgstr "该区域没有被 %s API 支持。"
+
+#: ../services/youtube/basics.php:68
+#, php-format
+msgid "Make sure your %s API key is correct."
+msgstr "请确保您的%s API 码正确。"
+
+#: ../services/youtube/basics.php:79
+msgid "Video Successfully imported."
+msgstr "成功导入视频。"
+
+#: ../services/youtube/functions.php:767 ../services/youtube/functions.php:777
+msgid "Source"
+msgstr "来源"
+
+#: ../services/youtube/types.php:138
+msgid "Playlists Ids"
+msgstr "播放列表Id"
+
+#: ../services/youtube/types.php:157
+msgid "Retrieve a channel ID from its owner username :"
+msgstr "通过用户名检索频道ID ："
+
+#: ../services/youtube/types.php:162
+msgid "RESET"
+msgstr "重置"
+
+#: ../services/youtube/types.php:165
+msgid "Find Channel ID"
+msgstr "查找频道 Id"
+
+#: ../services/youtube/types.php:170
+msgid "Channel ID"
+msgstr "频道 ID "
+
+#: ../services/youtube/types.php:171
+msgid "ADD TO LIST"
+msgstr "添加到列表"
+
+#: ../services/youtube/types.php:201
+msgid "Single Channel ID"
+msgstr "单频道 ID "
+
+#: ../services/youtube/types.php:209
+msgid "Channels Ids"
+msgstr "频道 Id"
+
+#: ../services/youtube/types.php:239
+msgid "Videos Ids"
+msgstr "视频 Id"
+
+#: ../services/youtube/types.php:242
+msgid "List of video IDs separated by commas."
+msgstr "以逗号分隔的视频 Id 列表。"
+
+#: ../addons/wpvr.addons.php:76
+msgid "Manage Addon"
+msgstr "管理插件"
+
+#: ../addons/wpvr.addons.browse.php:31
+msgid "WP Video Robot ERROR"
+msgstr "WP 视频机械错误"
+
+#: ../addons/wpvr.addons.browse.php:136
+msgid "Installed Addons"
+msgstr "已安装插件"
+
+#: ../addons/wpvr.addons.manage.php:58 ../hooks/wpvr.hooks.menus.php:9
+msgid "Options"
+msgstr "选项"
+
+#: ../addons/wpvr.addons.manage.php:65
+msgid "About"
+msgstr "关于"
+
+#: ../addons/wpvr.addons.manage.php:85
+msgid "Tutorial"
+msgstr "教程"
+
+#: ../addons/wpvr.addons.options.php:23
+msgid "options"
+msgstr "选项"
+
+#: ../addons/wpvr.addons.options.php:148
+msgid "Reset to default"
+msgstr "重新设置至默认设置"
+
+#: ../hooks/wpvr.hooks.notices.php:12
+msgid "You are using PHP version "
+msgstr "您在使用 PHP 版本"
+
+#: ../hooks/wpvr.hooks.notices.php:14
+msgid "Please upgrade PHP."
+msgstr "请提升 PHP。"
+
+#: ../hooks/wpvr.hooks.notices.php:30
+msgid "The plugin cannot work automatically."
+msgstr "插件不能自动操作。"
+
+#: ../hooks/wpvr.hooks.notices.php:31
+msgid "Please, make sure this file is writable :"
+msgstr "请确保该文件是可写的："
+
+#: ../hooks/wpvr.hooks.notices.php:33
+msgid "If you cannot do that, contact your host."
+msgstr "如果您不能做到这一点，请联系您的主机。"
+
+#: ../hooks/wpvr.hooks.notices.php:95
+#: ../functions/wpvr.functions.utils.php:2767
+msgid "Hide this notice"
+msgstr "隐藏此通知"
+
+#: ../hooks/wpvr.hooks.notices.php:138
+msgid "Looks like the anti duplicates filter is OFF."
+msgstr "看来防重复过滤器已关闭。"
+
+#: ../hooks/wpvr.hooks.notices.php:141
+msgid "Click here to turn it ON"
+msgstr "点击此处启动"
+
+#: ../hooks/wpvr.hooks.notices.php:214
+msgid ""
+"Looks like you have some sources and videos from an older version of the "
+"plugin."
+msgstr "您有一些来源和视频是从旧的插件版本所得"
+
+#: ../hooks/wpvr.hooks.notices.php:217
+msgid "Click here to adapt them to this new version"
+msgstr "点击此处以改编至新版本"
+
+#: ../hooks/wpvr.hooks.custom.php:570 ../hooks/wpvr.hooks.assets.php:80
+msgid "Please Wait ..."
+msgstr "请稍等"
+
+#: ../hooks/wpvr.hooks.menus.php:43 ../hooks/wpvr.hooks.menus.php:217
+msgid "VIDEOS | WP video Robot"
+msgstr "视频 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.menus.php:52 ../hooks/wpvr.hooks.menus.php:226
+msgid "OPTIONS | WP video Robot"
+msgstr "选项 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.menus.php:61 ../hooks/wpvr.hooks.menus.php:234
+msgid "LOG | WP video Robot"
+msgstr "日志 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.menus.php:70 ../hooks/wpvr.hooks.menus.php:243
+msgid "DEFERRED VIDEOS | WP video Robot"
+msgstr "推迟视频 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.menus.php:88 ../hooks/wpvr.hooks.menus.php:261
+msgid "Import | WP video Robot"
+msgstr "输入 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.menus.php:97 ../hooks/wpvr.hooks.menus.php:269
+msgid "Licences | WP video Robot"
+msgstr "许可证 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.menus.php:98 ../hooks/wpvr.hooks.menus.php:270
+msgid "Manage Licences"
+msgstr "许可证管理"
+
+#: ../hooks/wpvr.hooks.menus.php:107 ../hooks/wpvr.hooks.menus.php:278
+msgid "Sandbox | WP Video Robot"
+msgstr "砂箱 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.menus.php:108 ../hooks/wpvr.hooks.menus.php:279 ..
+#: hooks/wpvr.hooks.menus.php:499
+msgid "Sandbox"
+msgstr "砂箱"
+
+#: ../hooks/wpvr.hooks.menus.php:140
+msgid "ADDONS | WP video Robot"
+msgstr "插件 | WP 视频机械"
+
+#: ../hooks/wpvr.hooks.assets.php:25 ../functions/wpvr.functions.utils.php:1156
+msgid "Save Source"
+msgstr "保存来源"
+
+#: ../hooks/wpvr.hooks.assets.php:33
+msgid "Action done successfully."
+msgstr "成功完成操作。"
+
+#: ../hooks/wpvr.hooks.assets.php:34
+msgid "Please select a dataFiller Preset."
+msgstr "请选择数据添加预设"
+
+#: ../hooks/wpvr.hooks.assets.php:35
+msgid "Please enter both Data to Add and the custom field name where to add."
+msgstr "请输入'需加入数据'和'自定义字段名称'。"
+
+#: ../hooks/wpvr.hooks.assets.php:36
+msgid "Do you really want to add all this preset fillers ?"
+msgstr "确定添加所有预设填料？"
+
+#: ../hooks/wpvr.hooks.assets.php:37
+msgid "All the data fillers have been deleted successfully."
+msgstr "成功删除所有预设数据。"
+
+#: ../hooks/wpvr.hooks.assets.php:38
+msgid "Do you really want to delete all the data fillers ?"
+msgstr "确定删除所有预设数据？"
+
+#: ../hooks/wpvr.hooks.assets.php:39
+msgid "Do you really want to run this source ?"
+msgstr "确定运行此来源？"
+
+#: ../hooks/wpvr.hooks.assets.php:40
+msgid "Do you really want to merge the selected items ?"
+msgstr "确定合并所选项目？"
+
+#: ../hooks/wpvr.hooks.assets.php:42
+msgid "Do you really want to merge those duplicates ?"
+msgstr "确定合并重复项目？"
+
+#: ../hooks/wpvr.hooks.assets.php:43
+msgid "is now connected !"
+msgstr "已连线！"
+
+#: ../hooks/wpvr.hooks.assets.php:44
+msgid "Do you really want to cancel this access ?"
+msgstr "确定取消此进接？"
+
+#: ../hooks/wpvr.hooks.assets.php:47
+msgid "Do you really want to add this source without a name."
+msgstr "确定没有名字加入此来源？"
+
+#: ../hooks/wpvr.hooks.assets.php:48
+msgid "Please choose a source type to continue."
+msgstr "请选择一项类别继续。"
+
+#: ../hooks/wpvr.hooks.assets.php:49
+msgid "Wanted Videos are limited to"
+msgstr "所想视频被限制为"
+
+#: ../hooks/wpvr.hooks.assets.php:50
+msgid "Video Preview"
+msgstr "视频预习"
+
+#: ../hooks/wpvr.hooks.assets.php:51
+msgid "Work Completed !"
+msgstr "工作完成！"
+
+#: ../hooks/wpvr.hooks.assets.php:53
+msgid "videos added successfuly"
+msgstr "成功加入视频"
+
+#: ../hooks/wpvr.hooks.assets.php:54
+msgid "Cancel anyway"
+msgstr "确定取消"
+
+#: ../hooks/wpvr.hooks.assets.php:55
+msgid "Continue the work in progress"
+msgstr "继续正在进行的工作"
+
+#: ../hooks/wpvr.hooks.assets.php:56
+msgid "Confirm Reset"
+msgstr "确认重置"
+
+#: ../hooks/wpvr.hooks.assets.php:57 ../hooks/wpvr.hooks.assets.php:64
+msgid "Cancel"
+msgstr "取消"
+
+#: ../hooks/wpvr.hooks.assets.php:60
+msgid "Import"
+msgstr "输入"
+
+#: ../hooks/wpvr.hooks.assets.php:61
+msgid "Are you sure ?"
+msgstr "确定？"
+
+#: ../hooks/wpvr.hooks.assets.php:62
+msgid "Do you really want to cancel the work in progress ?"
+msgstr "确定取消正在进行的工作？"
+
+#: ../hooks/wpvr.hooks.assets.php:63
+msgid "Continue"
+msgstr "继续"
+
+#: ../hooks/wpvr.hooks.assets.php:65
+msgid "OK"
+msgstr "好"
+
+#: ../hooks/wpvr.hooks.assets.php:67
+msgid "DISMISS"
+msgstr "解散"
+
+#: ../hooks/wpvr.hooks.assets.php:69
+msgid "Pause"
+msgstr "暂停"
+
+#: ../hooks/wpvr.hooks.assets.php:70
+msgid "WPVR Options set to default !"
+msgstr "WPVR 设置选项为默认值！"
+
+#: ../hooks/wpvr.hooks.assets.php:71 ../hooks/wpvr.hooks.assets.php:76
+msgid "Do you really want to reset options to default ?"
+msgstr "确定设置选项为默认值？"
+
+#: ../hooks/wpvr.hooks.assets.php:72
+msgid "Options successfully saved"
+msgstr "成功保存选项"
+
+#: ../hooks/wpvr.hooks.assets.php:74
+msgid "Addon options successfully saved"
+msgstr "成功保存插入选项"
+
+#: ../hooks/wpvr.hooks.assets.php:75
+msgid "Licences successfully saved"
+msgstr "成功保存许可证"
+
+#: ../hooks/wpvr.hooks.assets.php:77
+msgid " Adding selected videos"
+msgstr "加入所选视频"
+
+#: ../hooks/wpvr.hooks.assets.php:78
+msgid "Work in progress"
+msgstr "正在进行的工作"
+
+#: ../hooks/wpvr.hooks.assets.php:79
+msgid "Loading"
+msgstr "加载中"
+
+#: ../hooks/wpvr.hooks.assets.php:82
+msgid "Please wait"
+msgstr "请稍等"
+
+#: ../hooks/wpvr.hooks.assets.php:83
+msgid "Do you really want to clear the log ?"
+msgstr "确定清除日志？"
+
+#: ../hooks/wpvr.hooks.assets.php:84
+msgid "System Informations"
+msgstr "系统信息"
+
+#: ../hooks/wpvr.hooks.assets.php:85
+#: ../functions/wpvr.functions.sources.php:1812
+msgid "item"
+msgstr "项目"
+
+#: ../hooks/wpvr.hooks.assets.php:87
+msgid "Do you really want to delete permanently the selected items ?"
+msgstr "确定永久删除所选项目？"
+
+#: ../hooks/wpvr.hooks.assets.php:88
+msgid "Do you really want to remove permanently the selected items ?"
+msgstr "确定永久清除所选项目？"
+
+#: ../hooks/wpvr.hooks.assets.php:89
+msgid "video(s) removed from deferred"
+msgstr "视频已从推迟清除"
+
+#: ../hooks/wpvr.hooks.assets.php:94
+msgid "Page"
+msgstr "页面"
+
+#: ../hooks/wpvr.hooks.assets.php:95
+#: ../functions/wpvr.functions.sources.php:1445
+#: ../functions/wpvr.functions.sources.php:1774 ../functions/wpvr.functions.
+#: sources.php:2553 ../functions/wpvr.functions.sources.php:2586
+msgid "seconds"
+msgstr "秒"
+
+#: ../hooks/wpvr.hooks.assets.php:96
+msgid "videos processed successfully"
+msgstr "成功处理视频"
+
+#: ../hooks/wpvr.hooks.assets.php:98
+msgid "Headers already sent by some other scripts. Error thrown :"
+msgstr "标题已由其他脚本发送。错误显示："
+
+#: ../hooks/wpvr.hooks.assets.php:100
+msgid "Run fillers on existant videos ? This may take some time."
+msgstr "在现有视频运行填充？这可能需要一些时间。"
+
+#: ../hooks/wpvr.hooks.assets.php:101
+msgid "Do you really want to remove this filler ?"
+msgstr "确定清除此填充？"
+
+#: ../ajax/wpvr.ajax.datafillers.php:161
+msgid "There is no fillers to show."
+msgstr "没有填充显示。"
+
+#: ../ajax/wpvr.ajax.datafillers.php:183
+msgid "RUN FILLERS ON EXISTANT VIDEOS"
+msgstr "在现有视频运行填充"
+
+#: ../ajax/wpvr.ajax.datafillers.php:194
+msgid "DELETE ALL FILLERS"
+msgstr "删除所有填充"
+
+#: ../ajax/wpvr.ajax.manage.php:171
+msgid "Untitled"
+msgstr "无标题"
+
+#: ../ajax/wpvr.ajax.manage.php:203 ../functions/wpvr.functions.sources.php:188
+#: .. functions/wpvr.functions.sources.php:1904
+msgid "Edit"
+msgstr "编辑"
+
+#: ../ajax/wpvr.ajax.manage.php:211
+msgid "Preview"
+msgstr "预习"
+
+#: ../ajax/wpvr.ajax.manage.php:224
+msgid "views"
+msgstr "浏览率"
+
+#: ../ajax/wpvr.ajax.manage.php:228
+msgid "dups"
+msgstr "后"
+
+#: ../functions/wpvr.functions.addons.php:211
+msgid "There is no addon installed."
+msgstr "没有安装插件。"
+
+#: ../functions/wpvr.functions.videos.php:330
+msgid "ADDING A VIDEO"
+msgstr "加入视频"
+
+#: ../functions/wpvr.functions.videos.php:339
+msgid "SERVICE"
+msgstr "服务"
+
+#: ../functions/wpvr.functions.videos.php:340
+#: ../functions/wpvr.functions.sources. php:1335
+#: ../functions/wpvr.functions.sources.php:2467
+msgid "TITLE"
+msgstr "题目"
+
+#: ../functions/wpvr.functions.videos.php:341
+msgid "POSTED AS"
+msgstr "张贴为"
+
+#: ../functions/wpvr.functions.videos.php:342
+msgid "NEW POST ID"
+msgstr "新帖子 ID"
+
+#: ../functions/wpvr.functions.videos.php:1030
+msgid "There is no result to show."
+msgstr "没有结果显示。"
+
+#: ../functions/wpvr.functions.utils.php:215
+msgid "PHP Version"
+msgstr "PHP 版本"
+
+#: ../functions/wpvr.functions.utils.php:222
+msgid "PHP Memory Limit"
+msgstr "PHP 记忆限制"
+
+#: ../functions/wpvr.functions.utils.php:227
+msgid "Post Max Size"
+msgstr "帖子最大容量"
+
+#: ../functions/wpvr.functions.utils.php:232
+msgid "Maximum Input Time"
+msgstr "最长输入时间"
+
+#: ../functions/wpvr.functions.utils.php:237
+msgid "Maximum Execution Time"
+msgstr "最长执行时间"
+
+#: ../functions/wpvr.functions.utils.php:242
+msgid "PHP Safe Mode"
+msgstr "PHP 安全模式"
+
+#: ../functions/wpvr.functions.utils.php:259
+msgid "Allow URL Fopen"
+msgstr "允许 URL F 开启"
+
+#: ../functions/wpvr.functions.utils.php:264
+msgid "OpenSSL Extension"
+msgstr "OpenSSL 延展"
+
+#: ../functions/wpvr.functions.utils.php:274
+msgid "Plugin Folder Writable"
+msgstr "插件文件可写"
+
+#: ../functions/wpvr.functions.utils.php:1173
+msgid "Test Source"
+msgstr "测试来源"
+
+#: ../functions/wpvr.functions.utils.php:1178
+msgid "Run Source"
+msgstr "运行来源"
+
+#: ../functions/wpvr.functions.utils.php:1241
+msgid "There is a new update available !"
+msgstr "有新的更新"
+
+#: ../functions/wpvr.functions.utils.php:1300
+msgid "Stress Forecast for :"
+msgstr "压力预测："
+
+#: ../functions/wpvr.functions.utils.php:2559
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限来进接此页面。"
+
+#: ../functions/wpvr.functions.utils.php:2570
+msgid "Your copy licence is not activated."
+msgstr "您的许可证还没被启动。"
+
+#: ../functions/wpvr.functions.utils.php:2571
+msgid "You cannot use WP VIDEO ROBOT."
+msgstr "您不能使用 WP 视频机械。"
+
+#: ../functions/wpvr.functions.utils.php:3924
+msgid "Help on Cron Configuring"
+msgstr "Cron 设置帮助"
+
+#: ../functions/wpvr.functions.sources.php:84
+#: ../functions/wpvr.functions.sources. php:1708
+#: ../functions/wpvr.functions.sources.php:1710 ../functions/wpvr.
+#: functions.sources.php:1724
+msgid "Posting as"
+msgstr "由发布"
+
+#: ../functions/wpvr.functions.sources.php:90
+#: ../functions/wpvr.functions.sources. php:92
+#: ../functions/wpvr.functions.sources.php:95
+msgid "Scheduled"
+msgstr "日程已定"
+
+#: ../functions/wpvr.functions.sources.php:90
+msgid "every hour"
+msgstr "每小时"
+
+#: ../functions/wpvr.functions.sources.php:92
+#: ../functions/wpvr.functions.sources. php:95
+msgid "every"
+msgstr "每"
+
+#: ../functions/wpvr.functions.sources.php:92
+msgid "day"
+msgstr "天"
+
+#: ../functions/wpvr.functions.sources.php:92
+#: ../functions/wpvr.functions.sources. php:95
+msgid "at"
+msgstr "在"
+
+#: ../functions/wpvr.functions.sources.php:98
+msgid "Not scheduled"
+msgstr "日程没定"
+
+#: ../functions/wpvr.functions.sources.php:126
+msgid "In"
+msgstr "里"
+
+#: ../functions/wpvr.functions.sources.php:156 ../functions/wpvr.functions.
+#: sources.php:794 ../functions/wpvr.functions.sources.php:1602
+msgid "Untitled Source"
+msgstr "无标题来源"
+
+#: ../functions/wpvr.functions.sources.php:174
+msgid "Untrash"
+msgstr "无废弃"
+
+#: ../functions/wpvr.functions.sources.php:279
+msgid "Added"
+msgstr "加入"
+
+#: ../functions/wpvr.functions.sources.php:289
+msgid "From"
+msgstr "从"
+
+#: ../functions/wpvr.functions.sources.php:1268
+msgid "AUTO RUNNING SOURCES"
+msgstr "自动运行来源"
+
+#: ../functions/wpvr.functions.sources.php:1270
+msgid "MANUALLY RUNNING SOURCES"
+msgstr "手动运行来源"
+
+#: ../functions/wpvr.functions.sources.php:1325 ../functions/wpvr.functions.
+#: sources.php:2461
+msgid "DEFER A VIDEO ADDING"
+msgstr "推迟添加视频"
+
+#: ../functions/wpvr.functions.sources.php:1334 ../functions/wpvr.functions.
+#: sources.php:2466
+msgid "DEFERRED VIDEO"
+msgstr "推迟视频"
+
+#: ../functions/wpvr.functions.sources.php:1341
+msgid "by AUTO RUN"
+msgstr "由自动运行"
+
+#: ../functions/wpvr.functions.sources.php:1343
+msgid "by RUN"
+msgstr "由运行"
+
+#: ../functions/wpvr.functions.sources.php:1373 ../functions/wpvr.functions.
+#: sources.php:2597
+msgid "Running Sources"
+msgstr "运行来源"
+
+#: ../functions/wpvr.functions.sources.php:1379
+msgid "videos(s) deferred."
+msgstr "视频推迟。"
+
+#: ../functions/wpvr.functions.sources.php:1495 ../functions/wpvr.functions.
+#: sources.php:1967
+msgid "SEARCH AGAIN"
+msgstr "重新搜寻"
+
+#: ../functions/wpvr.functions.sources.php:1726
+msgid "Posting in"
+msgstr "发布于"
+
+#: ../functions/wpvr.functions.sources.php:1734
+msgid "Scanned"
+msgstr "扫描"
+
+#: ../functions/wpvr.functions.sources.php:1737
+msgid " videos"
+msgstr "视频"
+
+#: ../functions/wpvr.functions.sources.php:1739
+msgid "wanted"
+msgstr "想要"
+
+#: ../functions/wpvr.functions.sources.php:1744
+msgid "Absolute count"
+msgstr "绝对计数"
+
+#: ../functions/wpvr.functions.sources.php:1751
+msgid "Duplicate count"
+msgstr "重复计数"
+
+#: ../functions/wpvr.functions.sources.php:1765
+msgid "Total results"
+msgstr "总成绩"
+
+#: ../functions/wpvr.functions.sources.php:1772 ../functions/wpvr.functions.
+#: sources.php:2550 ../functions/wpvr.functions.sources.php:2583
+msgid "Execution Time"
+msgstr "执行时间"
+
+#: ../functions/wpvr.functions.sources.php:1781
+msgid "recalls"
+msgstr "召回"
+
+#: ../functions/wpvr.functions.sources.php:1828
+msgid "No new videos were found for this source."
+msgstr "这来源没有新视频。"
+
+#: ../functions/wpvr.functions.sources.php:1830
+msgid "No videos were found for this source."
+msgstr "这来源没有视频"
+
+#: ../functions/wpvr.functions.sources.php:1922
+msgid "Video Views"
+msgstr "视频浏览率"
+
+#: ../functions/wpvr.functions.sources.php:1934
+msgid "Video Duration (seconds)"
+msgstr "视频长短（秒）"
+
+#: ../functions/wpvr.functions.sources.php:2043
+msgid "copy"
+msgstr "复制"
+
+#: ../functions/wpvr.functions.globals.php:96
+msgid "Review Videos"
+msgstr "检阅视频"
+
+#: ../functions/wpvr.functions.globals.php:119
+msgid "Your Sources"
+msgstr "您的来源"
+
+#: ../functions/wpvr.functions.globals.php:184
+msgid "View Dashboard"
+msgstr "观看控制面板"
+
+#: ../functions/wpvr.functions.core.php:318
+msgid "Please activate your licence of WP Video Robot"
+msgstr "请启动您的 WP 视频机械许可证"
+
+#: ../functions/wpvr.functions.core.php:319
+msgid "Your Email"
+msgstr "您的电邮"
+
+#: ../functions/wpvr.functions.core.php:322
+msgid "Your Purchase Code"
+msgstr "您的申购代码"
+
+#: ../functions/wpvr.functions.core.php:326
+msgid "WHERE TO FIND MY ENVATO PURCHASE CODE"
+msgstr "哪里可以找到我的ENVATO申购代码"
+
+#: ../functions/wpvr.functions.core.php:345
+msgid "ACTIVATE MY COPY"
+msgstr "启动我的复本"
+
+#: ../functions/wpvr.functions.core.php:346
+msgid "BUY WP VIDEO ROBOT"
+msgstr "购买 WP 视频机械"
+
+#: ../functions/wpvr.functions.core.php:448
+#: ../functions/wpvr.functions.core.php: 450
+msgid "Executed by :"
+msgstr "执行："
+
+#: ../functions/wpvr.functions.core.php:612
+msgid "Read WP Video Robot Documentation"
+msgstr "阅读 WP 视频机械文件"
+
+#: ../functions/wpvr.functions.core.php:615
+msgid "Need Help ?"
+msgstr "需要帮助？"

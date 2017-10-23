@@ -1,0 +1,1786 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ion package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ion 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-29 09:06-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:24
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: appp-settings.php:58
+msgid "AP3 Theme License Key"
+msgstr ""
+
+#: appp-settings.php:58
+msgid "Adding a license key enables automatic updates."
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:23
+msgid "Load More"
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:37
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: buddypress/activity/comment.php:27
+#, php-format
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: buddypress/activity/comment.php:38
+#: buddypress/members/single/messages/messages-loop.php:34
+#: buddypress/members/single/messages/single.php:26
+msgid "Delete"
+msgstr ""
+
+#: buddypress/activity/entry-single.php:50 buddypress/activity/entry.php:59
+msgid "View Conversation"
+msgstr ""
+
+#: buddypress/activity/entry-single.php:66 buddypress/activity/entry.php:75
+msgid "Mark as Favorite"
+msgstr ""
+
+#: buddypress/activity/entry-single.php:70
+#: buddypress/buddypress-functions.php:314
+#: buddypress/buddypress-functions.php:1184
+#: buddypress/buddypress-functions.php:1205
+msgid "Remove Favorite"
+msgstr ""
+
+#: buddypress/activity/entry-single.php:105 buddypress/activity/entry.php:129
+msgid "Post"
+msgstr ""
+
+#: buddypress/activity/entry-single.php:106 buddypress/activity/entry.php:129
+#: buddypress/forums/index.php:116
+msgid "Cancel"
+msgstr ""
+
+#: buddypress/activity/entry.php:67 buddypress/activity/entry.php:125
+#: inc/classes/AppPresser_AP3_Functionality.php:112
+msgid "Comment"
+msgstr ""
+
+#: buddypress/activity/entry.php:75 buddypress/activity/entry.php:79
+#: buddypress/buddypress-functions.php:311
+#: buddypress/buddypress-functions.php:1186
+#: buddypress/buddypress-functions.php:1203
+msgid "Favorite"
+msgstr ""
+
+#. /Registration template
+#.
+#: buddypress/appbuddy-login.php:27
+msgid "Register"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:29
+msgid "Login"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:33
+msgid "Lost Password"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:54 buddypress/members/register.php:13
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: buddypress/appbuddy-login.php:63 buddypress/members/register.php:22
+msgid ""
+"Registering for this site is easy. Just fill in the fields below, and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: buddypress/appbuddy-login.php:73 buddypress/members/register.php:30
+msgid "Account Details"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:77 buddypress/appbuddy-login.php:268
+#: buddypress/members/register.php:32
+msgid "Username"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:77 buddypress/appbuddy-login.php:83
+#: buddypress/appbuddy-login.php:88 buddypress/appbuddy-login.php:92
+#: buddypress/appbuddy-login.php:180 buddypress/appbuddy-login.php:191
+#: buddypress/members/register.php:32 buddypress/members/register.php:36
+#: buddypress/members/register.php:40 buddypress/members/register.php:44
+#: buddypress/members/register.php:132 buddypress/members/register.php:141
+msgid "(required)"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:83 buddypress/members/register.php:36
+msgid "Email Address"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:88 buddypress/members/register.php:40
+msgid "Choose a Password"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:92 buddypress/members/register.php:44
+msgid "Confirm Password"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:110 buddypress/members/register.php:62
+msgid "Profile Details"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:127 buddypress/appbuddy-login.php:142
+#: buddypress/members/register.php:79 buddypress/members/register.php:94
+#: buddypress/members/single/profile/edit.php:33
+#: buddypress/members/single/profile/edit.php:47
+#, php-format
+msgid ""
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:127 buddypress/members/register.php:79
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:132 buddypress/members/register.php:84
+#: buddypress/members/single/profile/edit.php:38
+msgid "Who can see this field?"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:137 buddypress/buddypress-functions.php:308
+#: buddypress/members/register.php:89
+#: buddypress/members/single/profile/edit.php:43
+msgid "Close"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:174 buddypress/members/register.php:126
+msgid "Blog Details"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:176 buddypress/members/register.php:128
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:180 buddypress/members/register.php:132
+msgid "Blog URL"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:191 buddypress/members/register.php:141
+msgid "Site Title"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:197 buddypress/members/register.php:145
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: buddypress/appbuddy-login.php:200 buddypress/members/register.php:148
+msgid "Yes"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:201 buddypress/members/register.php:149
+msgid "No"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:216
+msgid "Sign Up"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:231 buddypress/members/register.php:179
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: buddypress/appbuddy-login.php:233 buddypress/members/register.php:181
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: buddypress/appbuddy-login.php:250
+msgid "Username or password incorrect."
+msgstr ""
+
+#: buddypress/appbuddy-login.php:272
+msgid "Password"
+msgstr ""
+
+#: buddypress/appbuddy-login.php:278
+msgid "Log In"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:17
+msgid "Your browser does not support this feature."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:24
+msgid "Capture"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:25
+#: buddypress/members/single/settings/capabilities.php:13
+msgid "Save"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/crop.php:23
+#: buddypress/groups/create.php:166 buddypress/groups/single/admin.php:162
+#: buddypress/members/single/profile/change-avatar.php:39
+msgid "Crop Image"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:37
+msgid ""
+"If you'd like to delete your current profile photo but not upload a new one, "
+"please use the delete profile photo button."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:38
+msgid "Delete Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:38
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:40
+msgid ""
+"If you'd like to remove the existing group profile photo but not upload a "
+"new one, please use the delete group profile photo button."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:41
+msgid "Delete Group Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:26
+msgid ""
+"If you'd like to delete your current cover image but not upload a new one, "
+"please use the delete Cover Image button."
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:27
+#: buddypress/assets/_attachments/cover-images/index.php:30
+msgid "Delete Cover Image"
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:27
+msgid "Delete My Cover Image"
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:29
+msgid ""
+"If you'd like to remove the existing group cover image but not upload a new "
+"one, please use the delete group cover image button."
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:30
+msgid "Delete Group Cover Image"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:16
+msgid "The web browser on your device cannot be used to upload files."
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:18
+msgid "Upload Limit Exceeded"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:23
+msgid "Drop your file here"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:24
+msgctxt "Uploader: Drop your file here - or - Select your File"
+msgid "or"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:25
+msgid "Select your File"
+msgstr ""
+
+#: buddypress/assets/emails/single-bp-email.php:202
+msgctxt "email"
+msgid "unsubscribe"
+msgstr ""
+
+#. /ajax.php - bp_legacy_theme_object_filter()
+#. *
+#. * @package BuddyPress
+#. * @subpackage bp-legacy
+#.
+#: buddypress/blogs/blogs-loop.php:90
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: buddypress/blogs/create.php:14
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: buddypress/blogs/index.php:16
+#, php-format
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: buddypress/blogs/index.php:20
+#, php-format
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: buddypress/blogs/index.php:36 buddypress/forums/index.php:42
+#: buddypress/groups/single/forum.php:36 buddypress/members/single/blogs.php:19
+#: buddypress/members/single/forums.php:18
+#: buddypress/members/single/friends.php:20
+#: buddypress/members/single/groups.php:20
+msgid "Order By:"
+msgstr ""
+
+#: buddypress/blogs/index.php:38 buddypress/forums/index.php:44
+#: buddypress/groups/single/forum.php:38 buddypress/members/single/blogs.php:21
+#: buddypress/members/single/forums.php:20
+#: buddypress/members/single/friends.php:22
+#: buddypress/members/single/groups.php:22
+msgid "Last Active"
+msgstr ""
+
+#: buddypress/blogs/index.php:39 buddypress/members/single/blogs.php:22
+msgid "Newest"
+msgstr ""
+
+#: buddypress/blogs/index.php:40 buddypress/members/single/blogs.php:23
+#: buddypress/members/single/friends.php:24
+#: buddypress/members/single/groups.php:25
+msgid "Alphabetical"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:71
+msgid "BuddyPress Legacy"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:307
+msgid "Accepted"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:309
+msgid "comments"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:310
+msgid "Are you sure you want to leave this group?"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:312
+msgid "My Favorites"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:313
+msgid "Rejected"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:315
+msgid "Show all"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:316
+msgid "Show all comments for this thread"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:317
+#, php-format
+msgid "Show all %d comments"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:318
+msgid ""
+"Your profile has unsaved changes. If you leave the page, the changes will be "
+"lost."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:319
+msgid "View"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:346
+msgid "Unstar"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:347
+msgid "Star"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:348
+msgid "Starred"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:349
+msgid "Not starred"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:350
+msgid "Remove all starred messages in this thread"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:351
+msgid "Star the first message in this thread"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:934
+msgid "Please enter some content to post."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:951
+msgid "There was a problem posting your update. Please try again."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1000
+msgid "There was an error posting your reply. Please try again."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1003
+msgid "Please do not leave the comment area blank."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1083
+#: buddypress/buddypress-functions.php:1120
+msgid "There was a problem when deleting. Please try again."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1303 buddypress/groups/create.php:254
+#: buddypress/groups/single/invites-loop.php:51
+msgid "Remove Invite"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1307
+#, php-format
+msgid ""
+"%s has previously requested to join this group. Sending an invitation will "
+"automatically add the member to the group."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1352
+msgid "Friendship could not be canceled."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1354
+#: buddypress/buddypress-functions.php:1372
+msgid "Add Friend"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1362
+msgid " Friendship could not be requested."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1364
+msgid "Cancel Friendship Request"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1374
+msgid "Friendship request could not be cancelled."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1379
+msgid "Request Pending"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1399
+msgid "There was a problem accepting that request. Please try again."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1418
+msgid "There was a problem rejecting that request. Please try again."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1448
+msgid "Error joining group"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1450
+#: buddypress/buddypress-functions.php:1463
+msgid "Leave Group"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1461
+#: buddypress/buddypress-functions.php:1471
+msgid "Error requesting membership"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1473
+msgid "Membership Requested"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1482
+msgid "Error leaving group"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1484
+msgid "Join Group"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1486
+msgid "Request Membership"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1505
+msgid "There was a problem closing the notice."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1567
+#, php-format
+msgid "Sent %s"
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1608
+msgid "There was a problem sending that reply. Please try again."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1626
+msgid "There was a problem marking messages as unread."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1651
+msgid "There was a problem marking messages as read."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1676
+msgid "There was a problem deleting messages."
+msgstr ""
+
+#: buddypress/buddypress-functions.php:1682
+msgid "Messages deleted."
+msgstr ""
+
+#: buddypress/content-bp_activity_form.php:11
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: buddypress/content-bp_activity_form.php:13
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: buddypress/content-bp_activity_form.php:24
+msgid " Post Update"
+msgstr ""
+
+#: buddypress/content-bp_activity_form.php:30
+msgid "Attach Photo"
+msgstr ""
+
+#: buddypress/content-bp_activity_form.php:55
+msgid "To use the activity form you need to enable BuddyPress Activity Streams"
+msgstr ""
+
+#: buddypress/content-bp_activity_form.php:57
+msgid "Posting activity has been disabled"
+msgstr ""
+
+#: buddypress/email-settings.php:15
+msgid "Activity"
+msgstr ""
+
+#: buddypress/email-settings.php:17
+#, php-format
+msgid "A member mentions you in an update using \"@%s\""
+msgstr ""
+
+#: buddypress/email-settings.php:31
+msgid "A member replies to an update or comment you've posted"
+msgstr ""
+
+#: buddypress/email-settings.php:60
+msgid "Friends"
+msgstr ""
+
+#: buddypress/email-settings.php:62
+msgid "A member sends you a friendship request"
+msgstr ""
+
+#: buddypress/email-settings.php:76
+msgid "A member accepts your friendship request"
+msgstr ""
+
+#: buddypress/email-settings.php:105 buddypress/members/single/home.php:37
+msgid "Messages"
+msgstr ""
+
+#: buddypress/email-settings.php:107
+msgid "A member sends you a new message"
+msgstr ""
+
+#: buddypress/email-settings.php:121
+msgid "A new site notice is posted"
+msgstr ""
+
+#: buddypress/email-settings.php:150 buddypress/members/single/home.php:35
+msgid "Groups"
+msgstr ""
+
+#: buddypress/email-settings.php:152
+msgid "A member invites you to join a group"
+msgstr ""
+
+#: buddypress/email-settings.php:165
+msgid "Group information is updated"
+msgstr ""
+
+#: buddypress/email-settings.php:177
+msgid "You are promoted to a group administrator or moderator"
+msgstr ""
+
+#: buddypress/email-settings.php:189
+msgid "A member requests to join a private group for which you are an admin"
+msgstr ""
+
+#. /ajax.php - bp_legacy_theme_object_filter()
+#. *
+#. * @package BuddyPress
+#. * @subpackage bp-legacy
+#.
+#: buddypress/forums/forums-loop.php:39
+msgid "Topic"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:40
+msgid "Posts"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:41
+msgid "Freshness"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:54
+#: buddypress/groups/single/forum/topic.php:95
+msgid "Permanent link to this post"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:61
+#, php-format
+msgid "Started by %1$s"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:72
+#, php-format
+msgid "in %1$s"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:122
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: buddypress/forums/index.php:22
+#, php-format
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: buddypress/forums/index.php:26
+#, php-format
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: buddypress/forums/index.php:45 buddypress/groups/single/forum.php:39
+#: buddypress/members/single/forums.php:21
+msgid "Most Posts"
+msgstr ""
+
+#: buddypress/forums/index.php:46 buddypress/groups/single/forum.php:40
+#: buddypress/members/single/forums.php:22
+msgid "Unreplied"
+msgstr ""
+
+#: buddypress/forums/index.php:82
+msgid "Create New Topic:"
+msgstr ""
+
+#: buddypress/forums/index.php:86 buddypress/groups/single/forum.php:75
+#: buddypress/groups/single/forum/edit.php:47
+msgid "Title:"
+msgstr ""
+
+#: buddypress/forums/index.php:89 buddypress/groups/single/forum.php:78
+#: buddypress/groups/single/forum/edit.php:50
+msgid "Content:"
+msgstr ""
+
+#: buddypress/forums/index.php:92 buddypress/groups/single/forum.php:81
+#: buddypress/groups/single/forum/edit.php:53
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: buddypress/forums/index.php:95
+msgid "Post In Group Forum:"
+msgstr ""
+
+#: buddypress/forums/index.php:98
+msgid "----"
+msgstr ""
+
+#: buddypress/forums/index.php:115 buddypress/groups/single/forum.php:87
+msgid "Post Topic"
+msgstr ""
+
+#: buddypress/forums/index.php:127
+#, php-format
+msgid ""
+"You are not a member of any groups so you don't have any group forums you "
+"can post in. To start posting, first find a group that matches the topic "
+"subject you'd like to start. If this group does not exist, why not <a "
+"href='%s'>create a new group</a>? Once you have joined or created the group "
+"you can post your topic in that group's forum."
+msgstr ""
+
+#: buddypress/groups/create.php:29 buddypress/groups/single/admin.php:18
+msgid "Group Name (required)"
+msgstr ""
+
+#: buddypress/groups/create.php:35 buddypress/groups/single/admin.php:25
+msgid "Group Description (required)"
+msgstr ""
+
+#: buddypress/groups/create.php:52 buddypress/groups/single/admin.php:63
+msgid "Privacy Options"
+msgstr ""
+
+#: buddypress/groups/create.php:56 buddypress/groups/single/admin.php:68
+msgid "This is a public group"
+msgstr ""
+
+#: buddypress/groups/create.php:58 buddypress/groups/single/admin.php:70
+msgid "Any site member can join this group."
+msgstr ""
+
+#: buddypress/groups/create.php:59 buddypress/groups/create.php:68
+#: buddypress/groups/single/admin.php:71 buddypress/groups/single/admin.php:81
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:60 buddypress/groups/single/admin.php:72
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: buddypress/groups/create.php:65 buddypress/groups/single/admin.php:78
+msgid "This is a private group"
+msgstr ""
+
+#: buddypress/groups/create.php:67 buddypress/groups/single/admin.php:80
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:69 buddypress/groups/create.php:78
+#: buddypress/groups/single/admin.php:82 buddypress/groups/single/admin.php:92
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: buddypress/groups/create.php:74 buddypress/groups/single/admin.php:88
+msgid "This is a hidden group"
+msgstr ""
+
+#: buddypress/groups/create.php:76 buddypress/groups/single/admin.php:90
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:77 buddypress/groups/single/admin.php:91
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: buddypress/groups/create.php:83 buddypress/groups/single/admin.php:97
+msgid "Group Invitations"
+msgstr ""
+
+#: buddypress/groups/create.php:85 buddypress/groups/single/admin.php:99
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: buddypress/groups/create.php:90 buddypress/groups/single/admin.php:104
+msgid "All group members"
+msgstr ""
+
+#: buddypress/groups/create.php:95 buddypress/groups/single/admin.php:109
+msgid "Group admins and mods only"
+msgstr ""
+
+#: buddypress/groups/create.php:100 buddypress/groups/single/admin.php:114
+msgid "Group admins only"
+msgstr ""
+
+#: buddypress/groups/create.php:106
+msgid "Group Forums"
+msgstr ""
+
+#: buddypress/groups/create.php:110
+msgid "Should this group have a forum?"
+msgstr ""
+
+#: buddypress/groups/create.php:113 buddypress/groups/single/admin.php:56
+msgid "Enable discussion forum"
+msgstr ""
+
+#: buddypress/groups/create.php:117
+#, php-format
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: buddypress/groups/create.php:143 buddypress/groups/single/admin.php:132
+msgid ""
+"Upload an image to use as an avatar for this group. The image will be shown "
+"on the main group page, and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:147 buddypress/groups/single/admin.php:136
+#: buddypress/members/single/profile/change-avatar.php:18
+msgid "Upload Image"
+msgstr ""
+
+#: buddypress/groups/create.php:151
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: buddypress/groups/create.php:158
+msgid "Crop Group Avatar"
+msgstr ""
+
+#: buddypress/groups/create.php:160 buddypress/groups/single/admin.php:156
+#: buddypress/members/single/profile/change-avatar.php:33
+msgid "Avatar to crop"
+msgstr ""
+
+#: buddypress/groups/create.php:163 buddypress/groups/single/admin.php:159
+#: buddypress/members/single/profile/change-avatar.php:36
+msgid "Avatar preview"
+msgstr ""
+
+#: buddypress/groups/create.php:197 buddypress/groups/single/admin.php:190
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#: buddypress/groups/create.php:236
+#: buddypress/groups/single/invites-loop.php:79
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: buddypress/groups/create.php:271
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: buddypress/groups/create.php:293
+msgid "Back to Previous Step"
+msgstr ""
+
+#: buddypress/groups/create.php:300
+msgid "Next Step"
+msgstr ""
+
+#: buddypress/groups/create.php:307
+msgid "Create Group and Continue"
+msgstr ""
+
+#: buddypress/groups/create.php:314
+msgid "Finish"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:13
+#: buddypress/groups/single/cover-image-header.php:65
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:49
+msgid "There were no groups found."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:35
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:41 buddypress/groups/single/admin.php:122
+#: buddypress/groups/single/forum/edit.php:58
+#: buddypress/groups/single/forum/edit.php:74
+#: buddypress/members/single/profile/edit.php:61
+#: buddypress/members/single/settings/general.php:36
+#: buddypress/members/single/settings/notifications.php:13
+msgid "Save Changes"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:142
+msgid ""
+"If you'd like to remove the existing avatar but not upload a new one, please "
+"use the delete avatar button."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:144
+#: buddypress/members/single/profile/change-avatar.php:24
+msgid "Delete Avatar"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:154
+msgid "Crop Avatar"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:179
+#: buddypress/members/single/profile/change-cover-image.php:11
+msgid "Change Cover Image"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:211
+msgid "Administrators"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:219
+#: buddypress/groups/single/admin.php:246
+#, php-format
+msgid "Profile picture of %s"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:224
+#: buddypress/groups/single/admin.php:251
+msgid "Demote to Member"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:239
+msgid "Moderators"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:250
+#: buddypress/groups/single/admin.php:306
+msgid "Promote to Admin"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:265
+msgid "Members"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:294
+msgid "(banned)"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:300
+msgid "Unban this member"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:300
+msgid "Remove Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:304
+msgid "Kick and ban this member"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:304
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:305
+msgid "Promote to Mod"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:310
+msgid "Remove this member"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:310
+msgid "Remove from group"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:324
+#: buddypress/groups/single/members.php:57
+msgid "This group has no members."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:360
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:363
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: buddypress/groups/single/admin.php:368
+msgid "Delete Group"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:19
+msgid "New Topic"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:27
+#: buddypress/groups/single/forum/edit.php:16
+#: buddypress/groups/single/forum/topic.php:17
+msgid "Forum Directory"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:69
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: buddypress/groups/single/forum.php:73
+msgid "Post a New Topic:"
+msgstr ""
+
+#: buddypress/groups/single/forum/edit.php:10
+msgid "Reply"
+msgstr ""
+
+#: buddypress/groups/single/forum/edit.php:25
+msgid "Edit:"
+msgstr ""
+
+#: buddypress/groups/single/forum/edit.php:87
+msgid "This topic does not exist."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:9
+msgid "New Reply"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:32
+msgid "Topic tags:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:81
+#, php-format
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:119
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:134
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:139
+msgid "Add a reply:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:144
+msgid "Post Reply"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:155
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#: buddypress/groups/single/home.php:35 buddypress/members/single/home.php:39
+msgid "Profile"
+msgstr ""
+
+#: buddypress/groups/single/invites-loop.php:90
+msgid "Send Invites"
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:4
+#, php-format
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:7
+msgid "Comments (optional)"
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:12
+msgid "Send Request"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:25
+#: buddypress/members/single/friends/requests.php:34
+#: buddypress/members/single/groups/invites.php:21
+msgid "Accept"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:27
+#: buddypress/members/single/friends/requests.php:35
+#: buddypress/members/single/groups/invites.php:22
+msgid "Reject"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:51
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: buddypress/members/activate.php:14
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: buddypress/members/activate.php:16
+#, php-format
+msgid ""
+"Your account was activated successfully! You can now <a href=\"%s\">log in</"
+"a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: buddypress/members/activate.php:21
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: buddypress/members/activate.php:25
+msgid "Activation Key:"
+msgstr ""
+
+#: buddypress/members/activate.php:29
+msgid "Activate"
+msgstr ""
+
+#: buddypress/members/members-loop.php:67
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: buddypress/members/register.php:164
+msgid "Complete Sign Up"
+msgstr ""
+
+#: buddypress/members/single/friends.php:23
+msgid "Newest Registered"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:65
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: buddypress/members/single/groups.php:23
+msgid "Most Members"
+msgstr ""
+
+#: buddypress/members/single/groups.php:24
+msgid "Newly Created"
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:12
+#, php-format
+msgid "1 member"
+msgid_plural "%d members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddypress/members/single/groups/invites.php:35
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: buddypress/members/single/home.php:18
+msgid "Navigation"
+msgstr ""
+
+#: buddypress/members/single/home.php:41
+#: buddypress/members/single/notifications/notifications-loop.php:3
+msgid "Notifications"
+msgstr ""
+
+#: buddypress/members/single/home.php:43
+msgid "User Settings"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:7
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:20
+msgid "This is a notice to all users."
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:25
+msgid "Subject"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:30
+msgid "Message"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:39
+msgid "Send Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:23
+#: buddypress/members/single/messages/messages-loop.php:28
+msgid "View Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:34
+#: buddypress/members/single/messages/notices-loop.php:40
+#: buddypress/members/single/messages/single.php:26
+msgid "Delete Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:50
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:33
+msgid "Sent:"
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:56
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:16
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:20
+#, php-format
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:59
+msgid "Reply..."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:66
+msgid "Send Reply"
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:7
+msgid "You have no unread notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:11
+msgid "This member has no unread notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:19
+msgid "You have no notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:23
+msgid "This member has no notifications."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:1
+msgid "Change Avatar"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:7
+msgid ""
+"Your avatar will be used on your profile and throughout the site. If there "
+"is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
+"account email we will use that, or you can upload an image from your "
+"computer."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:14
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:23
+msgid ""
+"If you'd like to delete your current avatar but not upload a new one, please "
+"use the delete avatar button."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:24
+msgid "Delete My Avatar"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:31
+msgid "Crop Your New Avatar"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:55
+msgid ""
+"Your avatar will be used on your profile and throughout the site. To change "
+"your avatar, please create an account with <a href=\"http://gravatar.com"
+"\">Gravatar</a> using the same email address as you used to register with "
+"this site."
+msgstr ""
+
+#: buddypress/members/single/profile/change-cover-image.php:22
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:10
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:33
+msgid "Change"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:8
+msgid "My Profile"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:8
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:15 comments.php:77
+msgid "Name"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:24
+msgid "About Me"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:33 comments.php:88
+#: inc/classes/AppPresser_AP3_Functionality.php:110
+msgid "Website"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:42
+msgid "Jabber"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:51
+msgid "AOL Messenger"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:60
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: buddypress/members/single/settings/capabilities.php:9
+msgid "This user is a spammer."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:7
+msgid ""
+"Deleting your account will delete all of the content you have created. It "
+"will be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:11
+msgid ""
+"Deleting this account will delete all of the content it has created. It will "
+"be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:23
+msgid "I understand the consequences."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:27
+msgid "Delete Account"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:8
+msgid ""
+"Current Password <span>(required to update email or change current "
+"password)</span>"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:12
+msgid "Password Lost and Found"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:12
+msgid "Lost your password?"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:17
+msgid "Account Email"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:21
+msgid "Change Password?"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:24
+msgid "New password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:29
+msgid "Repeat New Password"
+msgstr ""
+
+#: buddypress/members/single/settings/notifications.php:4
+msgid "Send an email notice when:"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:13
+msgid "Visibility"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:34
+msgid "Save Settings"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:71
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: comments.php:82 inc/classes/AppPresser_AP3_Functionality.php:140
+msgid "Email"
+msgstr ""
+
+#: content-archive.php:28 content-single.php:27 content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: content-archive.php:37 content-archive.php:40 content.php:45 content.php:55
+msgid ", "
+msgstr ""
+
+#: content-archive.php:45
+#, php-format
+msgid "Tags: %2$s"
+msgstr ""
+
+#: content-archive.php:53
+#, php-format
+msgid "Category: %1$s Tags: %2$s"
+msgstr ""
+
+#: content-archive.php:55 content.php:49
+#, php-format
+msgid "Category: %1$s"
+msgstr ""
+
+#: content-archive.php:69 content-page.php:14 content-single.php:42
+#: content.php:70 inc/classes/AppPresser_AP3_Tags.php:94
+#: inc/classes/AppPresser_AP3_Tags.php:113
+msgid "Edit"
+msgstr ""
+
+#: content.php:60
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: content.php:67 inc/classes/AppPresser_AP3_Functionality.php:100
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:67
+msgid "% Comments"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:53
+msgid "Upload Logo (replaces text)"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:61
+msgid "List Style"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:79
+msgid "Add slider to homepage?"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:100
+msgid "What category?"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:105
+msgid ""
+"Uses slides custom post type by default. To show all posts, select a "
+"category below."
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:195
+msgid "Body Background"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:200
+msgid "Text Color"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:205
+msgid "Link Color"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:215
+msgid "Primary Button Background"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:220
+msgid "Primary Button Text"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:225
+msgid "Secondary Button Background"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:230
+msgid "Secondary Button Text"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:235
+msgid "Headings Color"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:240
+msgid "Header/Footer Bg Color"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:245
+msgid "Header/Footer Text Color"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:250
+msgid "Left Menu Background"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Customizer.php:255
+msgid "Left Menu Text"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Extension_Compatibility.php:125
+msgid "Check In"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Extension_Compatibility.php:236
+msgid "Click here to login"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Extra_Functionality.php:69
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:60
+msgid "Please Login"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:65
+msgid "Welcome back!"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:73
+msgid "Lost Password?"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:106
+msgid "*Name"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:108
+msgid "*Email"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:117
+msgid "Post Comment"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:139
+msgid "Please enter your email and a password retrieval code will be sent."
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:141
+msgid "Request Code"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:147
+#: inc/classes/AppPresser_AP3_Functionality.php:151
+msgid "New Password"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:149
+msgid "Please enter your code and a new password."
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:150
+msgid "Code"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:152
+msgid "Repeat Password"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:153
+msgid "Change Password"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Functionality.php:166
+msgid "Login Failed! Please try again."
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:51
+msgid "Post navigation"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:56
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:57
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:65
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:70
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:94
+msgid "Pingback:"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:104
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:110
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:117
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:187
+#, php-format
+msgid ""
+"Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class="
+"\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
+"\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:193
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:291
+#: inc/classes/AppPresser_AP3_Tags.php:294
+#: inc/classes/AppPresser_AP3_Tags.php:297
+#: inc/classes/AppPresser_AP3_Tags.php:304
+#: inc/classes/AppPresser_AP3_Tags.php:312
+#: inc/classes/AppPresser_AP3_Tags.php:315
+#: inc/classes/AppPresser_AP3_Tags.php:318
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:321
+msgid "Missing"
+msgstr ""
+
+#: inc/classes/AppPresser_AP3_Tags.php:324
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: inc/init.php:149
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/init.php:150
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/init.php:254
+msgid "Back"
+msgstr ""
+
+#: inc/init.php:255
+msgid "You appear to be offline, please try again when you are online."
+msgstr ""
+
+#: inc/init.php:262
+msgid "Please enter comment text."
+msgstr ""
+
+#: inc/init.php:266
+msgid "Welcome back "
+msgstr ""
+
+#. //codex.wordpress.org/Template_Hierarchy
+#. *
+#. * @package Ion
+#.
+#: no-results.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr ""

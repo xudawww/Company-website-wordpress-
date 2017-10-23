@@ -1,0 +1,23 @@
+/**
+ * Customizer Custom CSS
+ */
+.acme-ads {
+	background-color: #f88c00;
+	text-align: center;
+}
+.acme-ads .button {
+	background-color: #1a8b0b;
+	border: 1px solid #1a8b0b;
+	border-radius: 4px;
+	color: #ffffff;
+	margin: 15px 0;
+	transition: all 0.5s ease-in-out 0s;
+	-webkit-transition:all 0.5s ease-in-out 0s;
+	-moz-transition:all 0.5s ease-in-out 0s;
+}
+.acme-ads .button:hover,
+.acme-ads .button:focus
+{
+	background-color: #71b02f ;
+	color: #ffffff;
+}

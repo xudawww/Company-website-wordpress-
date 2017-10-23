@@ -1,0 +1,6 @@
+[06-Apr-2016 08:31:29 Etc/GMT] PHP Notice:  Undefined variable: msg in /home/techwbzd/public_html/hosted/callmycab.in/application/views/upload.php on line 63
+[06-Apr-2016 08:31:29 Etc/GMT] PHP Notice:  Undefined variable: upload_data in /home/techwbzd/public_html/hosted/callmycab.in/application/views/upload.php on line 67
+[06-Apr-2016 08:31:29 Etc/GMT] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/techwbzd/public_html/hosted/callmycab.in/application/views/upload.php on line 74
+[06-Apr-2016 08:34:48 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/techwbzd/public_html/hosted/callmycab.in/application/views/installer.php on line 5
+[06-Apr-2016 08:34:51 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/techwbzd/public_html/hosted/callmycab.in/application/views/installer.php on line 5
+[06-Apr-2016 08:34:53 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/techwbzd/public_html/hosted/callmycab.in/application/views/installer.php on line 5

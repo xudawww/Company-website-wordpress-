@@ -1,0 +1,73 @@
+/*
+RTL Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+#singlecontent,
+#pagecont{
+	margin-left: 4%;
+	margin-right: 0 !important;		
+}
+#navigation{
+	min-height: 46px;
+}
+ul.spicesocialwidget {
+    float: left;
+    margin-left: 0 !important;
+}
+#navigation ul li,
+#navigation-inner,
+#pronav  ul li,
+#singlecontent,
+h1.entry-title,
+.pagepost h1.entry-title,
+form#searchform input#s,
+p.form-submit,
+#header #logo,
+#navigation ul,
+ol.commentlist li div.vcard img.avatar,
+#pagecont{
+	float: right !important;
+}
+#header-inner, #page-inner, #bottom-menu-inner, #footer-inner, #ltpost, .nav, #pronav-inner,
+.entry,
+h2.entry-title,
+#sidebar,
+#commentform > p.comment-form-comment > label,
+#crumbs{
+	    text-align: right;
+}
+#metad{
+	clear:both;
+}
+#sidebar h4, #sidebar h4 a{
+	    padding: 15px 12px 15px 13px;
+}
+
+#pagenavi span.pages {
+    display: none;
+}
+#search,
+#TopMenuSocial,
+#banner-top{
+	float: left !important;
+}
+
+#sidebar h4:before, #sidebar h4 a:before {
+    content: "";
+    float: left;
+    border-color: #FFFFFF transparent #FFFFFF transparent;
+    border-style: solid;
+    border-width: 23px 18px 21px 0px;
+    margin-top: -15px;
+    margin-left: -13px;
+}

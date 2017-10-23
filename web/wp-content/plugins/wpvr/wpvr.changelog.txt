@@ -1,0 +1,590 @@
+
+------------------------------- v1.9 ( May 25th , 2017) -----------------------------
+-----------------------------------------------------------------------------------------
+- Corrected the name of the field PrivateCustom PostType.
+- Added the currently used timezone on all time prints.
+- Added timezone support when scheduling sources.
+- Corrected the Cancel License Activation URL issue.
+- Improved the DEV and DEMO mode flags.
+- Corrected the CRON execution time when async mode is disabled.
+- Corrected the Youtube Search Type source error.
+- Changed the CRON Machine messages to more descriptive ones.
+- Detect when images cannot be downloaded (because of missing requirement) and throw an error message.
+- Totally revamped the activity logs page for better user experience.
+- Check if the video thumbnails already exists on the site before downloading it. Better performance and less disk space use.
+- Added AutoCleaner feature to automatically clean your site from duplicates.
+- Added more flexibility for video integration ( Player Annotations ).
+- Added Source Integration options (Start Time / End Time / Hide Player Title / Hide Player Related / Hide Player Annotations).
+- Added several hooks to support the new Conditional Logic addon.
+- Added Tipso to use fancy tooltips.
+- Added support for the new Master/Workers addon.
+- Corrected an error thrown by Youtube when getting some videos like count.
+- Added Source Post Status option (publish/draft/private/pending) so automatically set imported videos statuses.
+- Added Source Skip Unwanted Scope to keep recored of unwanted videos on a source basis.
+- Revamped the Videos and Sources advanced filters (more flexibility for more control).
+
+
+------------------------------- v1.8.10 ( March 10th , 2017) -----------------------------
+-----------------------------------------------------------------------------------------
+[Bugfixes]
+- Added default values next to each source field.
+- Changed the search terms explanation to a simpler real example (thanks to mr.Lipsett).
+- Corrected the addons texteditor fields not saving issue.
+- Added dataFillers filter hook to remote control dataFillers.
+- Added Auto Deactivate Source Threshold option, to automatically deactivate sources that don't find any videos after a threshold.
+- Corrected the order and description of all WPVR options.
+- Corrected the description of all sources fields.
+- Added Hide Player Related global and individual options to avoid the Youtube player showing the related videos when the video ends.
+- Added Hide Player Title global and individual options to avoid the Youtube player showing the video title.
+- Added Sticky bottom save options bar on WPVR Options.
+
+
+
+------------------------------- v1.8.9 ( February 20th , 2017) -----------------------------
+-----------------------------------------------------------------------------------------
+[Bugfixes]
+- Corrected the Private Custom Post type missing option issue.
+- Corrected the Youtube manual adding issue of v1.8.8.
+- Removed the php command line automation line.
+- Corrected the columns override function definition conflict with VideoPro.
+- Corrected the conflict on WP Query when using VideoPro and posting as regular post.
+- Corrected the format of the CRON Stopped error message.
+- Fixed the autoembeding video player on non WPVR posts issue.
+- Corrected the bug when selecting posting author.
+- Fixed the time zone issue when running a source.
+- Added a doExec param to simulate automatic source execution only.
+- Added a view button when adding videos through TEST sources screen.
+
+
+
+
+
+------------------------------- v1.8.8 (January 2nd, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Bugfixes]
+- Added filtering between WPVR videos and regular posts.
+- Corrected Facebook VS thumb error.
+- Added capability to import videos to any custom post type, including regular post type.
+- Corrected the save addon options bug.
+- Corrected the wrong API Access options link.
+- Corrected the Newspaper hook not firing on manual adding.
+- Added some new fancy debugging functions.
+- Corrected several execution bugs.
+- Corrected async execution when HTTP authentication enabled.
+- Added HD flag for videos where HQ thumb is available.
+- Added Override admin columns option.
+- Corrected the export options, videos and sources issue on WP Multisite.
+- Corrected the exported system info line break issue.
+- Added memory available info to System Info.
+
+------------------------------- v1.8.7.1 (November 25th, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Bugfixes]
+- Corrected the Javascript assets dependencies bug.
+
+------------------------------- v1.8.7 (November 20th, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Bugfixes]
+- Corrected the black bars issue on Youtube thumbs.
+- Reorganized all the plugin settings and revamped the API wizard screen with fancy services logos.
+- Corrected source owner info bug.
+- Corrected the multisite cron data storing error.
+- Corrected all WPVR portlets size issue on big screens.
+- Corrected source posting category issue (thanks to Mike).
+- Added WPVR install path to system info.
+- Corrected the thumbnails not downloading issue (when running a source on multisite).
+- Corrected the SSL error on CURL when used with Dailymotion SDK.
+- Updated the JS and CSS assets used by WPVR (NOUISlider, Fontawesome, Selectize).
+
+------------------------------- v1.8.6 (September 20th, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Added a single video import wizard for better user experience.
+- Added Sticky topbar on source edition screen for easy source edition.
+- Added the wpvr_count shortcode that shows different video counts filtered by category, by services or by status.
+    [wpvr_count] : Shows the total count of videos.
+    [wpvr_count service=youtube] : Shows the total number of Youtube videos (youtube/vimeo/dailymotion/ted/youku/facebook).
+    [wpvr_count category=movies] : Shows the total number of videos from the Movies category (use slug).
+    [wpvr_count status=pending] : Shows the total number of pending videos (publish/pending/draft).
+    Adding no_label attribute returns only the count number with no labelling.
+- Added new custom hooks php file, where advanced user can hook into WPVR action and filter hooks.
+- Added more simple message when visiting the CrON URL with CRON debug OFF.
+- Added Update thumbnails bulk action to re-download thumbnails of selected videos.
+- Introduced edit button when using source testing tool.
+- Rearranged the source filters and added source posting categories filter (More/Less Filters).
+- Rearranged the videos filters (More/Less Filters).
+
+
+[Bugfixes]
+- Corrected the issue on Dailymotion Playlists import.
+- Corrected the Video List screen blank screen issue (Thanks to Jorge Romero).
+- Corrected the cron url generation error with WP installed on a subfolder.
+- Corrected the manual adding issue with Youku videos.
+- Corrected hooks to prevent WPVR from messing with attachments frontend rendering.
+- Added exit blank screen when trying to access wpvr.cron.php directly (For better security).
+
+
+
+------------------------------- v1.8.5 (August 20th, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Added Video Author info when importing a video.
+- Added Video Author on testing screen.
+- Added Customizer support for metadata tags (%video_author% for example).
+
+[Bugfixes]
+- Added cURL error debugging to core functions.
+- Corrected the Timezone option saving process bug.
+- Corrected the GET HELP link on Cron config screen.
+- Corrected the double definiton of wpvr_show_restriction_msg function.
+- Added version information on activation JS popup.
+- Corrected the source parameter clicking issue.
+- Corrected the PHP object to array conversion in the plugin code files.
+- Corrected the VST rendering modified player 502 Bad Gateway issue (thanks to Leslie E.).
+
+
+
+------------------------------- v1.8.4 (June 1st, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Added Search Context on Youtube Search Sources.
+- Manual adding now supports Video URL and Video ID.
+- Added a pretty customizable cron permalink.
+- CRON execution on multisite is now supported.
+- Added categories filtering on Browse Addons screen.
+- Added WPVR_DISABLE_THUMB_DOWNLOAD to disable downloading of the video thumbnail.
+- Added a COPY button on WPVR Automation Options URLs.
+[Bugfixes]
+- Corrected new update message removal on both single and multisite.
+- Corrected addons and plugin autoupdate on multisite.
+- Corrected make_click hook error.
+- Corrected a conflict of noUiSlider JS framework.
+- Corrected the TMP database entries async bug.
+- Corrected the permalink 404 error on first plugin activation.
+- Corrected Deferred and Unwanted list pages pagination bug.
+- Adapted the cron data file to multisite installations.
+- Corrected the wpvr_adapt_164 function bug.
+- Corrected the cron execution bug on some server configrations.
+
+
+
+------------------------------- v1.8.3 (April 5th, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Implemented a better timezone selector.
+- Implemented expiration notices for addon licenses.
+- Added Changelog reader on welcome page.
+- Added a admin top bar menu for WP Video Robot links.
+- Added a plugins page menu for main WPVR links.
+- Redesigned bulk actions for sources and videos.
+- Added Server Software to System Info.
+
+[Bugfixes]
+- Corrected the loading animation on JS buttons.
+- Corrected the dashboard CRON message timezone.
+- Corrected Dailymotion text content bug (thanks José).
+- Added video and souorces custom post types support hooks.
+- Corrected async actions url bug on some server configurations.
+- Added links to welcome page icons.
+- Corrected the 'player instead of thumbnail' option bug (thanks to keithkraker).
+
+
+------------------------------- v1.8.2 (March 5th, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Added a Welcome screen with "Import Demo Sources" button.
+- Redesigned the TEST SOURCE SCREEN.
+- Added groupped Sources Folders actions.
+- Added FontAwesome 4.5.0 Support.
+- Improved sources bulk actions.
+- Added AutoPilot support.
+- Improved CRON CLI executions and reports.
+- Added System Info Export to Text button.
+
+[Bugfixes]
+- Corrected the autoembed_done autoinclude bug.
+- Corrected some theme conflicts with the new get_themes_mb feature.
+- Corrected some JS error when clicking buttons.
+- Fixed the tinyMCE error on addons options screen.
+- Corrected some CSS conflicts on backend with other plugins.
+- Corrected DataFillers screen JS errors.
+- Corrected Youtube Channel ID retreiving errors (thanks to Joanny and José).
+- Fixed the tags being imported even if not wanted (thanks to Joanny and José).
+- Fixed the Stress Graph JS bug.
+- Fixed frontend error when a video service is disabled.
+
+- Corrected the JS error on WPVR dashboard thrown by a category containing a quote.
+- Corrected the WPVR dashboard Sources colors bug.
+- Corrected Source Service Labels and Source Types bugs on Activity Logs.
+- Added Execution mode and Execution time to Activity Logs.
+- Corrected some buttons JS Errors.
+- Corrected objects export known bug.
+
+
+
+
+------------------------------- v1.8 (February 20th, 2016) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- All metaboxes defined for regular posts now supported by imported videos.
+- Sources Folders to organize your sources.
+- Managing Unwanted Videos to refine fetching of better videos.
+- Better Single Source edition Action Buttons.
+- Added pagination to deferred and unwanted videos screen.
+- Added Global Publish Date filtering parameter.
+
+[Bugfixes]
+- Corrected Error on Dashboard / Sources Screen.
+- Corrected Videos filtering known issue on redirection.
+- Adapted the WPVR backend interface to mobile.
+- Corrected a http referrer WP bug.
+- Improved API Authentication process.
+
+
+
+------------------------------- v1.7.5 (November 15th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+-
+- Added Actions menus on Top of Testing Screen.
+- Added Clone Source button on single source edition screen.
+- Added filtering videos by service on wordpress videos list screen.
+- Added activation cancelling that allows you to use your purchase code on a new domain.
+- Added comments count on wordpress video list screen.
+- Removed the autoClean feature that was buggy with the new Youtube API v3.
+- Addons ordering has been improved.
+- Local and custom tailored addons now appears on addons grid.
+
+[Bugfixes]
+- Corrected the several sources testing nextPageToken bug.
+- Corrected the manage videos pagination bug.
+- Individual adding from youtube video id bug fixed.
+- Fixed comments importing issue when manual granting access to youtube (thanks to Mario Radivojev).
+- Fixed the Vimeo and Dailymotion declaration conflict with any other plugin (thanks to Mark Davidson).
+
+
+------------------------------- v1.7.3 (September 30th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Added some new functions to search videos.
+- Removed Autoclean. Preparing some new addons more efficient to track dead videos.
+
+
+[Bugfixes]
+- Fixed the dynamic thumbnails uri error.
+- Fixed the Api Connect Choices bug.
+- Fixed the sources stats metabox bug.
+- Corrected source getting tags bug even getTags disabled.
+- Fixed the deactivated services sources and videos bug.
+- Fixed the vimeo next page bug.
+
+
+------------------------------- v1.7.2 (September 5th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Added full CHINESE, ITALIAN, PORTUGUESE translations.
+- Added option to start local views count with Video Service views count.
+- Added new translated part of FRENCH, RUSSIAN, ARABIC and SPANISH.
+- BEtter support for some modern themes.
+- Added some new hooks to support new addons.
+- Added statistics metabox for sources.
+- Added icons for each source metabox.
+- Support for new theme fixes addons (VideoTube and Newspaper).
+
+
+[Bugfixes]
+- Fixed some warning s echoes on plugin activation when fresh installation.
+- Fixed get playlist data bug.
+- Corrected ShowMenuFor option bug.
+- Corrected the API Wizzard FadeIn JS issue.
+- Corrected K format of views count.
+- Corrected Smooth screen bug on sources and videos screen.
+- After manual import, grabbing select is set to off.
+- Corrected the autoplay bug on loop page.
+
+
+------------------------------- v1.7.0 (August 1st, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+[Bugfixes]
+- Fixed version error.
+- Fixed youtube search sources bug.
+- Fixed backward compatibility ( Thanks to Jorge and Shon Dosla ).
+
+
+------------------------------- v1.6.8 (July 20th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Added standalone video services support.
+- Added CRON path execution support.
+- Brand new API Access interface.
+- Added API communications notices.
+- Added Videos Screen EDIT/PREVIEW buttons.
+- Enhanced the plugin screens loading with fading.
+- Enhanced addons browsing experience.
+- Adapted all the plugin screens to mobile.
+
+[Bugfixes]
+- Fixed sources graph bug on WPVR dashboard.
+- Fixed user roles restriction bug.
+- Fixed JS errors.
+- Fixed Dailymotion player issue (thanks to Carlo Bartozi ).
+- Fixed default options init bug.
+- Corrected JM Twitter conflict.
+- Corrected errors on dataFillers ajax communications.
+
+
+------------------------------- v1.6.5 (July 1st, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+[Added Features]
+- Add Hierarchy to selectize.
+- Added WPVR_IS_LOCKED_OUT constant to prevent from being locked out the plugin.
+- WPVR CRON is now available using php command line.
+- Added 'Toggle All Grabbings' button on manual Adding screen.
+- Added performance warning to avoid server crash due to misconfiguration.
+- Added Reset CRON Data admin action.
+- Added better System Diagnosis.
+
+[Bugfixes]
+- Fixed the 'Go Back' button javascript bug.
+- Improved Ajax communication to avoid crashing when illegal strings are echjoed by other plugins.
+- Fixed autoupdate bug (thanks to Jorge).
+- Add Default choice for Video Duration Filter.
+- Add Default choice for Video Quality Filter.
+- Fixed 'Get Full Description' option bug (thanks to Jorge).
+- Fixed HTTPS embed bug (thanks to Nate).
+- Fixed the trashed sources that were still reachable by cron.
+
+
+------------------------------- v1.6.4 (June 22th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+
+[Added Features]
+- Added Get Video Full Description Option
+- Added Source auto tags
+- Added SAVE SOURCE button.
+- Advanced Source Filtering : by publish date , by video quality, by video duration.
+- Updated Video services SDKs.
+- Javascript Messages dialogs are no longer modal.
+- Multiple testing tabs or windows now possible.
+- Added HTTPS Video Url to dataFillers.
+- Added Dynamic Video Views dataFiller to automatically fill/update your theme custom fields with the updated video views.
+- Added Dynamic Custom Post Type Skipper to avoid conflicts with other plugins.
+- Added ESC for closing dialogs.
+
+[Bugfixes]
+- Corrected vimeo tags import bug.
+- Corrected the addons reloader bug.
+- Corrected javascript bug on add items on deferred screen.
+- Increased security in API communications.
+- Fixed the JS buttons spinner bug.
+- Improved the youtube fetching by not geting tags of already imported videos.
+- Corrected Vimeo Video Fetching bug.
+- Added loading to thumbs on testing screens.
+- Improved JS ajax communications.
+
+
+
+------------------------------- v1.6.3 (May 30th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+
+[Added Features]
+- Now you can handle imported videos permalinks as any regular post permalink.
+- Now you can run several test sources without loosing temp results.
+
+[Bugfixes]
+- Corrected post categories bug thanks to Giancarlo and David.
+- Corrected Reset Addon Options Button JS Bug.
+- Corrected dataFilter Adding Button JS Bug.
+- Corrected Original Views on dataFiller Types select.
+- Corrected wpvideorobot.com site on plugin page.
+- Fixed the Vimeo Antiduplicates bug.
+
+
+
+------------------------------- v1.6 (May 10th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+
+[Added Features]
+- Added selectize input instead of category checkboxes for better user experience
+- Added Plugin Activation
+- Added Custom String dataFiller Type
+- Added dataFillers Preset for better compatibility with themes
+- Better TEST/RUN buttons on Edit Source Screen
+- Added video title to imported thumbnail filename, title and caption to optimize SEO rankings
+- Added option to use a video as a normal post
+- Supporting Addons to extend functionalities and enhance the plugin
+- Permalink Rewrite Rule with 3 options : no base , category base , or custom base.
+- Maximum resolution of thumbnails of imported youtube videos
+- Video Content Affix and Suffix added to options
+- Source Posting Categories enhancement
+- Licences managment
+- Added Admin Actions section on dashboard for advanced users
+
+[Bugfixes]
+- Adapted WP Video Robot Manual Adding to Youtube API v3
+- Corrected the XSS vulnerability on add_query_arg
+- Corrected several Ajax Buttons bugs
+- Added Test Permission on cron.txt file for debugging cron errors and issues
+- Added message when youtube daily quota is reached
+- Remove Single thumb bug fixed
+- CONFLICT WITH AD SINSERT PLUGIN FIXED
+- ADDED - FILTER BY HQTHUMB
+- DATAFILLER EMBED CODE BUGFIX
+- postCats bug corrected
+- dataFillers execution on manual adding corrected
+
+
+
+------------------------------- v1.5.3 (March 30th, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+
+[Added Features]
+- Added DailyMotion Syndication on video embed
+- German and Polish Translations corrected and working properly
+- Added 'PHP Version' on Show System Infos
+- Added an error message if PHP <= 5.3.0
+
+[Bugfixes]
+-
+- Source Counters( run/test/imported) bug corrected
+- Source Schedule on XXX bug corrected
+- Ajax Data Communication on video adding bug fixed
+- Minor Security bug fixed
+- Trim custom field name on dataFillers form
+
+
+
+------------------------------- v1.5.1 (January 31, 2015) -----------------------------
+-----------------------------------------------------------------------------------------
+
+[Added Features]
+- Now compatible with Wordpress MultiSite structure
+- Now compatible with bbPress and buddyPress
+- Now compatible with WooCommerce Shop Plugin
+- Added an option to show or hide the video text content
+- Added new Source type for VIMEO Video Service : USER TYPE (import all videos posted  by a vimeo user)
+- Added "Comment Support" Option to imported Videos
+- Added "Show Player Controls" Option to imported Videos
+- Added a button to hard refresh tables on Options pages
+- Added an option to prefix or suffix imported videos title with source name or custom text
+- Added Data Fillers to improve themes compatibility and seamless integration
+
+[Bugfixes]
+- Filtering by categories on Videos Manage screen bug fixed.
+- Source categories bug fixed
+- Video Duration bug fixed
+- WPVR_ALLOW_DEFAULT_API_CREDENTIALS definition fixed
+- Sources testing bug fixed.
+- Replace thumbnails with players bug fixed
+- Added JS error managing to JSON calls
+- Updating deferred videos ids fixed
+- Implementing timezones on CRON timing functions
+- SkipDuplicates on deferred videos adding corrected (thanks to Frederic Pierron )
+- GetOriginal Publishing date on deferred videos adding corrected ( thanks to Huba Melegh )
+- Corrected custom post types incompatibility and conflicts
+- Add Fix for custom post type category archive pagination (thanks to Simo and Mladen )
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+
+------------------------------- v1.5 (October 30, 2014) -----------------------------
+-----------------------------------------------------------------------------------------
+
+[Added Features]
+
+- Added Grant Access for each Video Service (easily connect Youtube/Vimeo/DailyMotion to the plugin :) )
+- Vimeo Videos Service Supported
+- Dailymotion Videos Serviec Supported
+- Groups (Vimeo and Dailymotion) now Supported
+- Post Format Supported
+- Post Date Choose Supported
+- Added fancy icons to the whole plugin
+- AutoPlay Option Added
+- Manual Import Adapted to Vimeo and Dailymotion
+- Added API Keys Options for every video service
+- Added Service Name on Deferred and Test Screens
+- Added Videos Graph by Service on the plugin Dashboard
+- Added Manage Videos Screen powered with ajax
+- With Filtering by Video Service / Post Date / Author / Categories / Video Status
+- With Bulk Actions for the selected items
+- With Layout choose (grid / bGrid / list ... )
+- The sources list screen has been refreshed with new icons and new data
+- Filter by Services on videos list screen added
+- Added Track Duplicates toolbox to merge them
+- Add Manage Videos Link To Videos Admin Menu
+
+[Bugfixes]
+- NonAdmin Users Cap bugfix on Deferred Screen
+- Changed the crontab url to add
+- Cron bugfix
+- Cron Security Token Bug Fixed
+- Function naming compatibility fixed
+- Changed the default Capablities to ALL OPEN
+- Security bugfix on API calls
+- Bugfix on activity log screen
+- Bugfix on sources bulk actions
+- Bulk Edit bug fixed (thanks to Anatoli Cholak )
+- Filter on Videos List Screen bug fixed
+- Filter on Sources List Screen bug fixed
+- Hide Envato PurchaseCode Notice bugfixed
+
+
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+
+------------------------------- v1.1 (September 15, 2014) -------------------------------
+-----------------------------------------------------------------------------------------
+[ Added Features ]
+- Added multiple youtube channels in one single source
+- Added multiple youtube playlist in one single source
+- Added capabilities for non admin users (logs, actions,options,import panel)
+- Added Bulk delete permanently for sources and videos
+- Added Bulk publish for videos
+- Added items counter for playlist ids, channel ids and videos ids on source edit screen
+- Added loading spinner to all buttons calling with ajax
+- Added relevant column data for sources and videos
+- Added 'clear logs' button on logs screen
+- Added manual manage deferred videos screen
+- Added an option for enabling/disabling batch adding
+- Added duration and views on test and deferred screens
+- Added flags for 'trendy' sources
+- Added TimeZone Support for accurate time handling
+- Added Custom API Youtube Key Support
+- Added 'Embed Video Player instead of thumbnail' Option
+- Added Working Hours Options to limit the plugin automated tasks to chosen hours interval
+- Added a Fancy Dashboard of the plugin to
+-- overview all the videos and all the sources
+-- Check The Plugin Stress Forecast
+-- Check Automation Status to debug troubleshooting
+- Added Deferred Videos Screen To manually add/remove deferred Videos
+- Added Columns to sources and videos list screens to improve overviews.
+
+
+[ BugFixes ]
+- Admin role restriction bugfix
+- Autoupdate Function bugfix
+- Options Page bugfix
+- Important bug reported on the display of pages fixed
+- Minor bugs reported by customers have been fixed
+- Corrected Log weird bugs
+- Corrected GoBack Button on result screen
+- Corrected GoToTop button on logs screen
+- Corrected switch buttons RTL bug on options screen
+- Corrected errors in translation
+- Corrected including shortcode known bug.
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+
+---------------------------------- v1.0 (August 24, 2014) -------------------------------
+-----------------------------------------------------------------------------------------
+
+Initial Release
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+

@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/ecoico.eot');
+	src:url('../fonts/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ecoico.woff') format('woff'),
+		url('../fonts/ecoico.ttf') format('truetype'),
+		url('../fonts/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.cbp-vimenu {
+	z-index:999;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	height: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 5px 0 5px;
+	background: #f7f7f7;
+	font-size:13px;
+	-webkit-box-shadow: 8px 0 6px -9px rgba(125, 124, 125, 1);
+    -moz-box-shadow: 8px 0 6px -9px rgba(125, 124, 125, 1);
+    box-shadow: 8px 0 6px -9px rgba(125, 124, 125, 1)
+}
+
+.cbp-vimenu li a {
+	display: block;
+	/*text-indent: -500em;*/
+	height: 8em;
+	width: 8em;
+	line-height: 13em;
+     text-decoration:none;
+ 
+	text-align: center;
+	color: #333;
+	position: relative;
+border-bottom: 1px solid rgba(0,0,0,0.05);
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	transition: background 0.1s ease-in-out;
+}
+
+/*.cbp-vimenu li a:hover,
+.cbp-vimenu li:first-child a{
+	background: #fed33e;
+	color: #333;
+}*/
+
+/* class for current item */
+.cbp-vimenu li.cbp-vicurrent a {
+	background: #fff;
+	color: #47a3da;
+}
+
+.cbp-vimenu li a:before {
+	font-family:Arial, Helvetica, sans-serif;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	text-indent: 0em;
+	position: absolute;
+ 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+ 
+
+	-webkit-font-smoothing: antialiased;
+}
+
+.cbp-vimenu li a.icon-logo:before {
+	background:url(../../../upload/logo.png) no-repeat center;
+	content: " ";
+	font-weight: 700;
+	font-size: 300%;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+
+
+.icon-login:before {
+	background:url(../../images/login_icon.png) no-repeat center;
+	 content: "";
+	  
+}
+
+.icon-callback:before {
+	background:url(../../images/callback_icon.png) no-repeat center;
+	content: "";
+	
+}
+
+.icon-freechart:before {
+	background:url(../../images/fare_chart.png) no-repeat center;
+	content: "";
+}
+
+
+.icon-about:before {
+	background:url(../../images/about_icon.png) no-repeat center;
+	content: "";
+}
+
+
+
+.icon-contact:before {
+	background:url(../../images/contact_icon.png) no-repeat center;
+	content: "";
+	
+}
+
+.icon-logout:before {
+	background:url(../../images/logout.png) no-repeat center;
+	 content: "";
+	  
+}
+
+
+
+.icon-download:before {
+	content: "\e006";
+	
+}
+
+
+
+
+
+/* Example for media query (depends on total height of menu) */
+@media screen and (max-height: 34.9375em) { 
+
+	.cbp-vimenu {
+		font-size: 50%;
+	}
+	
+ 
+
+}
+
+
